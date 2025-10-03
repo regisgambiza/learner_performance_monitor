@@ -36,6 +36,8 @@ def main():
 
     service = get_classroom_service(args.credentials, args.token)
     courses = get_all_courses(service)
+    # Sort courses alphabetically by name
+    courses = sorted(courses, key=lambda x: x["name"])
     logger.info("Fetched %d courses", len(courses))
 
     if not courses:
