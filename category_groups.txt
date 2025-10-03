@@ -1,20 +1,17 @@
-Course: 8/1 Mathematics (778493924097)
+Course: 7/3 Mathematics (761008786145)
 ========================================
-At Risk:
- - Varinda Younglure
+Needs Review:
+ - Waritnont Srikaraket
 
-Course: 8/1 Mathematics (778493924097)
+Course: 7/3 Mathematics (761008786145)
 ========================================
-At Risk:
- - Varinda Younglure
+Course: 7/1 Mathematics (778493437606)
+========================================
+Needs Review:
+ - Punyaporn Chewprecha
 
-Course: 8/1 Mathematics (778493924097)
+Course: 7/1 Mathematics (778493437606)
 ========================================
-At Risk:
- - Varinda Younglure
-
-Course: 8/1 Mathematics (778493924097)
-========================================
-At Risk:
- - Varinda Younglure
+Improving:
+ - Punyaporn Chewprecha
 

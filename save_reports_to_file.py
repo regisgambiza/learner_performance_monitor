@@ -38,6 +38,17 @@ def save_reports_to_file(course, student_analysis, reports, output_file="student
             metrics = student_analysis[sid]["metrics"]
 
             # --- Submission Summary Table ---
+            scores = []
+            total_possible_points = 0
+            for cw in student_analysis[sid]["coursework"]:
+                submission = cw.get("submission")
+                if submission and "assignedGrade" in submission and cw.get("maxPoints"):
+                    scores.append(submission["assignedGrade"])
+                    total_possible_points += cw["maxPoints"]
+
+            average_score = sum(scores) / len(scores) if scores else 0
+            average_max_points = total_possible_points / len(scores) if scores else 0
+
             f.write("\nSubmission Summary Table:\n")
             f.write("+-----------------+-----------------+\n")
             f.write("| Metric          | Value           |\n")
@@ -46,10 +57,7 @@ def save_reports_to_file(course, student_analysis, reports, output_file="student
             f.write(f"| Missing         | {metrics['missing']:<15} |\n")
             f.write(f"| Late            | {metrics['late']:<15} |\n")
             f.write(f"| Graded Count    | {metrics['graded_count']:<15} |\n")
-            average_score = metrics['average_score']
-            total_possible_points = sum(cw.get("maxPoints", 0) for cw in student_analysis[sid]["coursework"] if cw.get("submission") and cw.get("submission").get("assignedGrade") is not None)
-            average_max_points = total_possible_points / metrics['graded_count'] if metrics['graded_count'] > 0 else 0
-            f.write(f"| Average Score   | {average_score:.2f}/{average_max_points:.2f} |\n")
+            f.write(f"| Average Score   | {average_score:<7.2f}/{average_max_points:.2f} |\n")
             f.write("+-----------------+-----------------+\n\n")
 
             # --- Detailed Activity Table ---
@@ -81,37 +89,18 @@ def save_reports_to_file(course, student_analysis, reports, output_file="student
                     assigned_grade = submission.get("assignedGrade")
                     max_points = cw.get("maxPoints")
                     if assigned_grade is not None and max_points is not None:
-                        score = f"{assigned_grade}/{max_points}"
-                        scores.append(assigned_grade)
-                        total_possible_points += max_points
+                        if assigned_grade == 0:
+                            status = "Missing"
+                            score = "—"
+                        else:
+                            score = f"{assigned_grade}/{max_points}"
+                            scores.append(assigned_grade)
+                            total_possible_points += max_points
                     else:
                         score = "—"
                 f.write(f"{title[:32]:<32} | {id_:<16} | {status:<10} | {score:<10} | {created}\n")
 
             f.write("------------------------------------------------------------------------------------------\n\n")
-
-            # --- Average Score Calculation ---
-            f.write("Average Score Calculation:\n")
-            if scores:
-                f.write("Scores used: " + ", ".join(map(str, scores)) + "\n")
-                total = sum(scores)
-                count = len(scores)
-                average = total / count
-                f.write(f"Total Score: {total}\n")
-                f.write(f"Count: {count}\n")
-                f.write(f"Raw Average: {average:.2f}\n")
-                if total_possible_points > 0:
-                    percentage = (total / total_possible_points) * 100
-                    average_max_points = total_possible_points / count
-                    f.write(f"Total Possible Points: {total_possible_points}\n")
-                    f.write(f"Average Score as Fraction: {average:.2f}/{average_max_points:.2f}\n")
-                    f.write(f"Percentage: {percentage:.2f}%\n\n")
-                else:
-                    f.write("Total Possible Points: Not available\n")
-                    f.write("Average Score as Fraction: Not calculable\n")
-                    f.write("Percentage: Not calculable\n\n")
-            else:
-                f.write("No graded assignments.\n\n")
 
             f.write("-" * 50 + "\n")
         f.write("\n")
