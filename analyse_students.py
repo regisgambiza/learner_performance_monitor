@@ -64,7 +64,8 @@ def analyse_students(service, course, selected_student_id=None, additional_conte
             "graded_count": 0,
             "additional_context": additional_context if selected_student_id else ""
         }
-        total_score = 0.0
+        total_earned = 0.0  # New: Sum of assignedGrades for graded submissions
+        total_possible = 0.0  # New: Sum of maxPoints for those submissions
 
         for cw in coursework:
             sub = submissions_lookup.get((s["userId"], cw["id"]))
@@ -78,14 +79,21 @@ def analyse_students(service, course, selected_student_id=None, additional_conte
             if sub.get("late", False):
                 metrics["late"] += 1
             if "assignedGrade" in sub:
-                if sub["assignedGrade"] == 0:
+                assigned = sub["assignedGrade"]
+                if assigned == 0:
                     metrics["missing"] += 1
                 else:
-                    total_score += sub["assignedGrade"]
-                    metrics["graded_count"] += 1
+                    max_p = cw.get("maxPoints")
+                    if max_p is not None and max_p > 0:  # New: Only include if maxPoints is available and positive
+                        total_earned += assigned
+                        total_possible += max_p
+                        metrics["graded_count"] += 1
+                    else:
+                        logger.warning("Skipping grade for coursework %s (no maxPoints)", cw["id"])
 
-        if metrics["graded_count"] > 0:
-            metrics["average_score"] = total_score / metrics["graded_count"]
+        if total_possible > 0:
+            metrics["average_score"] = (total_earned / total_possible) * 100  # New: Set as percentage
+        # Else: remains 0.0
 
         # Attach student, metrics, and detailed coursework/submission info
         student_analysis[s["userId"]] = {

@@ -43,11 +43,10 @@ def save_reports_to_file(course, student_analysis, reports, output_file="student
             for cw in student_analysis[sid]["coursework"]:
                 submission = cw.get("submission")
                 if submission and "assignedGrade" in submission and cw.get("maxPoints"):
-                    scores.append(submission["assignedGrade"])
-                    total_possible_points += cw["maxPoints"]
-
-            average_score = sum(scores) / len(scores) if scores else 0
-            average_max_points = total_possible_points / len(scores) if scores else 0
+                    assigned = submission["assignedGrade"]
+                    if assigned > 0:  # New: Explicitly exclude 0s (consistent with metrics)
+                        scores.append(assigned)
+                        total_possible_points += cw["maxPoints"]
 
             f.write("\nSubmission Summary Table:\n")
             f.write("+-----------------+-----------------+\n")
@@ -57,7 +56,7 @@ def save_reports_to_file(course, student_analysis, reports, output_file="student
             f.write(f"| Missing         | {metrics['missing']:<15} |\n")
             f.write(f"| Late            | {metrics['late']:<15} |\n")
             f.write(f"| Graded Count    | {metrics['graded_count']:<15} |\n")
-            f.write(f"| Average Score   | {average_score:<7.2f}/{average_max_points:.2f} |\n")
+            f.write(f"| Average Score   | {sum(scores):<7.2f}/{total_possible_points:.2f} |\n")  # Changed: Use total earned / total possible
             f.write("+-----------------+-----------------+\n\n")
 
             # --- Detailed Activity Table ---
@@ -66,7 +65,7 @@ def save_reports_to_file(course, student_analysis, reports, output_file="student
             f.write("Title                           | ID              | Status    | Score     | Created\n")
             f.write("------------------------------------------------------------------------------------------\n")
 
-            scores = []
+            scores = []  # Reset for this table (though not used after writing)
             total_possible_points = 0
 
             # loop all coursework items in order

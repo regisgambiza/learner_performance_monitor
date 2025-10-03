@@ -11,7 +11,7 @@ from generate_reports import generate_reports
 from save_reports_to_file import save_reports_to_file
 from select_course import select_course
 from select_student import select_student
-from chatbot import run_chatbot
+
 
 # Logging setup
 logging.basicConfig(
@@ -90,7 +90,7 @@ def main():
             logger.info("Report for student=%s: %s", sid, rep["ai_response"][:120])
 
     # Start chatbot after reports are generated
-    run_chatbot(ollama_model=args.ollama_model)
+    #run_chatbot(ollama_model=args.ollama_model)
 
 if __name__ == "__main__":
     main()

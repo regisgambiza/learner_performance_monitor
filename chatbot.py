@@ -1,8 +1,14 @@
 """
-Enhanced Chatbot with PyQt5 GUI (Improved Formatting)
-- Adds HTML-rich rendering for Assistant responses.
-- Chat bubbles styled differently for User and Assistant.
+Enhanced Chatbot with PyQt5 GUI (Modernized like Grok)
+- Modern dark theme inspired by Grok/xAI.
+- Chat bubbles with sleek styling.
+- Removed send button; use Enter to send messages.
 - Auto-scrolls to latest message.
+- Minimalistic and responsive design.
+- Positions: User bubbles on right, Assistant on left.
+- Added timestamps, shadows, and modern bubble styles.
+- Added clear labels ("You:" and "Assistant:") to distinguish messages.
+- Enhanced color contrast for better readability and distinction.
 """
 
 import sys
@@ -13,10 +19,10 @@ import datetime
 from collections import deque, defaultdict
 
 from PyQt5.QtWidgets import (
-    QApplication, QWidget, QVBoxLayout, QHBoxLayout, QPushButton,
-    QTextEdit, QLineEdit, QStatusBar
+    QApplication, QWidget, QVBoxLayout, QTextEdit, QLineEdit, QStatusBar, QLabel
 )
 from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QFont, QPalette, QColor, QIcon
 
 try:
     from call_ollama_classify import call_ollama_classify
@@ -136,46 +142,94 @@ class ChatbotGUI(QWidget):
     def __init__(self, chatbot):
         super().__init__()
         self.chatbot = chatbot
-        self.setWindowTitle("Student Report Chatbot")
+        self.setWindowTitle("Student Report Chatbot - Powered by Grok")
         self.setGeometry(200, 200, 800, 600)
 
+        # Modern dark theme like Grok
+        palette = QPalette()
+        palette.setColor(QPalette.Window, QColor(18, 18, 18))  # Dark background
+        palette.setColor(QPalette.WindowText, QColor(240, 240, 240))  # Light text
+        palette.setColor(QPalette.Base, QColor(30, 30, 30))
+        palette.setColor(QPalette.AlternateBase, QColor(40, 40, 40))
+        palette.setColor(QPalette.Text, QColor(240, 240, 240))
+        palette.setColor(QPalette.Button, QColor(50, 50, 50))
+        palette.setColor(QPalette.ButtonText, QColor(240, 240, 240))
+        palette.setColor(QPalette.Highlight, QColor(0, 122, 255))  # Blue accent
+        palette.setColor(QPalette.HighlightedText, QColor(255, 255, 255))
+        self.setPalette(palette)
+
+        self.setFont(QFont("Arial", 11))  # Modern sans-serif font
+
         self.layout = QVBoxLayout()
+        self.layout.setContentsMargins(20, 20, 20, 20)
+        self.layout.setSpacing(15)
+
+        # Header label for modern look
+        header = QLabel("Chat with Student Report Assistant")
+        header.setStyleSheet("font-size: 18px; font-weight: bold; color: #f0f0f0; padding: 10px;")
+        header.setAlignment(Qt.AlignCenter)
+        self.layout.addWidget(header)
 
         self.chat_display = QTextEdit()
         self.chat_display.setReadOnly(True)
-        self.chat_display.setStyleSheet("font-size:14px;")
-        self.layout.addWidget(self.chat_display)
+        self.chat_display.setStyleSheet("""
+            QTextEdit {
+                background-color: #1e1e1e;
+                border: none;
+                color: #f0f0f0;
+                font-size: 14px;
+                padding: 15px;
+                border-radius: 10px;
+            }
+        """)
+        self.layout.addWidget(self.chat_display, stretch=1)
 
-        input_layout = QHBoxLayout()
         self.input_box = QLineEdit()
-        self.input_box.setPlaceholderText("Type your question...")
-        input_layout.addWidget(self.input_box)
-
-        self.send_button = QPushButton("Send")
-        self.send_button.clicked.connect(self.send_message)
-        input_layout.addWidget(self.send_button)
-
-        self.layout.addLayout(input_layout)
+        self.input_box.setPlaceholderText("Ask about a student or report...")
+        self.input_box.setStyleSheet("""
+            QLineEdit {
+                background-color: #2a2a2a;
+                border: 1px solid #3a3a3a;
+                border-radius: 25px;
+                color: #f0f0f0;
+                padding: 12px 25px;
+                font-size: 14px;
+            }
+            QLineEdit:focus {
+                border: 1px solid #007aff;
+                box-shadow: 0 0 5px rgba(0, 122, 255, 0.5);
+            }
+        """)
+        self.input_box.returnPressed.connect(self.send_message)  # Send on Enter
+        self.layout.addWidget(self.input_box)
 
         self.status = QStatusBar()
+        self.status.setStyleSheet("color: #a0a0a0; background: transparent; font-size: 12px;")
         self.layout.addWidget(self.status)
 
         self.setLayout(self.layout)
 
-    def append_message(self, role, message):
-        if role == "user":
-            bubble_color = "#e0e0e0"
-            align = "right"
-            prefix = "<b>You:</b>"
-        else:
-            bubble_color = "#f5faff"
-            align = "left"
-            prefix = "<b>Assistant:</b>"
+        # Set window icon for modern touch (assuming you have an icon file, otherwise comment out)
+        # self.setWindowIcon(QIcon("path_to_grok_icon.png"))
 
-        # Wrap in styled div for bubble effect
+    def append_message(self, role, message):
+        current_time = datetime.datetime.now().strftime("%H:%M")
+        if role == "user":
+            bubble_color = "#333333"  # Slightly lighter dark gray for user to increase contrast
+            text_color = "#e0e0e0"  # Softer light text for user
+            align_style = "margin-left: auto;"  # Right align
+            prefix = '<span style="font-weight: bold; color: #ffffff;">You:</span><br>'
+        else:
+            bubble_color = "#005fd7"  # Darker blue for assistant for better distinction
+            text_color = "#ffffff"
+            align_style = "margin-right: auto;"  # Left align
+            prefix = '<span style="font-weight: bold; color: #ffffff;">Assistant:</span><br>'
+
+        # Modern bubble styling with shadow and timestamp
         html = f"""
-        <div style='background:{bubble_color}; padding:8px; border-radius:8px; margin:6px; text-align:{align};'>
-        {prefix}<br>{message.replace('\n','<br>')}
+        <div style='background: {bubble_color}; color: {text_color}; padding: 15px; border-radius: 20px; margin: 10px 0; max-width: 70%; {align_style} box-shadow: 0 2px 5px rgba(0,0,0,0.3); width: fit-content;'>
+        {prefix}{message.replace('\n', '<br>')}
+        <div style='font-size: 10px; color: #b0b0b0; margin-top: 5px; text-align: right;'>{current_time}</div>
         </div>
         """
         self.chat_display.append(html)
@@ -190,13 +244,13 @@ class ChatbotGUI(QWidget):
 
         try:
             response = self.chatbot.handle_user_message(user_text)
-            # Allow model output to be shown with HTML formatting
-            formatted_response = response.replace("**", "<b>").replace("*", "<li>")
+            # Support basic markdown in responses
+            formatted_response = response.replace("**", "<b>").replace("*", "<i>").replace("\n", "<br>")
             self.append_message("assistant", formatted_response)
             self.status.showMessage("Response received", 2000)
         except Exception as e:
             self.append_message("assistant", "Sorry, there was an error.")
-            self.status.showMessage(f"Error: {e}", 5000)
+            self.status.showMessage(f"Error: {str(e)}", 5000)
 
 # ---------------- Main ----------------
 if __name__ == "__main__":

@@ -24,7 +24,38 @@ def generate_reports(student_analysis, categories, ollama_model):
             name_info = profile.get("name", {})
             full_name = " ".join(filter(None, [name_info.get("givenName",""), name_info.get("familyName","")])).strip() or sid
             metrics = data["metrics"]
-            batch_data.append((full_name, metrics))
+            # Extract detailed submissions
+            detailed_submissions = []
+            for cw in data["coursework"]:
+                title = cw.get("title", cw["id"])
+                max_points = cw.get("maxPoints", "—")
+                submission = cw.get("submission")
+                if not submission:
+                    status = "Missing"
+                    score = "—"
+                else:
+                    state = submission.get("state", "")
+                    if state in ["NEW", "CREATED"]:
+                        status = "Missing"
+                    elif submission.get("late", False):
+                        status = "Late"
+                    else:
+                        status = "Submitted"
+                    assigned_grade = submission.get("assignedGrade")
+                    if assigned_grade is not None:
+                        if assigned_grade == 0:
+                            status = "Missing"
+                            score = "—"
+                        else:
+                            score = f"{assigned_grade}/{max_points}" if max_points != "—" else f"{assigned_grade}"
+                    else:
+                        score = "—"
+                detailed_submissions.append({
+                    "title": title,
+                    "status": status,
+                    "score": score
+                })
+            batch_data.append((full_name, metrics, detailed_submissions))
 
         logger.info("Building prompt for batch %d-%d learners", start + 1, start + len(batch))
         prompt = build_batch_prompt(batch_data, categories)
