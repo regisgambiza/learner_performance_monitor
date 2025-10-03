@@ -37,12 +37,23 @@ def generate_reports(student_analysis, categories, ollama_model):
         if len(individual_responses) != len(batch):
             logger.warning("Mismatch in responses: got %d, expected %d. Full response: %s", len(individual_responses), len(batch), ai_response)
             for sid, _ in batch:
-                results[sid] = {"ai_response": "Error in AI response parsing"}
+                results[sid] = {"ai_response": "Category: Needs Review\nTeacher Report: Unable to categorize due to incomplete AI response. Please review student metrics manually."}
             continue
 
         # Assign individual responses
         for i, (sid, _) in enumerate(batch):
-            results[sid] = {"ai_response": individual_responses[i]}
+            response = individual_responses[i]
+            # Check if the response contains a valid category
+            category_line = next((line for line in response.splitlines() if line.strip().startswith("Category:")), None)
+            if category_line:
+                category = category_line.split(":", 1)[1].strip()
+                if category not in categories:
+                    logger.warning("Invalid category '%s' for student=%s, assigning 'Needs Review'", category, sid)
+                    response = f"Category: Needs Review\nTeacher Report: AI provided an invalid category ('{category}'). Please review student metrics: {json.dumps(batch_data[i][1])}"
+            else:
+                logger.warning("No category found for student=%s, assigning 'Needs Review'", sid)
+                response = f"Category: Needs Review\nTeacher Report: No category provided by AI. Please review student metrics: {json.dumps(batch_data[i][1])}"
+            results[sid] = {"ai_response": response}
             logger.debug("Assigned AI response to student=%s", sid)
 
     return results

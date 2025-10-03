@@ -74,29 +74,35 @@ def analyse_students(service, course, selected_student_id=None, additional_conte
             state = sub.get("state", "")
             if state in ["NEW", "CREATED"]:
                 metrics["missing"] += 1
+                continue
             if sub.get("late", False):
                 metrics["late"] += 1
             if "assignedGrade" in sub:
-                total_score += sub["assignedGrade"]
-                metrics["graded_count"] += 1
+                if sub["assignedGrade"] == 0:
+                    metrics["missing"] += 1
+                else:
+                    total_score += sub["assignedGrade"]
+                    metrics["graded_count"] += 1
 
-            if metrics["graded_count"] > 0:
-                metrics["average_score"] = total_score / metrics["graded_count"]
+        if metrics["graded_count"] > 0:
+            metrics["average_score"] = total_score / metrics["graded_count"]
 
-            # Attach student, metrics, and detailed coursework/submission info
-            student_analysis[s["userId"]] = {
-                "student": s,
-                "metrics": metrics,
-                "coursework": [
-                    {
-                        "id": cw["id"],
-                        "title": cw.get("title", ""),
-                        "submission": submissions_lookup.get((s["userId"], cw["id"]))
-                    }
-                    for cw in coursework
-                ]
-            }
+        # Attach student, metrics, and detailed coursework/submission info
+        student_analysis[s["userId"]] = {
+            "student": s,
+            "metrics": metrics,
+            "coursework": [
+                {
+                    "id": cw["id"],
+                    "title": cw.get("title", ""),
+                    "creationTime": cw.get("creationTime"),
+                    "maxPoints": cw.get("maxPoints"),
+                    "submission": submissions_lookup.get((s["userId"], cw["id"]))
+                }
+                for cw in coursework
+            ]
+        }
 
-            logger.info("Finished metrics for %s -> %s", full_name, metrics)
+        logger.info("Finished metrics for %s -> %s", full_name, metrics)
 
     return student_analysis
