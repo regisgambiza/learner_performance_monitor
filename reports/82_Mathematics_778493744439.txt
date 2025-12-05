@@ -4,27 +4,27 @@ Student: Amelia Monk
 Student ID: 109021969965715901933
 Teacher Report:
 Category: At Risk  
-Teacher Report:
-- The average score of approximately 83 % shows that Amelia has a solid grasp of the material when she completes assignments, but this high average masks a serious issue with consistency.
-- Submission habits are concerning: 17 assignments are missing and 6 are late, leaving only 3 graded submissions. This pattern of non‑completion indicates a lack of engagement or possible external factors affecting attendance and time management.
-- Strengths are evident in the graded assignments; Amelia earned 28/30 (93 %) on the “Multiplying and dividing with integers and decimals – Class Activity” and 30/30 (100 %) on the “Rounding to significant figures – Class Activity.” These results demonstrate capability when tasks are completed.
-- Risks include a significant gap between potential and actual submission rates. The high number of missing quizzes (e.g., Chapters 7–10) suggests she may not be keeping up with foundational assessments, which could jeopardize mastery of prerequisite concepts.
-- Recommended strategies:  
-  - Implement a clear submission calendar with reminders for upcoming due dates and late penalties.  
-  - Offer a short “make‑up” session or extra credit for missed quizzes to incentivize completion.  
-  - Provide targeted support (e.g., study groups, one‑on‑one tutoring) to address time‑management challenges.  
-  - Monitor her progress on a weekly basis and involve her in setting realistic, incremental goals to rebuild consistent attendance.
+Teacher Report:  
+- **Average score**: The overall average is only 22.38 % (average_submitted ≈ 82 % on the few graded tasks), indicating substantial difficulty achieving the expected learning outcomes.  
+- **Submission habits**: 12 of 15 assignments are missing and one is late; only three assignments have been graded, reflecting a very low completion rate.  
+- **Strengths/Successes**: The student performed strongly on the class activities (28/30 and 30/30) and the Chapter 7 Quiz (19/34), showing capacity for higher performance when engaged.  
+- **Risks/learning gaps**: The high number of missing assignments, coupled with a low overall average, points to disengagement, possible time‑management issues, or lack of support for the more complex quizzes.  
+- **Recommended strategies**:  
+  - Implement a structured assignment‑tracking system with reminders and incentives for submission.  
+  - Offer targeted tutoring or peer‑study sessions focused on quiz preparation.  
+  - Set short, incremental goals with immediate feedback to rebuild confidence.  
+  - Engage the student in a one‑on‑one meeting to identify any external barriers and create a personalized action plan.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 20              |
-| Missing         | 17              |
-| Late            | 6               |
+| Total Assigned  | 15              |
+| Missing         | 12              |
+| Late            | 1               |
 | Graded Count    | 3               |
 | Average (submitted) | 81.91  % (77.00/94.00) |
-| Average (all)       | 15.75  %              |
+| Average (all)       | 22.38  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
@@ -46,11 +46,6 @@ Chapter 7 Quiz                   | 817751299985     | Submitted  | 19/34      | 
 7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 28/30      | 2025-10-23T13:57:34.136Z
 7.2 Rounding to significant figu | 816614187234     | Submitted  | 30/30      | 2025-10-23T13:53:45.038Z
 7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | —          | 2025-10-21T07:03:34.547Z
-Chapter 6: Angles - Review       | 805475991247     | Missing    | —          | 2025-09-11T00:35:33.361Z
-Chapter 1: Negative numbers, ind | 805210161566     | Missing    | —          | 2025-09-10T00:36:53.931Z
-Chapter 2: 2D and 3D shapes - Re | 802349752017     | Late       | —          | 2025-09-07T10:04:33.340Z
-Chapter 3: Collecting data - Rev | 801519788562     | Late       | —          | 2025-09-03T14:12:04.177Z
-Chapter 4: Factors and rational  | 796251420028     | Missing    | —          | 2025-09-03T02:05:04.343Z
 ------------------------------------------------------------------------------------------
 
 --------------------------------------------------

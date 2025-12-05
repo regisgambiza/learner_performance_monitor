@@ -94,3 +94,73 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+def run_with_params(credentials: str = "credentials.json",
+                    token: str = "token.json",
+                    ollama_model: str = "gpt-oss:20b",
+                    start_date: str = None,
+                    end_date: str = None,
+                    mode_choice: int = 1,
+                    course_id: str = None,
+                    student_id: str = None,
+                    additional_context: str = None,
+                    reports_dir: str = None,
+                    ai_max_retries: str = None):
+    """Non-interactive entrypoint for GUI or automation.
+
+    Parameters mirror the CLI flow. If mode_choice==1 -> all courses; 2 -> single course (course_id required);
+    3 -> single course + single student (course_id and student_id required).
+    """
+    # Set optional env vars
+    import os
+    if reports_dir:
+        os.environ["REPORTS_DIR"] = reports_dir
+    if ai_max_retries is not None:
+        os.environ["AI_MAX_RETRIES"] = str(ai_max_retries)
+
+    logger.info("Starting non-interactive analysis run (GUI/automation)")
+
+    service = get_classroom_service(credentials, token)
+    courses = get_all_courses(service)
+    courses = sorted(courses, key=lambda x: x["name"]) if courses else []
+
+    if not courses:
+        logger.warning("No courses found.")
+        return
+
+    categories = ["High Performer", "At Risk", "Average", "Improving", "Emerging", "Needs Review"]
+
+    if mode_choice == 1:
+        target_courses = courses
+    elif mode_choice == 2:
+        if not course_id:
+            raise ValueError("course_id is required for mode_choice=2")
+        target_courses = [c for c in courses if c["id"] == course_id]
+        if not target_courses:
+            raise ValueError(f"Course id {course_id} not found")
+    elif mode_choice == 3:
+        if not course_id or not student_id:
+            raise ValueError("course_id and student_id are required for mode_choice=3")
+        target_courses = [c for c in courses if c["id"] == course_id]
+        if not target_courses:
+            raise ValueError(f"Course id {course_id} not found")
+    else:
+        raise ValueError("Invalid mode_choice; expected 1,2, or 3")
+
+    for course in target_courses:
+        logger.info("Analysing course=%s (%s)", course["id"], course["name"])
+        selected_student_id = student_id if mode_choice == 3 else None
+        student_analysis = analyse_students(service, course, selected_student_id, additional_context, start_date, end_date)
+        if not student_analysis:
+            logger.warning("No students to analyse in course=%s", course["id"])
+            with open("student_reports.txt", "a", encoding="utf-8") as f:
+                f.write(f"No students to analyze in course {course['name']} ({course['id']})\n\n")
+            continue
+
+        reports = generate_reports(student_analysis, categories, ollama_model)
+        save_reports_to_file(course, student_analysis, reports)
+        for sid, rep in reports.items():
+            logger.info("Report for student=%s: %s", sid, rep["ai_response"][:120])
+
+    logger.info("Non-interactive analysis run complete")
