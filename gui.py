@@ -2,8 +2,13 @@ import threading
 import tkinter as tk
 from tkinter import ttk, messagebox, scrolledtext, filedialog
 import os
+import sys
 import logging
 import datetime
+import subprocess
+import json
+import urllib.request
+import urllib.error
 
 from get_classroom_service import get_classroom_service
 from get_all_courses import get_all_courses
@@ -102,7 +107,9 @@ class AnalyzerGUI(tk.Tk):
         # Model and env
         ttk.Label(frm, text="Ollama model:").grid(row=2, column=0, sticky=tk.W)
         self.model_var = tk.StringVar(value="gpt-oss:20b")
-        ttk.Entry(frm, textvariable=self.model_var, width=40).grid(row=2, column=1, sticky=tk.W)
+        self.model_cb = ttk.Combobox(frm, textvariable=self.model_var, width=40, state="readonly")
+        self.model_cb.grid(row=2, column=1, sticky=tk.W)
+        ttk.Button(frm, text="Load Models", command=self.load_models).grid(row=2, column=2)
 
         ttk.Label(frm, text="Reports dir:").grid(row=3, column=0, sticky=tk.W)
         self.reports_dir_var = tk.StringVar(value="reports")
@@ -149,6 +156,7 @@ class AnalyzerGUI(tk.Tk):
         ctrl.pack(fill=tk.X, padx=8, pady=6)
         self.run_btn = ttk.Button(ctrl, text="Run Analysis", command=self.on_run)
         self.run_btn.pack(side=tk.LEFT)
+        ttk.Button(ctrl, text="Open Reports", command=self.open_reports_folder).pack(side=tk.LEFT, padx=(4, 0))
         ttk.Button(ctrl, text="Quit", command=self.quit).pack(side=tk.RIGHT)
 
         # Log output
@@ -157,6 +165,47 @@ class AnalyzerGUI(tk.Tk):
 
         self.courses = []
         self.students = []
+        self.available_models = []
+
+    def load_models(self):
+        """Fetch available Ollama models from the local Ollama service."""
+        self.log("Fetching available Ollama models...")
+        try:
+            # Query Ollama API (default localhost:11434)
+            url = "http://localhost:11434/api/tags"
+            req = urllib.request.Request(url)
+            req.add_header('User-Agent', 'learner-performance-monitor')
+            with urllib.request.urlopen(req, timeout=5) as response:
+                data = json.loads(response.read().decode('utf-8'))
+            
+            models = data.get('models', [])
+            if not models:
+                messagebox.showwarning("No models", "No models found on Ollama. Please pull a model first.")
+                self.log("No Ollama models found")
+                return
+            
+            model_names = [m['name'] for m in models]
+            self.available_models = model_names
+            self.model_cb['values'] = model_names
+            
+            # Set default if available
+            if "gpt-oss:20b" in model_names:
+                self.model_var.set("gpt-oss:20b")
+            elif model_names:
+                self.model_var.set(model_names[0])
+            
+            self.log(f"Loaded {len(model_names)} Ollama models: {', '.join(model_names[:3])}{'...' if len(model_names) > 3 else ''}")
+        except urllib.error.URLError as e:
+            logger.exception("Error connecting to Ollama: %s", e)
+            messagebox.showerror("Connection Error", "Could not connect to Ollama (http://localhost:11434).\nMake sure Ollama is running.")
+            self.log("Failed to connect to Ollama service")
+        except json.JSONDecodeError as e:
+            logger.exception("Error parsing Ollama response: %s", e)
+            messagebox.showerror("Error", "Could not parse Ollama response")
+        except Exception as e:
+            logger.exception("Error loading models: %s", e)
+            messagebox.showerror("Error", f"Error loading models: {str(e)}")
+
 
     def browse_credentials(self):
         p = filedialog.askopenfilename(title="Select credentials.json", filetypes=[("JSON files","*.json"), ("All files","*")])
@@ -269,6 +318,32 @@ class AnalyzerGUI(tk.Tk):
                 self.run_btn.configure(state="normal")
 
         threading.Thread(target=target, daemon=True).start()
+
+    def open_reports_folder(self):
+        """Open the reports folder in the file explorer."""
+        reports_dir = self.reports_dir_var.get()
+        if not reports_dir:
+            reports_dir = "reports"
+
+        # Create absolute path if relative
+        if not os.path.isabs(reports_dir):
+            reports_dir = os.path.abspath(reports_dir)
+
+        # Create directory if it doesn't exist
+        os.makedirs(reports_dir, exist_ok=True)
+
+        try:
+            if os.name == 'nt':  # Windows
+                subprocess.Popen(['explorer', reports_dir])
+            elif os.name == 'posix':  # macOS/Linux
+                if sys.platform == 'darwin':  # macOS
+                    subprocess.Popen(['open', reports_dir])
+                else:  # Linux
+                    subprocess.Popen(['xdg-open', reports_dir])
+            self.log(f"Opened reports folder: {reports_dir}")
+        except Exception as e:
+            logger.exception("Error opening reports folder: %s", e)
+            messagebox.showerror("Error", f"Could not open reports folder: {str(e)}")
 
 
 if __name__ == '__main__':

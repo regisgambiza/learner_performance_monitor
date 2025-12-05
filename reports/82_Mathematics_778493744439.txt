@@ -5,15 +5,16 @@ Student ID: 109021969965715901933
 Teacher Report:
 Category: At Risk  
 Teacher Report:  
-- **Average score**: The overall average is only 22.38 % (average_submitted ≈ 82 % on the few graded tasks), indicating substantial difficulty achieving the expected learning outcomes.  
-- **Submission habits**: 12 of 15 assignments are missing and one is late; only three assignments have been graded, reflecting a very low completion rate.  
-- **Strengths/Successes**: The student performed strongly on the class activities (28/30 and 30/30) and the Chapter 7 Quiz (19/34), showing capacity for higher performance when engaged.  
-- **Risks/learning gaps**: The high number of missing assignments, coupled with a low overall average, points to disengagement, possible time‑management issues, or lack of support for the more complex quizzes.  
+- The overall average score of **22.38 %** across all assignments indicates a significant performance gap that requires immediate attention.  
+- Submission habits reveal **12 missing** assignments and **1 late** submission out of 15 total, showing a strong pattern of disengagement or difficulty meeting deadlines.  
+- **Strengths** are evident in the two class‑activity submissions (28/30 and 30/30), demonstrating the student’s ability to achieve high scores when actively engaged and supported.  
+- **Risks** include the low overall average, the high missing‑assignment count, and the fact that only **3 assignments** have been graded, limiting the data available to assess learning progress.  
 - **Recommended strategies**:  
-  - Implement a structured assignment‑tracking system with reminders and incentives for submission.  
-  - Offer targeted tutoring or peer‑study sessions focused on quiz preparation.  
-  - Set short, incremental goals with immediate feedback to rebuild confidence.  
-  - Engage the student in a one‑on‑one meeting to identify any external barriers and create a personalized action plan.
+  - Establish a clear, monitored accountability plan (e.g., due‑date reminders, check‑ins).  
+  - Provide targeted remedial support focused on quiz content and foundational concepts.  
+  - Offer additional resources (e.g., study guides, tutoring sessions).  
+  - Schedule regular one‑on‑one meetings to discuss challenges and set short‑term goals.  
+  - Encourage the student to engage with the two high‑scoring activity formats as a model for future assignments.
 
 Submission Summary Table:
 +-----------------+-----------------+

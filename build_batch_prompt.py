@@ -16,12 +16,12 @@ Write a detailed report for the TEACHER in point form, focusing on classroom man
 - Analyze the student's metrics (total assignments, missing, late, average score (as percentage), graded count), detailed submissions (including per-assignment title, status, and score), and additional context to determine the category.
 - Treat a score of 0 out of the maximum points (e.g., 0/30) as a non-submission, equivalent to a missing assignment, and increment the 'missing' count accordingly when evaluating performance.
 - Use the following guidelines for categorization:
-  - **High Performer**: Average score ≥90% (out of total possible points), no missing or late assignments, and consistent high performance across assignments as shown in detailed submissions.
-  - **Average**: Average score ≥75% but <90%, with minimal missing (≤1) or late assignments, showing consistent but not exceptional performance in detailed submissions.
-  - **Improving**: Average score ≥65% but <75%, with signs of progress (e.g., recent higher scores in detailed submissions) or additional context indicating improvement.
-  - **Emerging**: Average score ≥50% but <65%, with inconsistent performance but some potential shown in specific assignments from detailed submissions.
-  - **At Risk**: Average score <50%, multiple missing (≥2, including 0/30 scores) or late assignments, or significant issues (e.g., failing critical assessments like quizzes with no other strong performance in detailed submissions).
-  - **Needs Review**: Insufficient data (e.g., no graded assignments) or ambiguous metrics requiring manual teacher review.
+  - High Performer: Average score ≥90% (out of total possible points), no missing or late assignments, and consistent high performance across assignments as shown in detailed submissions.
+  - Average: Average score ≥75% but <90%, with minimal missing (≤1) or late assignments, showing consistent but not exceptional performance in detailed submissions.
+  - Improving: Average score ≥65% but <75%, with signs of progress (e.g., recent higher scores in detailed submissions) or additional context indicating improvement.
+  - Emerging: Average score ≥50% but <65%, with inconsistent performance but some potential shown in specific assignments from detailed submissions.
+  - At Risk: Average score <50%, multiple missing (≥2, including 0/30 scores) or late assignments, or significant issues (e.g., failing critical assessments like quizzes with no other strong performance in detailed submissions).
+  - Needs Review: Insufficient data (e.g., no graded assignments) or ambiguous metrics requiring manual teacher review.
 - A single missing critical assessment (e.g., quiz) or a 0/30 score should not automatically place a student in 'At Risk' if their average score is ≥75% and other metrics show consistency.
 - Highlight inconsistencies in performance, such as high completion rates but low scores (including 0/30 as non-submissions), using the detailed submissions, and consider additional context (e.g., external factors) when relevant.
 - Structure the Teacher Report in point form with at least five bullet points:
