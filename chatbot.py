@@ -15,8 +15,9 @@ import sys
 import logging
 import json
 import re
-import datetime
-from collections import deque, defaultdict
+from datetime import datetime, UTC
+from collections import deque
+from typing import Dict, Any, Optional, Tuple
 
 from PyQt5.QtWidgets import (
     QApplication, QWidget, QVBoxLayout, QTextEdit, QLineEdit, QStatusBar, QLabel
@@ -33,6 +34,12 @@ except Exception:
         logging.getLogger("enhanced_chatbot").warning("Using fallback LLM stub.")
         return "(Stub) Please install real LLM backend."
 
+# Additional imports for fetching data
+from get_classroom_service import get_classroom_service
+from get_all_courses import get_all_courses
+from get_all_students import get_all_students
+from get_all_coursework import get_all_coursework
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(levelname)-5s | %(name)s | %(message)s",
@@ -47,66 +54,131 @@ class MemoryManager:
         self.model = model
 
     def add_turn(self, role, text):
-        ts = datetime.datetime.now(datetime.UTC).isoformat()
+        ts = datetime.now(UTC).isoformat()
         self.raw_history.append({"role": role, "text": text, "time": ts})
 
     def get_prompt_history(self):
         recent = "\n".join([f"{h['role'].capitalize()}: {h['text']}" for h in self.raw_history])
         return f"Conversation so far:\n{recent if recent else '(none)'}\n"
 
-# ---------------- Report Index ----------------
-class ReportIndex:
-    def __init__(self, student_reports_file="student_reports.txt", category_groups_file="category_groups.txt"):
-        self.by_student = {}
-        self.categories = defaultdict(list)
-        self.raw_text = ""
-        self._load(student_reports_file, category_groups_file)
-
-    def _load(self, student_reports_file, category_groups_file):
-        try:
-            with open(student_reports_file, "r", encoding="utf-8") as f:
-                self.raw_text = f.read()
-        except FileNotFoundError:
-            logger.warning("Student reports file not found: %s", student_reports_file)
-
-        blocks = re.split(r"\n\s*\n", self.raw_text.strip()) if self.raw_text.strip() else []
-        for b in blocks:
-            m = re.search(r"(?:Name|Student)[:\s]+([A-Za-z0-9 \-']{2,40})", b)
-            if m:
-                self.by_student[m.group(1).strip().lower()] = b.strip()
-
-        try:
-            with open(category_groups_file, "r", encoding="utf-8") as f:
-                for line in f:
-                    if not line.strip():
-                        continue
-                    if ":" in line:
-                        cat, members = line.split(":", 1)
-                        for n in re.split(r",|;", members):
-                            if n.strip():
-                                self.categories[cat.strip()].append(n.strip())
-        except FileNotFoundError:
-            logger.warning("Category groups file not found: %s", category_groups_file)
-
-    def find_student(self, query_name):
-        key = query_name.strip().lower()
-        if key in self.by_student:
-            return self.by_student[key]
-        for name, block in self.by_student.items():
-            if key in name:
-                return block
-        return None
-
 # ---------------- Chatbot ----------------
 class EnhancedChatbot:
-    def __init__(self, student_reports_file='student_reports.txt', category_groups_file='category_groups.txt', ollama_model=None):
-        self.report_index = ReportIndex(student_reports_file, category_groups_file)
+    def __init__(self, ollama_model=None):
         self.memory = MemoryManager(model=ollama_model)
         self.ollama_model = ollama_model or 'llama3.1:8b-instruct-q4_0'
+        self.data = self._load_data()
+
+    def _load_data(self) -> Dict:
+        try:
+            with open('classroom_data.json', 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except FileNotFoundError:
+            return self._fetch_and_save_data()
+
+    def _fetch_and_save_data(self) -> Dict:
+        logger.info("Fetching all classroom data at launch...")
+        service = get_classroom_service()
+        courses = get_all_courses(service)
+        data: Dict = {"courses": []}
+
+        for course in courses:
+            logger.info(f"Collecting submissions for course: {course['name']}")
+            students = get_all_students(service, course["id"])
+            coursework = get_all_coursework(service, course["id"])
+
+            # Fetch submissions in bulk
+            submissions_lookup = {}
+            for j, cw in enumerate(coursework, 1):
+                logger.debug("Fetching submissions for coursework %d/%d: %s",
+                             j, len(coursework), cw.get("title", cw["id"]))
+                try:
+                    subs_response = service.courses().courseWork().studentSubmissions().list(
+                        courseId=course["id"],
+                        courseWorkId=cw["id"],
+                        pageSize=200
+                    ).execute()
+                    subs = subs_response.get("studentSubmissions", [])
+                    for sub in subs:
+                        sid = sub.get("userId")
+                        if sid:
+                            submissions_lookup[(sid, cw["id"])] = sub
+                except Exception as e:
+                    logger.warning("Error fetching submissions for coursework=%s: %s",
+                                   cw.get("id"), str(e))
+
+            course_dict: Dict = {
+                "name": course['name'],
+                "id": course['id'],
+                "students": [],
+                "coursework": [cw for cw in coursework]  # Full coursework info
+            }
+
+            # Collect data for each student
+            for s in students:
+                profile = s.get("profile", {})
+                name_info = profile.get("name", {})
+                full_name = " ".join(filter(None, [name_info.get("givenName", ""), name_info.get("familyName", "")])).strip() or s["userId"]
+
+                student_dict: Dict = {
+                    "name": full_name,
+                    "id": s["userId"],
+                    "submissions": []
+                }
+
+                for cw in coursework:
+                    sub = submissions_lookup.get((s["userId"], cw["id"]))
+                    sub_dict: Dict = {
+                        "coursework_id": cw["id"],
+                        "status": "Missing",
+                        "score": "N/A",
+                        "date": "N/A"
+                    }
+                    if sub and sub.get("state", "") not in ["NEW", "CREATED"]:
+                        sub_dict["status"] = "Late" if sub.get("late", False) else "Submitted"
+                        max_p = cw.get("maxPoints", "N/A")
+                        if "assignedGrade" in sub:
+                            sub_dict["score"] = f"{sub['assignedGrade']}/{max_p}" if max_p != "N/A" else f"{sub['assignedGrade']}"
+                        else:
+                            sub_dict["score"] = "Ungraded"
+                        update_time = sub.get("updateTime", sub.get("creationTime", None))
+                        sub_dict["date"] = update_time.split('T')[0] if update_time else "N/A"
+                    # Add full submission details if available
+                    if sub:
+                        sub_dict["full_submission"] = sub
+
+                    student_dict["submissions"].append(sub_dict)
+
+                course_dict["students"].append(student_dict)
+
+            data["courses"].append(course_dict)
+
+        with open('classroom_data.json', 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2)
+
+        logger.info("Finished collecting and saving submissions data to classroom_data.json")
+        return data
+
+    def _find_student(self, query_name: str) -> Tuple[Optional[Dict], Optional[Dict]]:
+        for course in self.data["courses"]:
+            for student in course["students"]:
+                if query_name.lower() in student["name"].lower():
+                    return student, course
+        return None, None
 
     def _compose_prompt(self, user_text, extra_context=""):
         parts = [
-            "You are a helpful assistant with access to student performance reports.",
+            """You are a helpful assistant with access to student submissions data in JSON format.
+You must stick strictly to the provided data. Do not invent any names, IDs, scores, dates, or any other information.
+Search the provided JSON data for the student mentioned in the user question. If the student name in the query does not match any student in the data (case-insensitive partial match), respond 'I don't have information on that student.' Do not make up data.
+If no data matches the query, say 'I don't have that information.' Do not hallucinate or make up details.
+The data is a JSON object with 'courses' array, each course has 'name', 'id', 'students' array (with 'name', 'id', 'submissions' array), and 'coursework' array (with details like 'id', 'title', 'description', 'creationTime', 'maxPoints', etc.).
+Submissions have 'coursework_id', 'status', 'score', 'date', and optionally 'full_submission'.
+To answer, parse the JSON, extract relevant info.
+If the query specifies a date like 8/2, interpret as 2025-08-02 (assuming year 2025), and filter submissions where 'date' matches.
+If the query is about a class or course, filter by the 'name' in courses.
+For best performer, calculate the total earned points over total possible for each student (parse 'score' like '30/40' to sum numerators and denominators, ignore N/A or Ungraded), the one(s) with highest percentage is best. Only use submitted scores.
+For list of learners on a date or course, extract unique student names that have submissions matching the filter.
+Be accurate and factual. Only answer based on the data given in the prompt.""",
             extra_context,
             self.memory.get_prompt_history(),
             f"User question: {user_text}\nAnswer clearly and professionally."
@@ -114,24 +186,13 @@ class EnhancedChatbot:
         return "\n\n".join([p for p in parts if p.strip()])
 
     def handle_user_message(self, user_text):
-        student_block = self.report_index.find_student(user_text)
-        if student_block:
-            prompt = self._compose_prompt(user_text, f"Student data for {user_text}:\n{student_block}")
-            response = call_ollama_classify(prompt, model=self.ollama_model)
-            self.memory.add_turn('user', user_text)
-            self.memory.add_turn('assistant', response)
-            return response
+        student, course = self._find_student(user_text)
+        if student:
+            context = f"Relevant data:\n{json.dumps({'student': student, 'coursework': course['coursework']}, indent=2)}"
+        else:
+            context = f"All data:\n{json.dumps(self.data, indent=2)}"
 
-        if any(k in user_text.lower() for k in ["general performance", "overall", "summary"]):
-            cats = "\n".join([f"{c}: {', '.join(s)}" for c, s in self.report_index.categories.items()])
-            prompt = self._compose_prompt(user_text, f"Overall categories and students:\n{cats}\n")
-            response = call_ollama_classify(prompt, model=self.ollama_model)
-            self.memory.add_turn('user', user_text)
-            self.memory.add_turn('assistant', response)
-            return response
-
-        context = self.report_index.raw_text + "\n\nCategories:\n" + str(dict(self.report_index.categories))
-        prompt = self._compose_prompt(user_text, f"Here is the context from the reports:\n{context}")
+        prompt = self._compose_prompt(user_text, context)
         response = call_ollama_classify(prompt, model=self.ollama_model)
         self.memory.add_turn('user', user_text)
         self.memory.add_turn('assistant', response)
@@ -213,7 +274,7 @@ class ChatbotGUI(QWidget):
         # self.setWindowIcon(QIcon("path_to_grok_icon.png"))
 
     def append_message(self, role, message):
-        current_time = datetime.datetime.now().strftime("%H:%M")
+        current_time = datetime.now().strftime("%H:%M")
         if role == "user":
             bubble_color = "#333333"  # Slightly lighter dark gray for user to increase contrast
             text_color = "#e0e0e0"  # Softer light text for user
