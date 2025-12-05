@@ -13,6 +13,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger("main")
 
+def remove_markdown_bold(text):
+    """Remove markdown bold markers (**text**) from text."""
+    import re
+    return re.sub(r'\*\*', '', text)
+
 def generate_reports(student_analysis, categories, ollama_model):
     results = {}
     student_items = list(student_analysis.items())
@@ -134,7 +139,7 @@ def generate_reports(student_analysis, categories, ollama_model):
                     else:
                         response = f"Category: Needs Review\nTeacher Report: Unable to obtain valid category after retrying. Please review student metrics: {json.dumps(batch_data[i][1])}"
 
-            results[sid] = {"ai_response": response}
+            results[sid] = {"ai_response": remove_markdown_bold(response)}
             logger.debug("Assigned AI response to student=%s", sid)
 
     return results

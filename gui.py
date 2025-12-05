@@ -140,6 +140,8 @@ class AnalyzerGUI(tk.Tk):
         self.course_cb = ttk.Combobox(frm, state="readonly", width=50)
         self.course_cb.grid(row=10, column=1, sticky=tk.W)
         ttk.Button(frm, text="Load Courses", command=self.load_courses).grid(row=10, column=2)
+        # When a course is selected in the combobox, automatically load students
+        self.course_cb.bind('<<ComboboxSelected>>', lambda e: self.load_students())
 
         ttk.Label(frm, text="Selected student:").grid(row=11, column=0, sticky=tk.W)
         self.student_cb = ttk.Combobox(frm, state="readonly", width=50)
@@ -165,6 +167,12 @@ class AnalyzerGUI(tk.Tk):
 
         self.courses = []
         self.students = []
+        # Auto-load courses on GUI start
+        try:
+            self.load_courses()
+        except Exception:
+            # Swallow exceptions on startup to avoid blocking the GUI; errors are logged in load_courses
+            pass
         self.available_models = []
 
     def load_models(self):

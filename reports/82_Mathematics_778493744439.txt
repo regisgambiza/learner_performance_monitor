@@ -5,16 +5,15 @@ Student ID: 109021969965715901933
 Teacher Report:
 Category: At Risk  
 Teacher Report:  
-- The overall average score of **22.38 %** across all assignments indicates a significant performance gap that requires immediate attention.  
-- Submission habits reveal **12 missing** assignments and **1 late** submission out of 15 total, showing a strong pattern of disengagement or difficulty meeting deadlines.  
-- **Strengths** are evident in the two class‑activity submissions (28/30 and 30/30), demonstrating the student’s ability to achieve high scores when actively engaged and supported.  
-- **Risks** include the low overall average, the high missing‑assignment count, and the fact that only **3 assignments** have been graded, limiting the data available to assess learning progress.  
-- **Recommended strategies**:  
-  - Establish a clear, monitored accountability plan (e.g., due‑date reminders, check‑ins).  
-  - Provide targeted remedial support focused on quiz content and foundational concepts.  
-  - Offer additional resources (e.g., study guides, tutoring sessions).  
-  - Schedule regular one‑on‑one meetings to discuss challenges and set short‑term goals.  
-  - Encourage the student to engage with the two high‑scoring activity formats as a model for future assignments.
+- Average score: The overall average of 22.4 % (based on all 15 assignments) indicates a significant gap between expected and achieved learning outcomes.  
+- Submission habits: Amelia has 12 missing assignments and only 3 graded submissions, with 1 late entry. The high number of non‑submissions severely impacts her overall standing.  
+- Strengths/Successes: In the few graded tasks, she scored 100 % on “7.2 Rounding to significant figures” and 93 % on “7.3 Multiplying and dividing with integers and decimals – Class Activity,” showing strong conceptual understanding when engaged.  
+- Risks/Learning gaps: Missing critical assessments such as the Chapter 10 Quiz and several chapter quizzes, combined with a low overall average, highlights a risk of falling further behind, especially if this pattern continues.  
+- Recommended strategies:  
+  - Implement a personalized follow‑up plan to address missed assignments, including scheduled reminders and brief one‑on‑one check‑ins.  
+  - Use the high‑scoring assignments as modeling examples; have Amelia lead brief peer‑teaching sessions on those topics.  
+  - Provide targeted intervention resources (e.g., supplemental practice sheets, online tutorials) focused on the areas covered in the missing quizzes.  
+  - Monitor progress weekly, adjusting the intervention plan based on her submission rate and assignment quality.
 
 Submission Summary Table:
 +-----------------+-----------------+
