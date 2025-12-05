@@ -1,0 +1,57 @@
+Reports for Course: 8/2 Mathematics (778493744439)
+==================================================
+Student: Amelia Monk
+Student ID: 109021969965715901933
+Teacher Report:
+Category: At Risk  
+Teacher Report:
+- The average score of approximately 83 % shows that Amelia has a solid grasp of the material when she completes assignments, but this high average masks a serious issue with consistency.
+- Submission habits are concerning: 17 assignments are missing and 6 are late, leaving only 3 graded submissions. This pattern of non‑completion indicates a lack of engagement or possible external factors affecting attendance and time management.
+- Strengths are evident in the graded assignments; Amelia earned 28/30 (93 %) on the “Multiplying and dividing with integers and decimals – Class Activity” and 30/30 (100 %) on the “Rounding to significant figures – Class Activity.” These results demonstrate capability when tasks are completed.
+- Risks include a significant gap between potential and actual submission rates. The high number of missing quizzes (e.g., Chapters 7–10) suggests she may not be keeping up with foundational assessments, which could jeopardize mastery of prerequisite concepts.
+- Recommended strategies:  
+  - Implement a clear submission calendar with reminders for upcoming due dates and late penalties.  
+  - Offer a short “make‑up” session or extra credit for missed quizzes to incentivize completion.  
+  - Provide targeted support (e.g., study groups, one‑on‑one tutoring) to address time‑management challenges.  
+  - Monitor her progress on a weekly basis and involve her in setting realistic, incremental goals to rebuild consistent attendance.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 20              |
+| Missing         | 17              |
+| Late            | 6               |
+| Graded Count    | 3               |
+| Average (submitted) | 81.91  % (77.00/94.00) |
+| Average (all)       | 15.75  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Missing    | —          | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Missing    | —          | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Missing    | —          | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Missing    | —          | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Missing    | —          | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Missing    | —          | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Missing    | —          | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Missing    | —          | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Missing    | —          | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Missing    | —          | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Missing    | —          | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 19/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 28/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 30/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | —          | 2025-10-21T07:03:34.547Z
+Chapter 6: Angles - Review       | 805475991247     | Missing    | —          | 2025-09-11T00:35:33.361Z
+Chapter 1: Negative numbers, ind | 805210161566     | Missing    | —          | 2025-09-10T00:36:53.931Z
+Chapter 2: 2D and 3D shapes - Re | 802349752017     | Late       | —          | 2025-09-07T10:04:33.340Z
+Chapter 3: Collecting data - Rev | 801519788562     | Late       | —          | 2025-09-03T14:12:04.177Z
+Chapter 4: Factors and rational  | 796251420028     | Missing    | —          | 2025-09-03T02:05:04.343Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+

@@ -1,5 +1,7 @@
 import logging
 import json
+import os
+import time
 from build_batch_prompt import build_batch_prompt
 from call_ollama_classify import call_ollama_classify
 
@@ -71,19 +73,67 @@ def generate_reports(student_analysis, categories, ollama_model):
                 results[sid] = {"ai_response": "Category: Needs Review\nTeacher Report: Unable to categorize due to incomplete AI response. Please review student metrics manually."}
             continue
 
-        # Assign individual responses
+        # Assign individual responses with retry logic when AI fails to provide a valid category
+        # Configuration: set env var AI_MAX_RETRIES to override default (default 5). Set to 0 or negative for infinite retries.
+        try:
+            MAX_RETRIES = int(os.getenv("AI_MAX_RETRIES", "5"))
+        except Exception:
+            MAX_RETRIES = 5
+        INFINITE_RETRIES = MAX_RETRIES <= 0
+        RETRY_BASE_SECONDS = 1
+
         for i, (sid, _) in enumerate(batch):
             response = individual_responses[i]
-            # Check if the response contains a valid category
-            category_line = next((line for line in response.splitlines() if line.strip().startswith("Category:")), None)
-            if category_line:
-                category = category_line.split(":", 1)[1].strip()
-                if category not in categories:
-                    logger.warning("Invalid category '%s' for student=%s, assigning 'Needs Review'", category, sid)
-                    response = f"Category: Needs Review\nTeacher Report: AI provided an invalid category ('{category}'). Please review student metrics: {json.dumps(batch_data[i][1])}"
-            else:
-                logger.warning("No category found for student=%s, assigning 'Needs Review'", sid)
-                response = f"Category: Needs Review\nTeacher Report: No category provided by AI. Please review student metrics: {json.dumps(batch_data[i][1])}"
+
+            def extract_category(resp_text):
+                line = next((ln for ln in resp_text.splitlines() if ln.strip().startswith("Category:")), None)
+                if not line:
+                    return None
+                return line.split(":", 1)[1].strip()
+
+            category = extract_category(response)
+
+            # If category missing or invalid, retry calling the model for that single student
+            if not category or category not in categories:
+                attempts = 0
+                valid_response = None
+                while INFINITE_RETRIES or attempts < MAX_RETRIES:
+                    attempts += 1
+                    logger.info("Attempt %d to reclassify student=%s", attempts, sid)
+                    single_prompt = build_batch_prompt([batch_data[i]], categories)
+                    try:
+                        single_ai = call_ollama_classify(single_prompt, model=ollama_model)
+                    except Exception as e:
+                        logger.exception("Error calling AI on retry for student=%s: %s", sid, e)
+                        single_ai = ""
+
+                    single_responses = [r.strip() for r in single_ai.split('---') if r.strip()]
+                    if single_responses:
+                        candidate = single_responses[0]
+                        candidate_cat = extract_category(candidate)
+                        if candidate_cat and candidate_cat in categories:
+                            valid_response = candidate
+                            logger.info("Received valid category '%s' for student=%s on attempt %d", candidate_cat, sid, attempts)
+                            break
+                        else:
+                            logger.warning("Retry attempt %d produced invalid or missing category for student=%s: %s", attempts, sid, candidate_cat)
+                    else:
+                        logger.warning("Retry attempt %d produced empty AI response for student=%s", attempts, sid)
+
+                    # Exponential backoff before next attempt
+                    sleep_time = RETRY_BASE_SECONDS * (2 ** (attempts - 1))
+                    time.sleep(min(sleep_time, 30))
+
+                if valid_response:
+                    response = valid_response
+                else:
+                    # Exhausted retries: produce a clear 'Needs Review' response but avoid the former terse error message
+                    logger.warning("Exhausted retries for student=%s, assigning 'Needs Review'", sid)
+                    if category and category not in categories:
+                        response = f"Category: Needs Review\nTeacher Report: AI provided an invalid category ('{category}'). Please review student metrics: {json.dumps(batch_data[i][1])}"
+                    else:
+                        response = f"Category: Needs Review\nTeacher Report: Unable to obtain valid category after retrying. Please review student metrics: {json.dumps(batch_data[i][1])}"
+
             results[sid] = {"ai_response": response}
             logger.debug("Assigned AI response to student=%s", sid)
 

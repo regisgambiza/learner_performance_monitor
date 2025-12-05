@@ -1,4 +1,6 @@
 import logging
+import os
+import re
 
 # Logging setup
 logging.basicConfig(
@@ -9,11 +11,27 @@ logging.basicConfig(
 logger = logging.getLogger("main")
 
 def save_reports_to_file(course, student_analysis, reports, output_file="student_reports.txt"):
-    logger.info("Saving reports to %s", output_file)
+    # Ensure reports directory exists and create a per-course file so classes aren't mixed
+    reports_dir = os.getenv("REPORTS_DIR", "reports")
+    os.makedirs(reports_dir, exist_ok=True)
+
+    # Create a safe filename from the course name
+    safe_course = re.sub(r'[^A-Za-z0-9 _-]', '', course.get('name', 'course')).strip()
+    safe_course = safe_course.replace(' ', '_')[:100]
+    file_base = f"{safe_course}_{course.get('id') }"
+
+    # If caller passed the default output file name, override it to go into reports dir per-course
+    if output_file == "student_reports.txt":
+        output_path = os.path.join(reports_dir, f"{file_base}.txt")
+    else:
+        output_path = output_file
+
+    logger.info("Saving reports to %s", output_path)
 
     category_groups = {}
 
-    with open(output_file, "a", encoding="utf-8") as f:
+    # Open per-course report file (overwrite so repeated runs don't mix old data)
+    with open(output_path, "w", encoding="utf-8") as f:
         f.write(f"Reports for Course: {course['name']} ({course['id']})\n")
         f.write("=" * 50 + "\n")
         for sid, rep in reports.items():
@@ -56,7 +74,10 @@ def save_reports_to_file(course, student_analysis, reports, output_file="student
             f.write(f"| Missing         | {metrics['missing']:<15} |\n")
             f.write(f"| Late            | {metrics['late']:<15} |\n")
             f.write(f"| Graded Count    | {metrics['graded_count']:<15} |\n")
-            f.write(f"| Average Score   | {sum(scores):<7.2f}/{total_possible_points:.2f} |\n")  # Changed: Use total earned / total possible
+            # Average for submitted activities (percentage) and earned/possible
+            f.write(f"| Average (submitted) | {metrics['average_submitted']:<7.2f}% ({sum(scores):.2f}/{total_possible_points:.2f}) |\n")
+            # Average including all activities (missing treated as 0)
+            f.write(f"| Average (all)       | {metrics['average_all']:<7.2f}%{'':<13} |\n")
             f.write("+-----------------+-----------------+\n\n")
 
             # --- Detailed Activity Table ---
@@ -104,9 +125,9 @@ def save_reports_to_file(course, student_analysis, reports, output_file="student
             f.write("-" * 50 + "\n")
         f.write("\n")
 
-    # --- Save separate category file ---
-    cat_file = "category_groups.txt"
-    with open(cat_file, "a", encoding="utf-8") as cf:
+    # --- Save separate category file per course inside reports dir (overwrite) ---
+    cat_file = os.path.join(reports_dir, f"{file_base}_categories.txt")
+    with open(cat_file, "w", encoding="utf-8") as cf:
         cf.write(f"Course: {course['name']} ({course['id']})\n")
         cf.write("=" * 40 + "\n")
         for cat, learners in category_groups.items():
@@ -114,4 +135,4 @@ def save_reports_to_file(course, student_analysis, reports, output_file="student
             for name in learners:
                 cf.write(f" - {name}\n")
             cf.write("\n")
-    logger.info(f"Category grouping saved to {cat_file}")
+    logger.info("Category grouping saved to %s", cat_file)
