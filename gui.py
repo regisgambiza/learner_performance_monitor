@@ -104,20 +104,24 @@ class AnalyzerGUI(tk.Tk):
         ttk.Entry(frm, textvariable=self.token_var, width=40).grid(row=1, column=1, sticky=tk.W)
         ttk.Button(frm, text="Browse", command=self.browse_token).grid(row=1, column=2)
 
-        # Model and env
+        # Model, env, and batch size
         ttk.Label(frm, text="Ollama model:").grid(row=2, column=0, sticky=tk.W)
         self.model_var = tk.StringVar(value="gpt-oss:20b")
         self.model_cb = ttk.Combobox(frm, textvariable=self.model_var, width=40, state="readonly")
         self.model_cb.grid(row=2, column=1, sticky=tk.W)
         ttk.Button(frm, text="Load Models", command=self.load_models).grid(row=2, column=2)
 
-        ttk.Label(frm, text="Reports dir:").grid(row=3, column=0, sticky=tk.W)
-        self.reports_dir_var = tk.StringVar(value="reports")
-        ttk.Entry(frm, textvariable=self.reports_dir_var, width=40).grid(row=3, column=1, sticky=tk.W)
+        ttk.Label(frm, text="Batch size:").grid(row=3, column=0, sticky=tk.W)
+        self.batch_size_var = tk.StringVar(value="2")
+        ttk.Entry(frm, textvariable=self.batch_size_var, width=10).grid(row=3, column=1, sticky=tk.W)
 
-        ttk.Label(frm, text="AI max retries:").grid(row=4, column=0, sticky=tk.W)
+        ttk.Label(frm, text="Reports dir:").grid(row=4, column=0, sticky=tk.W)
+        self.reports_dir_var = tk.StringVar(value="reports")
+        ttk.Entry(frm, textvariable=self.reports_dir_var, width=40).grid(row=4, column=1, sticky=tk.W)
+
+        ttk.Label(frm, text="AI max retries:").grid(row=5, column=0, sticky=tk.W)
         self.ai_retries_var = tk.StringVar(value="5")
-        ttk.Entry(frm, textvariable=self.ai_retries_var, width=10).grid(row=4, column=1, sticky=tk.W)
+        ttk.Entry(frm, textvariable=self.ai_retries_var, width=10).grid(row=5, column=1, sticky=tk.W)
 
         # Dates and mode
         # Date selectors: prefer tkcalendar.DateEntry if available, otherwise fallback to combobox selectors
@@ -139,14 +143,16 @@ class AnalyzerGUI(tk.Tk):
         ttk.Label(frm, text="Selected course:").grid(row=10, column=0, sticky=tk.W)
         self.course_cb = ttk.Combobox(frm, state="readonly", width=50)
         self.course_cb.grid(row=10, column=1, sticky=tk.W)
-        ttk.Button(frm, text="Load Courses", command=self.load_courses).grid(row=10, column=2)
+        self.load_courses_btn = ttk.Button(frm, text="Load Courses", command=self.load_courses)
+        self.load_courses_btn.grid(row=10, column=2)
         # When a course is selected in the combobox, automatically load students
         self.course_cb.bind('<<ComboboxSelected>>', lambda e: self.load_students())
 
         ttk.Label(frm, text="Selected student:").grid(row=11, column=0, sticky=tk.W)
         self.student_cb = ttk.Combobox(frm, state="readonly", width=50)
         self.student_cb.grid(row=11, column=1, sticky=tk.W)
-        ttk.Button(frm, text="Load Students", command=self.load_students).grid(row=11, column=2)
+        self.load_students_btn = ttk.Button(frm, text="Load Students", command=self.load_students)
+        self.load_students_btn.grid(row=11, column=2)
 
         # Additional context
         ttk.Label(frm, text="Additional context:").grid(row=12, column=0, sticky=tk.NW)
@@ -167,6 +173,12 @@ class AnalyzerGUI(tk.Tk):
 
         self.courses = []
         self.students = []
+        # Ensure controls reflect initial mode immediately
+        try:
+            self.on_mode_change()
+        except Exception:
+            pass
+
         # Auto-load courses on GUI start
         try:
             self.load_courses()
@@ -233,10 +245,51 @@ class AnalyzerGUI(tk.Tk):
 
     def on_mode_change(self):
         mode = self.mode_var.get()
+        # Mode handling:
+        # 1 -> Analyze all classes: disable course and student selectors
+        # 2 -> Analyze single class: enable course selector, disable student selector
+        # 3 -> Analyze single student: enable both
         if mode == 1:
+            # Disable course and student selection
+            try:
+                self.course_cb.configure(state='disabled')
+                self.load_courses_btn.configure(state=tk.DISABLED)
+            except Exception:
+                pass
+            try:
+                self.student_cb.configure(state='disabled')
+                self.load_students_btn.configure(state=tk.DISABLED)
+            except Exception:
+                pass
+            # Clear selections
             self.course_cb.set("")
             self.student_cb.set("")
-        # else user can load selections
+        elif mode == 2:
+            # Enable course, disable student
+            try:
+                self.course_cb.configure(state='readonly')
+                self.load_courses_btn.configure(state=tk.NORMAL)
+            except Exception:
+                pass
+            try:
+                self.student_cb.configure(state='disabled')
+                self.load_students_btn.configure(state=tk.DISABLED)
+            except Exception:
+                pass
+            # Clear student selection
+            self.student_cb.set("")
+        elif mode == 3:
+            # Enable both selectors and buttons
+            try:
+                self.course_cb.configure(state='readonly')
+                self.load_courses_btn.configure(state=tk.NORMAL)
+            except Exception:
+                pass
+            try:
+                self.student_cb.configure(state='readonly')
+                self.load_students_btn.configure(state=tk.NORMAL)
+            except Exception:
+                pass
 
     def load_courses(self):
         self.log("Loading courses...")
@@ -287,6 +340,7 @@ class AnalyzerGUI(tk.Tk):
         model = self.model_var.get()
         reports_dir = self.reports_dir_var.get()
         ai_retries = self.ai_retries_var.get()
+        batch_size = self.batch_size_var.get()
         # Use date selectors
         start_date = self.start_selector.get() or None
         end_date = self.end_selector.get() or None
@@ -316,7 +370,8 @@ class AnalyzerGUI(tk.Tk):
                                       student_id=student_id,
                                       additional_context=additional_context,
                                       reports_dir=reports_dir,
-                                      ai_max_retries=ai_retries)
+                                      ai_max_retries=ai_retries,
+                                      batch_size=batch_size)
                 self.log("Analysis complete. Check reports directory.")
                 messagebox.showinfo("Done", "Analysis complete. Check reports directory.")
             except Exception as e:

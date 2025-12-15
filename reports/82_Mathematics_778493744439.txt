@@ -1,30 +1,71 @@
 Reports for Course: 8/2 Mathematics (778493744439)
 ==================================================
-Student: Amelia Monk
-Student ID: 109021969965715901933
+Student: Nontawat Lertchaiprasert
+Student ID: 101563616784144606342
 Teacher Report:
-Category: At Risk  
+Category: Average  
 Teacher Report:  
-- Average score: The overall average of 22.4 % (based on all 15 assignments) indicates a significant gap between expected and achieved learning outcomes.  
-- Submission habits: Amelia has 12 missing assignments and only 3 graded submissions, with 1 late entry. The high number of non‑submissions severely impacts her overall standing.  
-- Strengths/Successes: In the few graded tasks, she scored 100 % on “7.2 Rounding to significant figures” and 93 % on “7.3 Multiplying and dividing with integers and decimals – Class Activity,” showing strong conceptual understanding when engaged.  
-- Risks/Learning gaps: Missing critical assessments such as the Chapter 10 Quiz and several chapter quizzes, combined with a low overall average, highlights a risk of falling further behind, especially if this pattern continues.  
-- Recommended strategies:  
-  - Implement a personalized follow‑up plan to address missed assignments, including scheduled reminders and brief one‑on‑one check‑ins.  
-  - Use the high‑scoring assignments as modeling examples; have Amelia lead brief peer‑teaching sessions on those topics.  
-  - Provide targeted intervention resources (e.g., supplemental practice sheets, online tutorials) focused on the areas covered in the missing quizzes.  
-  - Monitor progress weekly, adjusting the intervention plan based on her submission rate and assignment quality.
+- Average score of 77.02 % places the student solidly within the Average performance band and reflects consistent, satisfactory academic achievement.  
+- Submission habits are exemplary: no missing or late assignments, with all 15 assignments submitted on time, indicating strong classroom management and time‑keeping skills.  
+- Strengths are evident in consistently high marks on quizzes and class activities (e.g., 10/10 on multiple tasks, 27/30 on the integer/decimal activity), suggesting good comprehension of key concepts.  
+- Risks include lower performance on specific topics such as 9.1 Functions (4/12) and 7.1 Multiplying and Dividing by 0.1 and 0.01 (17/26), pointing to gaps in function understanding and basic decimal calculations.  
+- Recommended strategies: focus on targeted practice for functions and decimal operations; incorporate formative assessments to monitor progress; offer peer‑mentoring or small‑group instruction to reinforce weaker areas while maintaining the student’s high engagement.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
 | Total Assigned  | 15              |
-| Missing         | 12              |
-| Late            | 1               |
-| Graded Count    | 3               |
-| Average (submitted) | 81.91  % (77.00/94.00) |
-| Average (all)       | 22.38  %              |
+| Missing         | 0               |
+| Late            | 0               |
+| Graded Count    | 15              |
+| Average (submitted) | 77.02  % (238.00/309.00) |
+| Average (all)       | 77.02  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 12/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 28/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Submitted  | 17/25      | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 21/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Submitted  | 4/12       | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 12/20      | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 27/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 27/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 23/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 17/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Amelia Monk
+Student ID: 109021969965715901933
+Teacher Report:
+Category: At Risk  
+Teacher Report:  
+- Overall average of 37.22 % (including non‑submissions) indicates significant academic struggles, well below the 50 % threshold for safe completion.  
+- Submission habits are problematic: 11 of 15 assignments are missing with no late submissions, demonstrating a lack of engagement and time‑management issues.  
+- Strengths are limited to recent submissions where the student achieved near‑perfect scores (31/34, 28/30, 30/30, 26/26), showing potential capability once the assignment is received.  
+- Risks are high: the volume of missing work creates large learning gaps, especially in foundational concepts covered in the early assignments; the student is at serious risk of falling behind in all subsequent content.  
+- Recommended strategies: initiate an immediate intervention plan—schedule a meeting with the student and parents, set up a structured study schedule, provide access to tutoring or supplemental resources, and monitor weekly progress; consider reducing the assignment load temporarily to prevent overwhelm and re‑introduce missing work incrementally.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 11              |
+| Late            | 0               |
+| Graded Count    | 4               |
+| Average (submitted) | 95.83  % (115.00/120.00) |
+| Average (all)       | 37.22  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
@@ -42,10 +83,1123 @@ Chapter 8 Quiz                   | 820237664095     | Missing    | —          
 8.3 Stem-and-leaf diagrams       | 822266841558     | Missing    | —          | 2025-11-02T12:01:29.103Z
 8.2 Dual and compound bar charts | 820237674597     | Missing    | —          | 2025-11-02T11:59:45.331Z
 8.1 Frequency tables and diagram | 820237633833     | Missing    | —          | 2025-11-02T11:57:46.763Z
-Chapter 7 Quiz                   | 817751299985     | Submitted  | 19/34      | 2025-10-30T04:06:36.149Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 31/34      | 2025-10-30T04:06:36.149Z
 7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 28/30      | 2025-10-23T13:57:34.136Z
 7.2 Rounding to significant figu | 816614187234     | Submitted  | 30/30      | 2025-10-23T13:53:45.038Z
-7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | —          | 2025-10-21T07:03:34.547Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 26/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Thiyada Dawao
+Student ID: 103875485175227319659
+Teacher Report:
+Category: Average  
+Teacher Report:  
+- Average score: 76.7% indicates solid overall performance, comfortably above the 75% threshold for average status but not reaching high‑performer levels.  
+- Submission habits: 1 assignment missing and none late; demonstrates reliable completion, though the single missing task slightly offsets the otherwise strong record.  
+- Strengths: Consistently high scores on quizzes and class activities (e.g., 18/20 on Chapter 10 Quiz, 27/30 on Chapter 9 Quiz, 10/10 on multiple concept checks) highlight strong conceptual grasp.  
+- Risks/learning gaps: Lower scores on the “10.1 Subtracting mixed numbers” (13/25) and “9.1 Functions” (4/12) suggest difficulties with mixed‑number operations and function concepts that could impact later work.  
+- Recommended strategies: Offer targeted review sessions for mixed numbers and function basics, incorporate practice problems with immediate feedback, and encourage peer tutoring to reinforce these concepts while maintaining high engagement on strong areas.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 1               |
+| Late            | 0               |
+| Graded Count    | 14              |
+| Average (submitted) | 79.26  % (237.00/299.00) |
+| Average (all)       | 76.70  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 18/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 16/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Submitted  | 13/25      | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 27/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Submitted  | 4/12       | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 14/20      | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Missing    | —          | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 29/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 27/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 27/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 22/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Chalinthip Sae-Wong
+Student ID: 101366545963442881316
+Teacher Report:
+Category: Emerging  
+Teacher Report:  
+- Average score: 59.2% falls into the emerging band (50–65%), indicating that the student is achieving below the expected level for the curriculum but still above the threshold for at‑risk status.  
+- Submission habits: 2 assignments missing (10.2 and 9.1 Functions) and no late submissions; the missing work, particularly the missing “9.1 Functions,” contributes to the lower overall average.  
+- Strengths: Strong performance on several quizzes and class activities (e.g., 10/10 on “9.3 Changing the subject,” 24/30 on “7.3 Multiplying and dividing…”) shows the ability to excel when focused on specific topics.  
+- Risks/learning gaps: The extremely low score on “Chapter 8 Quiz” (1/20) signals a critical gap in foundational skills; the missing “10.2 Multiplying and dividing integers by fractions” also suggests a broader issue with fraction‑integer operations.  
+- Recommended strategies: Implement a personalized remediation plan focusing on fractions and basic operations, schedule regular check‑ins to monitor progress, provide differentiated assignments to bridge the gap, and encourage the use of formative assessment tools (e.g., quick quizzes) to track improvements before moving on to higher‑level content.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 2               |
+| Late            | 0               |
+| Graded Count    | 13              |
+| Average (submitted) | 69.06  % (183.00/265.00) |
+| Average (all)       | 59.22  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 13/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Missing    | —          | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Submitted  | 11/25      | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 18/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Missing    | —          | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 1/20       | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 25/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 24/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 19/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 22/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Sirin Benjamahakit
+Student ID: 102629685620503911190
+Teacher Report:
+Category: Average
+Teacher Report:
+- The average score of 82.85% indicates solid overall academic performance but falls short of the 90% threshold for High Performer status, reflecting consistent but not exceptional mastery across the course.
+- Submission habits are exemplary, with zero missing or late assignments, ensuring full credit for all graded work and maintaining high engagement.
+- Strengths are evident in consistently high scores on most quizzes and class activities (e.g., 30/30 on Chapter 9 Quiz, 32/32 on 10.2, and 27/30 on 7.3 activity), indicating strong conceptual understanding and effective test-taking strategies.
+- The primary risk is the significant dip in performance on the Chapter 8 Quiz (5/20) and the 8.1/8.2/8.3 assignments where the student consistently scored 10/10 but the quiz reveals difficulty with data interpretation and application of concepts; this suggests a potential gap in practical application of statistical methods.
+- Recommended strategies include targeted mini‑lessons on data interpretation and quiz‑style practice for Chapter 8 content, formative checks (e.g., exit tickets) focused on functions and data analysis, and peer‑review sessions to reinforce learning from lower‑scoring assignments.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 0               |
+| Late            | 0               |
+| Graded Count    | 15              |
+| Average (submitted) | 82.85  % (256.00/309.00) |
+| Average (all)       | 82.85  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 18/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 32/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Submitted  | 16/25      | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 30/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Submitted  | 8/12       | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 5/20       | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 27/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 27/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 24/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 19/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Thanida Butsakorn
+Student ID: 112679195874362910529
+Teacher Report:
+Category: Average
+Teacher Report:
+- With an average of 89.64%, the student demonstrates strong overall performance, approaching High Performer levels, but still requires a few more consistent high marks to qualify.
+- The submission record is flawless, with no missing or late work, indicating excellent time‑management and reliability.
+- The student excels in most assessments, notably perfect or near‑perfect scores on Chapter 10 Quiz, 10.2, 7.3, and 7.2 activities, showcasing strong problem‑solving skills and mastery of core concepts.
+- A notable weakness appears in the 9.1 Functions (4/12) and the Chapter 8 Quiz (12/20), pointing to possible conceptual misunderstandings or difficulty with algebraic function representation and data analysis.
+- Suggested interventions include focused remediation on functions (e.g., guided practice, visual models), differentiated instruction for Chapter 8 topics, and the use of formative quizzes with instant feedback to address misconceptions before they compound.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 0               |
+| Late            | 0               |
+| Graded Count    | 15              |
+| Average (submitted) | 89.64  % (277.00/309.00) |
+| Average (all)       | 89.64  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 20/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 26/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Submitted  | 21/25      | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 27/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Submitted  | 4/12       | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 12/20      | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 33/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 30/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 29/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 25/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Sukita Phangphithak
+Student ID: 103486096515162889650
+Teacher Report:
+Category: At Risk  
+Teacher Report:  
+- Average score of 77.7 % indicates overall competence but is below the High Performer threshold; the student demonstrates solid understanding in many areas.  
+- Submission habits: 2 missing assignments (including two “Missing” statuses) with no late submissions, showing inconsistent completion of required work.  
+- Strengths: Consistently high performance on quizzes and class activities (e.g., 32/34 on Chapter 7 Quiz, 30/30 on class activity, 10/10 on multiple short‑answer tasks), indicating good mastery of key concepts.  
+- Risks/learning gaps: Missing two assignments suggests potential disengagement or external barriers; the student has not attempted or scored on “10.1 Subtracting mixed numbers” and “9.1 Functions,” which may indicate gaps in foundational skills that could affect future progress.  
+- Recommended strategies:  
+  • Schedule a brief one‑on‑one to discuss reasons for missed work and set up a clear turnaround plan.  
+  • Offer short, targeted review sessions on the missing topics to reinforce fundamentals.  
+  • Provide reminders and a structured checklist for upcoming assignments.  
+  • Monitor progress on the next two assignments closely, using formative feedback to sustain engagement.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 2               |
+| Late            | 0               |
+| Graded Count    | 13              |
+| Average (submitted) | 88.24  % (240.00/272.00) |
+| Average (all)       | 77.67  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 14/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 25/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Missing    | —          | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 24/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Missing    | —          | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 12/20      | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 32/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 30/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 28/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 25/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Sherraan Yotanasakulwong
+Student ID: 100262849266973581033
+Teacher Report:
+Category: Average  
+Teacher Report:  
+- Average score of 77.0 % places the student in the middle‑performance band, reflecting consistent, competent understanding of course material.  
+- Submission habits: 0 missing and 0 late assignments; all 15 tasks were submitted on time, demonstrating strong organizational and time‑management skills.  
+- Strengths: Excellent performance on short‑answer tasks (10/10 on several items) and strong scores on the 7.x class activities (29/30, 23/30, 21/26), indicating solid application of concepts in practical contexts.  
+- Risks/learning gaps: Lower scores on several quizzes (e.g., 13/30 on Chapter 9 Quiz, 21/34 on Chapter 7 Quiz) and the “9.1 Functions” assignment (7/12) suggest difficulty with more complex or conceptual questions; this could become a barrier if not addressed.  
+- Recommended strategies:  
+  • Provide targeted practice on function concepts and higher‑order reasoning.  
+  • Offer optional review sessions or study groups focused on quiz content.  
+  • Use formative quizzes to give the student more practice and immediate feedback.  
+  • Encourage reflective self‑assessment after each quiz to identify specific misconceptions.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 0               |
+| Late            | 0               |
+| Graded Count    | 15              |
+| Average (submitted) | 77.02  % (238.00/309.00) |
+| Average (all)       | 77.02  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 14/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 28/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Submitted  | 16/25      | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 13/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Submitted  | 7/12       | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 16/20      | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 21/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 29/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 23/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 21/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Saranporn Nuprik
+Student ID: 102622323773882976834
+Teacher Report:
+Category: Emerging  
+Teacher Report:  
+- The student’s overall average score of 64.4% falls within the Emerging range (50‑65%), indicating moderate proficiency but room for improvement.  
+- Submission habits show 5 missing assignments (3 explicit “Missing” and 2 with no recorded score), though no late submissions; consistent completion is lacking.  
+- Strengths are evident in high quiz performances (Chapter 10 Quiz 20/20, Chapter 7 Quiz 30/34) and excellent class‑activity scores (30/30 on 7.3 and 24/30 on 7.2).  
+- Risks include multiple missing data‑visualization tasks (8.3, 8.2, 8.1) and lower scores on certain numeric operations (Chapter 8 Quiz 12/20, 9.1 Functions 6/12), suggesting gaps in conceptual understanding.  
+- Recommended strategies: schedule short formative checks on missing topics, provide targeted practice sheets for data‑visualization assignments, offer peer‑learning sessions for difficult concepts, and implement a reminder system to reduce missing submissions.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 5               |
+| Late            | 0               |
+| Graded Count    | 10              |
+| Average (submitted) | 76.83  % (199.00/259.00) |
+| Average (all)       | 64.40  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 20/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 25/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Submitted  | 11/25      | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 21/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | —          | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | —          | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Submitted  | 6/12       | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 12/20      | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Missing    | —          | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Missing    | —          | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Missing    | —          | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 30/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 30/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 24/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 20/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Patdharapiti Sawasdee
+Student ID: 100342882491498213072
+Teacher Report:
+Category: Average  
+Teacher Report:  
+- The student’s average score of 80.9% places them comfortably in the Average category (75‑90%), reflecting solid overall performance.  
+- Submission habits are strong, with only one missing assignment (8.1 Frequency tables and diagrams) and no late submissions.  
+- Strengths include consistently high scores on quizzes (Chapter 10 17/20, Chapter 7 31/34) and near‑perfect class‑activity results (29/30 on 7.3 and 7.2, 26/26 on 7.1).  
+- Risks involve lower performance on the Functions assignment (4/12) and a moderate score on Chapter 8 Quiz (15/20), indicating potential gaps in function concepts and data representation.  
+- Recommended strategies: provide focused remediation on Functions through guided examples, review the concepts behind the Chapter 8 Quiz with additional practice problems, encourage completion of the missing frequency table task with a deadline extension, and maintain high engagement through regular feedback on quiz performance.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 1               |
+| Late            | 0               |
+| Graded Count    | 14              |
+| Average (submitted) | 83.61  % (250.00/299.00) |
+| Average (all)       | 80.91  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 17/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 23/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Submitted  | 15/25      | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 21/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Submitted  | 4/12       | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 15/20      | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Missing    | —          | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 31/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 29/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 29/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 26/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Mayra Booncharoen
+Student ID: 115586089465371277310
+Teacher Report:
+Category: At Risk  
+Teacher Report:  
+- Average score (overall): 49.84 %—well below the 75 % threshold, indicating significant learning gaps and overall low performance.  
+- Submission habits: 8 missing out of 15 assignments (53 % missing) and no late submissions; the high number of missed tasks directly contributes to the low average and reflects a lack of consistent engagement.  
+- Strengths/Successes: Demonstrated strong mastery in several class activities, scoring 29/30 on “7.3 Multiplying and dividing with integers and decimals” and 29/30 on “7.2 Rounding to significant figures”; also achieved perfect scores on “7.1 Multiplying and Dividing by 0.1 and 0.01.”  
+- Risks/Learning Gaps: The student performed poorly on several quizzes (e.g., 4/20 on Chapter 8 Quiz, 22/30 on Chapter 9 Quiz) and did not submit major instructional assignments (e.g., 10.2, 10.1, 9.3–9.1). The cumulative effect of missed assignments and low quiz scores signals a risk of falling behind core content.  
+- Recommended Strategies:  
+  - Implement a structured check‑in system (e.g., weekly submission reminders) to reduce missed work.  
+  - Offer targeted remediation for quiz content (e.g., small group review sessions focused on Chapter 8 concepts).  
+  - Provide additional practice assignments with immediate feedback to reinforce skills that appeared weak.  
+  - Consider a progress‑monitoring plan that tracks assignment completion and quiz performance over time to ensure steady improvement.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 8               |
+| Late            | 0               |
+| Graded Count    | 7               |
+| Average (submitted) | 81.05  % (154.00/190.00) |
+| Average (all)       | 49.84  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 20/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Missing    | —          | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Missing    | —          | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 22/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Missing    | —          | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Missing    | —          | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Missing    | —          | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 4/20       | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Missing    | —          | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Missing    | —          | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Missing    | —          | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 24/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 29/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 29/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 26/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Phutthanapat Patthum
+Student ID: 104070972993709610901
+Teacher Report:
+Category: Average  
+Teacher Report:  
+- Average score (overall): 82.85 %—comfortably within the 75–90 % band, reflecting solid mastery of course material.  
+- Submission habits: 2 missing assignments out of 15 (≈13 % missing) and no late submissions; the small number of missing tasks shows good overall engagement but still warrants attention.  
+- Strengths/Successes: Consistently high scores across quizzes and activities, including 30/32 on “10.2 Multiplying and dividing integers by fractions,” 29/30 on “7.3 Multiplying and dividing with integers and decimals,” and 29/30 on “7.2 Rounding to significant figures.”  
+- Risks/Learning Gaps: Two missing assignments (“9.1 Functions” and “8.2 Dual and compound bar charts”) suggest potential gaps in certain content areas; missing data could conceal deeper learning needs if not addressed.  
+- Recommended Strategies:  
+  - Schedule a brief meeting to review the missed assignments, identify any content barriers, and set a clear completion plan.  
+  - Encourage peer collaboration or tutoring for the missing topics to reinforce understanding.  
+  - Maintain the current positive trajectory by integrating regular formative assessments to monitor understanding of upcoming units.  
+  - Offer optional enrichment activities or extensions for already high performers to sustain engagement and further deepen conceptual knowledge.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 2               |
+| Late            | 0               |
+| Graded Count    | 13              |
+| Average (submitted) | 89.20  % (256.00/287.00) |
+| Average (all)       | 82.85  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 19/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 30/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Submitted  | 21/25      | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 21/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Missing    | —          | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 16/20      | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Missing    | —          | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 29/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 29/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 29/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 22/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Parin Muangon
+Student ID: 114041067973143985640
+Teacher Report:
+Category: Improving  
+Teacher Report:  
+- Average Score – Parin’s overall average of 70.6 % indicates that he is performing in the improving range; his scores hover just below the 75 % threshold, suggesting room for growth.  
+- Submission Habits – He missed two assignments (Chapter 8 Quiz and 8.3 Stem‑and‑leaf diagrams) but has no late submissions, demonstrating a reasonable level of accountability.  
+- Strengths / Successes – Demonstrates strong performance on most numeric tasks (e.g., 7.3, 7.2, 9.3, 9.2) with scores consistently above 80 %, showing competence in applied problem‑solving and data representation.  
+- Risks / Learning Gaps – Low scores on 9.1 Functions (25 % of points) and 9.9? (14/30, 46.7 %) reveal difficulty with function concepts and quiz formats; the missing quizzes also represent gaps in assessment coverage.  
+- Recommended Strategies – Allocate targeted review sessions on functions and quiz‑specific strategies; use formative checkpoints (e.g., mini‑quizzes) to build confidence; incorporate collaborative problem‑solving to reinforce weaker areas; consider adaptive practice tools to scaffold concept mastery.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 2               |
+| Late            | 0               |
+| Graded Count    | 13              |
+| Average (submitted) | 78.14  % (218.00/279.00) |
+| Average (all)       | 70.55  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 19/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 20/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Submitted  | 22/25      | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 14/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Submitted  | 3/12       | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Missing    | —          | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Missing    | —          | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 26/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 25/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 28/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 21/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Phattara Mongkontanasiri
+Student ID: 105774700850270756754
+Teacher Report:
+Category: High Performer  
+Teacher Report:  
+- Average Score – Phattara’s average of 92.9 % places him firmly in the high‑performer category; the consistent high scores reflect strong mastery of the curriculum.  
+- Submission Habits – All 15 assignments were submitted on time with no missing or late work, illustrating exemplary organizational and time‑management skills.  
+- Strengths / Successes – Consistently high performance across all modules, notably 10/10 on multiple data‑representation tasks and 30/30 on 7.3, demonstrates deep conceptual understanding and application ability.  
+- Risks / Learning Gaps – None identified; the student exhibits balanced proficiency across all assessed domains.  
+- Recommended Strategies – Provide enrichment opportunities such as advanced problem sets or project‑based learning to further challenge Phattara; encourage peer‑teaching roles to reinforce learning and support classroom leadership; continue to monitor for any emerging gaps as curriculum progresses.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 0               |
+| Late            | 0               |
+| Graded Count    | 15              |
+| Average (submitted) | 92.88  % (287.00/309.00) |
+| Average (all)       | 92.88  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 19/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 26/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Submitted  | 24/25      | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 24/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Submitted  | 10/12      | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 20/20      | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 30/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 30/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 28/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 26/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Rich Paniyasakun
+Student ID: 105532983650705079801
+Teacher Report:
+Category: Average  
+Teacher Report:  
+- Average score: Rich’s average of 87.7 % demonstrates solid academic performance overall, indicating that the student consistently meets learning expectations across most units.  
+- Submission habits: All 15 assignments were submitted on time with zero missing or late entries, reflecting reliable engagement and strong classroom participation.  
+- Strengths: High scores on foundational concepts (e.g., Chapter 9 “Changing the subject” 10/10, Chapter 8 quizzes 18/20, and 8.1 Frequency tables 10/10) show strong conceptual grasp; the 27/30 on 7.3 and 26/26 on 7.1 illustrate mastery in higher‑level operations.  
+- Risks / gaps: Lower performance on earlier chapters (e.g., 10.1 Subtracting mixed numbers 18/25 and 9.1 Functions 8/12) suggests potential vulnerability in basic operations, which could affect later problem‑solving.  
+- Recommended strategies: Provide targeted review sessions on mixed‑number subtraction and function basics; integrate quick formative quizzes to reinforce these concepts; consider differentiated practice problems that build progressively on the weaker areas.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 0               |
+| Late            | 0               |
+| Graded Count    | 15              |
+| Average (submitted) | 87.70  % (271.00/309.00) |
+| Average (all)       | 87.70  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 20/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 25/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Submitted  | 18/25      | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 26/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Submitted  | 8/12       | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 18/20      | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 30/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 27/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 23/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 26/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Natsiwat Asawapisitkul
+Student ID: 100114337517971295278
+Teacher Report:
+Category: Average  
+Teacher Report:  
+- Average score: Natsiwat’s average of 79.3 % is within the “Average” band, indicating consistent performance that meets curriculum expectations but leaves room for improvement.  
+- Submission habits: With 15 assignments all submitted on time and no missing work, the student demonstrates excellent punctuality and commitment.  
+- Strengths: Strong performance on multiple unit quizzes (e.g., Chapter 10 Quiz 19/20, Chapter 9 Quiz 20/30) and on foundational tasks (10/10 on 9.3 & 9.2) reflect solid understanding of core topics.  
+- Risks / gaps: Notable low scores on rounding and decimal operations—13/30 on “7.2 Rounding to significant figures” and 17/26 on “7.1 Multiplying and Dividing by 0.1 and 0.01”—indicate specific weaknesses that could impact future success in related assessments.  
+- Recommended strategies: Offer focused intervention on rounding and decimal manipulation through guided practice and real‑world application problems; utilize peer‑teaching opportunities for the 7.x units; schedule periodic formative checks to monitor progress in these areas.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 0               |
+| Late            | 0               |
+| Graded Count    | 15              |
+| Average (submitted) | 79.29  % (245.00/309.00) |
+| Average (all)       | 79.29  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 19/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 30/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Submitted  | 17/25      | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 20/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Submitted  | 7/12       | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 18/20      | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 29/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 25/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 13/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 17/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Haruto Ito
+Student ID: 116499323632292936104
+Teacher Report:
+Category: Average  
+Teacher Report:  
+- Haruto’s overall average score of 80.58 % reflects solid understanding across most units, yet indicates a need for continued focus on areas that consistently fall below 70 %.  
+- His submission habits are exemplary: 15/15 assignments completed on time with no late or missing work, demonstrating strong organizational skills.  
+- Strengths are evident in the consistently high scores on chapter quizzes (e.g., 29/30 on “7.3 Class Activity”) and perfect scores on data‑representation tasks (e.g., 8.3, 8.2, 8.1). These results suggest strong conceptual grasp of data analysis and activity-based learning.  
+- The primary learning gaps appear in the lower‑scoring items: 6/12 on “9.1 Functions,” 19/30 on “Chapter 9 Quiz,” and several scores in the 68–70 % range. These point to potential weaknesses in function interpretation and fraction‑integer operations.  
+- Recommended strategies: implement targeted review sessions focusing on functions and integer/fraction multiplication, use differentiated worksheets to reinforce concepts, encourage reflective self‑assessment after each quiz, and provide optional tutoring or study groups for students needing extra practice.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 0               |
+| Late            | 0               |
+| Graded Count    | 15              |
+| Average (submitted) | 80.58  % (249.00/309.00) |
+| Average (all)       | 80.58  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 17/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 22/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Submitted  | 22/25      | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 19/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Submitted  | 6/12       | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 14/20      | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 23/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 29/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 25/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 22/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Nawin Wannaparhun
+Student ID: 112391029842149151790
+Teacher Report:
+Category: Average  
+Teacher Report:  
+- Nawin’s average of 85.11 % demonstrates strong overall mastery, positioning him well above the average threshold while still offering room for polishing specific concepts.  
+- All 15 assignments were submitted punctually with no late or missing work, indicating excellent time‑management and engagement.  
+- He excels in many areas, achieving perfect scores on key assessments such as the Chapter 7 Quiz and multiple class activities (e.g., 28/30 on “7.3 Activity”), and consistently scoring above 90 % on formulae and data‑representation tasks.  
+- A few low scores (4/12 on “9.1 Functions” and 18/32 on “10.2” activity) suggest lingering difficulties with function interpretation and fractional multiplication/division. These isolated gaps may risk undermining overall proficiency if not addressed.  
+- Recommended strategies: provide focused practice on functions and fractional operations through interactive exercises, offer formative quizzes with instant feedback, arrange peer‑tutoring sessions where Nawin can mentor classmates, and track progress on these specific topics with short, iterative checkpoints to ensure mastery before moving on.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 0               |
+| Late            | 0               |
+| Graded Count    | 15              |
+| Average (submitted) | 85.11  % (263.00/309.00) |
+| Average (all)       | 85.11  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 14/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 18/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Submitted  | 25/25      | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 23/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Submitted  | 4/12       | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 16/20      | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 34/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 28/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 27/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 24/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Umarin Roekmongkhonwit
+Student ID: 117818017241019161113
+Teacher Report:
+Category: At Risk  
+Teacher Report:  
+- Average score: Umarin’s overall average is 36.25 %, indicating significant difficulty meeting course standards and a need for immediate academic support.  
+- Submission habits: He missed 5 out of 15 assignments (none late), which is a substantial proportion of the workload and limits the opportunity to improve his overall standing.  
+- Strengths: Several quizzes and class activities demonstrate potential, with scores such as 12/20, 13/34, 16/30, and perfect 10/10s on data‑visualization tasks, showing that when he engages he can perform well.  
+- Risks/learning gaps: The low average and high missing count suggest gaps in foundational concepts, especially in early unit content (e.g., Chapter 9 and Chapter 10 quizzes). His inconsistent performance could also stem from time‑management or comprehension issues.  
+- Recommended strategies:  
+  - Provide targeted tutoring on key topics where he scored low, using scaffolded practice activities.  
+  - Implement a check‑in system to ensure he submits assignments on time; consider short, formative quizzes to reinforce learning.  
+  - Encourage use of the study‑skills guide (e.g., note‑taking, review sheets) and schedule a meeting with the student to identify personal barriers.  
+  - Offer extra credit or revised assignments for missed work, with clear deadlines, to improve completion rates.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 5               |
+| Late            | 0               |
+| Graded Count    | 10              |
+| Average (submitted) | 50.91  % (112.00/220.00) |
+| Average (all)       | 36.25  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 2/20       | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Missing    | —          | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Missing    | —          | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 8/30       | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Missing    | —          | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Missing    | —          | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Missing    | —          | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 12/20      | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 13/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 16/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 15/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 16/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Apivit Sivasri
+Student ID: 114522716586234762403
+Teacher Report:
+Category: Needs Review  
+Teacher Report:  
+- Average score: Apivit’s average is 0 %, reflecting no recorded grades and a complete lack of assessment data.  
+- Submission habits: He has not submitted any of the 15 assignments, indicating either disengagement, absence, or significant external barriers.  
+- Strengths: No measurable academic strengths are evident from the data; all assignments are missing.  
+- Risks/learning gaps: The complete absence of submitted work places him at high risk for falling behind and potentially failing the course; the lack of data precludes a precise assessment of skill gaps.  
+- Recommended strategies:  
+  - Initiate urgent communication with the student (and guardians, if appropriate) to determine reasons for non‑submission and to assess attendance.  
+  - Schedule an intake meeting with the teacher to discuss potential accommodations, learning support, or personal issues.  
+  - Provide a clear, actionable plan for catching up, including deadlines for submitting overdue assignments and access to additional resources.  
+  - Monitor progress closely; if the student remains non‑responsive, involve the school’s counseling or intervention team.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 15              |
+| Late            | 0               |
+| Graded Count    | 0               |
+| Average (submitted) | 0.00   % (0.00/0.00) |
+| Average (all)       | 0.00   %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Missing    | —          | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Missing    | —          | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Missing    | —          | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Missing    | —          | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Missing    | —          | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Missing    | —          | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Missing    | —          | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Missing    | —          | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Missing    | —          | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Missing    | —          | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Missing    | —          | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Missing    | —          | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Missing    | —          | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Missing    | —          | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Missing    | —          | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Shitipat Samana
+Student ID: 109318223184742232199
+Teacher Report:
+Category: Average  
+Teacher Report:  
+- Average score 83.8% shows strong overall performance but falls short of the 90% threshold needed for high‑performance recognition.  
+- Submission habits are exemplary: zero missing and zero late assignments, indicating reliable compliance with deadlines.  
+- Strengths are evident in consistent high scores on quizzes and activities, particularly the 10/10s on formulae and chart assignments, and the 28/30 on the class activity.  
+- Risks include lower scores on the Chapter 8 Quiz (13/20) and Chapter 10 Quiz (17/20), suggesting potential gaps in those topic areas.  
+- Recommended strategies: target review sessions on the topics of the Chapter 8 and 10 quizzes, use formative assessments to gauge understanding, and encourage peer‑to‑peer tutoring to reinforce concepts.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 0               |
+| Late            | 0               |
+| Graded Count    | 15              |
+| Average (submitted) | 83.82  % (259.00/309.00) |
+| Average (all)       | 83.82  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 17/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 26/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Submitted  | 18/25      | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 23/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Submitted  | 8/12       | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 13/20      | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 28/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 28/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 23/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 25/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Keith Russell
+Student ID: 104537573703647876709
+Teacher Report:
+Category: Improving  
+Teacher Report:  
+- Average score 68% falls in the 65–75% range, indicating moderate performance with notable room for growth.  
+- Submission habits show one missing assignment (Chapter 8 Quiz) but no late submissions; consistency could be improved with stronger follow‑through on missing work.  
+- Strengths include solid performance on several 10/10 assignments and a recent upward trend in activity scores (21/30 and 19/30), reflecting potential improvement over time.  
+- Risks involve lower scores on the Chapter 10 Quiz (13/20) and the 16/32 fraction problem, pointing to conceptual challenges with fractions and mixed numbers; the missing Quiz may signal disengagement or external barriers.  
+- Recommended strategies: provide targeted fraction‑practice worksheets, schedule one‑on‑one check‑ins to address missing work, set up a reward system for timely submissions, and incorporate brief formative checks to monitor progress in weaker areas.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 1               |
+| Late            | 0               |
+| Graded Count    | 14              |
+| Average (submitted) | 72.66  % (210.00/289.00) |
+| Average (all)       | 67.96  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 13/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 16/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Submitted  | 22/25      | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 18/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Submitted  | 11/12      | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Missing    | —          | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 25/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 21/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 19/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 15/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Punnathorn Wisutmetheekorn
+Student ID: 118425097123626163430
+Teacher Report:
+Category: Improving  
+Teacher Report:  
+- The student’s average score of 74.4 % is solid but falls just below the 75 % threshold needed for the “Average” category, indicating room for growth.  
+- Submission habits are exemplary: 0 missing and 0 late assignments, demonstrating strong organizational skills.  
+- Strengths include perfect scores on key assessments (Chapter 9 Quiz 30/30, several 10/10 assignments) and consistent high performance in later units (8.* and 9.* topics).  
+- Risks/learning gaps arise from low marks on early work (e.g., 3/25 on “10.1 Subtracting mixed numbers,” 3/12 on “9.1 Functions”) and moderate scores on some quizzes (Chapter 10 Quiz 14/20, Chapter 8 Quiz 13/20).  
+- Recommended strategies:  
+  * Focus review sessions on the units with lower scores (Chapter 10, 9.1, 10.1).  
+  * Use targeted practice problems and peer‑teaching opportunities to reinforce concepts that were weak.  
+  * Encourage reflective journaling on learning strategies after each quiz to promote self‑regulation.  
+  * Schedule a one‑to‑one check‑in to discuss specific difficulties and set short‑term improvement goals.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 0               |
+| Late            | 0               |
+| Graded Count    | 15              |
+| Average (submitted) | 74.43  % (230.00/309.00) |
+| Average (all)       | 74.43  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 14/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 32/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Submitted  | 3/25       | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 30/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Submitted  | 3/12       | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 13/20      | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 21/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 26/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 15/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 23/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Yotam Mahatthanamongkon
+Student ID: 117553560557786438743
+Teacher Report:
+Category: At Risk  
+Teacher Report:  
+- The student’s overall average of 39.2 % is well below the 50 % threshold, signaling significant academic challenges.  
+- Submission habits show 2 missing assignments (10.1 Subtracting mixed numbers, 7.1 Multiplying and Dividing by 0.1 and 0.01) and no late submissions, yet the missing work contributes to a low overall average.  
+- Strengths: Consistent high performance on several tasks (10/10 on 9.3 and 9.2, 10/10 on 8.3–8.1, and 27/30 on “7.2 Rounding to significant figures”). These demonstrate potential in specific content areas.  
+- Risks/learning gaps: Poor outcomes on multiple critical assessments (Chapter 10 Quiz 10/20, Chapter 9 Quiz 3/30, Chapter 8 Quiz 6/20, Chapter 7 Quiz 9/34) and low scores on foundational topics (2/32 on “10.2 Multiplying and dividing integers by fractions,” 1/12 on “9.1 Functions”). Missing assignments further expose gaps in content mastery.  
+- Recommended strategies:  
+  * Implement a structured remediation plan focused on the lowest‑scoring areas (fractions, integers, functions).  
+  * Provide scaffolded practice and formative quizzes to build confidence before re‑assessing.  
+  * Offer supplemental resources (online tutorials, office‑hour appointments) to address missed work.  
+  * Monitor progress with weekly checkpoints and adjust instruction based on formative assessment data.  
+  * Engage parents/guardians in a communication plan to support homework completion and study habits at home.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 2               |
+| Late            | 0               |
+| Graded Count    | 13              |
+| Average (submitted) | 46.90  % (121.00/258.00) |
+| Average (all)       | 39.16  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 10/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 2/32       | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Missing    | —          | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 3/30       | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Submitted  | 1/12       | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 6/20       | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 9/34       | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 13/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 27/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Missing    | —          | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Bovornwit Nookaew
+Student ID: 117860140803961200510
+Teacher Report:
+Category: Improving  
+Teacher Report:  
+- Average score of 71.2 % indicates moderate proficiency; the student is progressing but still below the benchmark for consistent high performance.  
+- Submission habits show two missing assignments (10.1 Subtracting mixed numbers and 9.1 Functions) but no late submissions; overall completion is solid, yet there is room for improving punctuality and consistency.  
+- Strengths are evident in the numerous perfect 10/10 scores on data representation tasks and solid quiz results (e.g., 24/30 on Chapter 9 Quiz, 28/34 on Chapter 7 Quiz), demonstrating strong conceptual grasp in those areas.  
+- Risks include the lower scores on “Chapter 8 Quiz” (13/20) and “7.1 Multiplying and Dividing by 0.1 and 0.01” (14/26), as well as the two missing assignments, which suggest gaps in mixed‑number operations and function concepts.  
+- Recommended strategies: implement a reminder system for missing work, schedule targeted review sessions on mixed numbers and functions, use formative quizzes to track progress, and provide peer‑led study groups to reinforce learning and increase engagement.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 2               |
+| Late            | 0               |
+| Graded Count    | 13              |
+| Average (submitted) | 80.88  % (220.00/272.00) |
+| Average (all)       | 71.20  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 16/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 24/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Missing    | —          | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 24/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Submitted  | —          | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 13/20      | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 28/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 25/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 26/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 14/26      | 2025-10-21T07:03:34.547Z
+------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Student: Thakorn Dechopol
+Student ID: 113354223405039740912
+Teacher Report:
+Category: High Performer  
+Teacher Report:  
+- Average score of 92.6 % reflects excellent mastery of the curriculum and consistent high achievement across all assignments.  
+- Submission habits are exemplary with zero missing or late assignments; the student demonstrates strong organizational skills and reliability.  
+- Strengths are shown in consistently high scores on all quizzes and activities, including perfect 20/20 on the Chapter 10 Quiz, 32/34 on the Chapter 7 Quiz, and 28/30 on multiple class activities, indicating deep understanding of content.  
+- Risks are minimal; however, continuous exposure to higher‑level challenges is recommended to prevent plateauing and to sustain motivation.  
+- Recommended strategies: provide enrichment tasks such as problem‑based projects, advanced problem sets, or leadership roles in group activities; consider mentorship opportunities to extend learning beyond the standard curriculum.
+
+Submission Summary Table:
++-----------------+-----------------+
+| Metric          | Value           |
++-----------------+-----------------+
+| Total Assigned  | 15              |
+| Missing         | 0               |
+| Late            | 0               |
+| Graded Count    | 15              |
+| Average (submitted) | 92.56  % (286.00/309.00) |
+| Average (all)       | 92.56  %              |
++-----------------+-----------------+
+
+Detailed Submission Table:
+==================================================
+Title                           | ID              | Status    | Score     | Created
+------------------------------------------------------------------------------------------
+Chapter 10 Quiz                  | 821001397701     | Submitted  | 20/20      | 2025-11-30T13:42:43.719Z
+10.2 Multiplying and dividing in | 831551520602     | Submitted  | 28/32      | 2025-11-28T01:22:22.807Z
+10.1 Subtracting mixed numbers   | 831424899420     | Submitted  | 23/25      | 2025-11-27T04:12:55.976Z
+Chapter 9 Quiz                   | 831144501507     | Submitted  | 25/30      | 2025-11-25T15:53:54.782Z
+9.3 Changing the subject         | 831132644157     | Submitted  | 10/10      | 2025-11-25T15:10:40.230Z
+9.2 Constructing and using formu | 831134155252     | Submitted  | 10/10      | 2025-11-25T15:08:26.692Z
+9.1 Functions                    | 828580980821     | Submitted  | 11/12      | 2025-11-12T14:37:21.691Z
+Chapter 8 Quiz                   | 820237664095     | Submitted  | 16/20      | 2025-11-02T12:02:39.210Z
+8.3 Stem-and-leaf diagrams       | 822266841558     | Submitted  | 10/10      | 2025-11-02T12:01:29.103Z
+8.2 Dual and compound bar charts | 820237674597     | Submitted  | 10/10      | 2025-11-02T11:59:45.331Z
+8.1 Frequency tables and diagram | 820237633833     | Submitted  | 10/10      | 2025-11-02T11:57:46.763Z
+Chapter 7 Quiz                   | 817751299985     | Submitted  | 32/34      | 2025-10-30T04:06:36.149Z
+7.3 Multiplying and dividing wit | 816615727177     | Submitted  | 28/30      | 2025-10-23T13:57:34.136Z
+7.2 Rounding to significant figu | 816614187234     | Submitted  | 28/30      | 2025-10-23T13:53:45.038Z
+7.1 Multiplying and Dividing by  | 816157768159     | Submitted  | 25/26      | 2025-10-21T07:03:34.547Z
 ------------------------------------------------------------------------------------------
 
 --------------------------------------------------

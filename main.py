@@ -106,7 +106,8 @@ def run_with_params(credentials: str = "credentials.json",
                     student_id: str = None,
                     additional_context: str = None,
                     reports_dir: str = None,
-                    ai_max_retries: str = None):
+                    ai_max_retries: str = None,
+                    batch_size: str = None):
     """Non-interactive entrypoint for GUI or automation.
 
     Parameters mirror the CLI flow. If mode_choice==1 -> all courses; 2 -> single course (course_id required);
@@ -118,6 +119,8 @@ def run_with_params(credentials: str = "credentials.json",
         os.environ["REPORTS_DIR"] = reports_dir
     if ai_max_retries is not None:
         os.environ["AI_MAX_RETRIES"] = str(ai_max_retries)
+    if batch_size is not None:
+        os.environ["AI_BATCH_SIZE"] = str(batch_size)
 
     logger.info("Starting non-interactive analysis run (GUI/automation)")
 
