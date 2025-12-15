@@ -1,0 +1,31 @@
+Summary Table for Course: 7/3 Mathematics (761008786145)
+==================================================
+
+| Student Name                       | Total Assigned | Missing | Late | Graded Count | Avg Submitted | Avg All | Category         |
++------------------------------------+----------------+---------+------+--------------+---------------+---------+------------------+
+| Fu Yin                              | 21             | 1       | 0    | 20           |         88.41 |   72.04 | N/A              |
+| Irisa Preechaweerakul               | 21             | 1       | 0    | 20           |         85.00 |   69.26 | N/A              |
+| Janyawatt Jirathanachote            | 21             | 3       | 0    | 18           |         79.00 |   55.74 | N/A              |
+| Khatathep Maichan                   | 21             | 4       | 0    | 17           |         80.16 |   54.63 | N/A              |
+| Krittikan Saenpuang                 | 21             | 2       | 0    | 19           |         85.97 |   62.41 | N/A              |
+| Leon Martynov                       | 21             | 1       | 0    | 20           |         85.91 |   70.00 | N/A              |
+| Napaskorn Chawnafang                | 21             | 1       | 0    | 20           |         89.32 |   72.78 | N/A              |
+| Naruedee Staknaruepol               | 21             | 2       | 0    | 19           |         73.76 |   57.78 | N/A              |
+| Natthasiri Sirijindapan             | 21             | 5       | 1    | 16           |         59.47 |   41.85 | N/A              |
+| Neelkamal Matta                     | 21             | 1       | 0    | 20           |         82.50 |   67.22 | N/A              |
+| Nonnathee Vongrat                   | 21             | 1       | 0    | 20           |         91.59 |   74.63 | N/A              |
+| Nydcha Santhanthana                 | 21             | 4       | 0    | 17           |         79.12 |   56.85 | N/A              |
+| Panicha Laohakunakorn               | 21             | 5       | 0    | 16           |         84.29 |   54.63 | N/A              |
+| Paphada Ogushi                      | 21             | 7       | 2    | 14           |         64.12 |   35.74 | N/A              |
+| Paphawin Panmongkon                 | 21             | 2       | 0    | 19           |         89.57 |   70.00 | N/A              |
+| Paritporn Uppakul                   | 21             | 14      | 1    | 7            |         74.44 |   18.33 | N/A              |
+| Patchanan Songkram                  | 21             | 4       | 1    | 17           |         78.05 |   59.26 | N/A              |
+| Pateepat Jongjaroenmunkong          | 21             | 2       | 0    | 19           |         79.21 |   59.26 | N/A              |
+| Pimpassakorn Chotikanta             | 21             | 4       | 1    | 17           |         77.64 |   57.22 | N/A              |
+| Ranont Teonugul                     | 21             | 1       | 0    | 20           |         90.45 |   73.70 | N/A              |
+| Rose Tanjai Hotchin                 | 21             | 10      | 1    | 11           |         75.11 |   32.41 | N/A              |
+| Shine Kijthanacharoen               | 21             | 1       | 0    | 20           |         84.55 |   68.89 | N/A              |
+| Supagorn Wititworakul               | 21             | 1       | 0    | 20           |         85.91 |   70.00 | N/A              |
+| Vivitorn Tangngamchit               | 21             | 1       | 1    | 20           |         88.86 |   72.41 | N/A              |
+| Waritnont Srikaraket                | 21             | 1       | 0    | 20           |         90.91 |   74.07 | N/A              |
++------------------------------------+----------------+---------+------+--------------+---------------+---------+------------------+

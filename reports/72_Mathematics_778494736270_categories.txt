@@ -1,33 +1,27 @@
 Course: 7/2 Mathematics (778494736270)
 ========================================
-At Risk:
+N/A:
  - Piriya Nilluang
- - Pasasi Viboolchan
- - Pukkawat Serilertwong
- - Touchdham Boonma
-
-Average:
  - Asia Muangsuwan Oren
  - Chanikarn Hiruntrakul
  - Hana Yoshizawa
+ - Pasasi Viboolchan
  - Kawintida Yamauchi
- - Melissa Meena Tilley
- - Alis Chokpitakkul
- - Warapada Eakbuse
- - Alex Myers Kobhirankul
- - Xinhai Lu
-
-Improving:
  - Jasmine Fagel
  - Ghunyahphan Phattharakasemsi
  - Chatsorn Limchinnachot
+ - Melissa Meena Tilley
+ - Alis Chokpitakkul
  - Napatsanan Pinitsuwan
+ - Warapada Eakbuse
+ - Pukkawat Serilertwong
+ - Siqi Pan
  - Supakorn Amradee
+ - Thane Wongyaanava
+ - Alex Myers Kobhirankul
  - Jin Young Im
+ - Xinhai Lu
  - Kornkawin Chariratanaprakorn
  - Intouch Jirathanasin
-
-Emerging:
- - Siqi Pan
- - Thane Wongyaanava
+ - Touchdham Boonma
 

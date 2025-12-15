@@ -1,3 +1,4 @@
+# gui.py
 import threading
 import tkinter as tk
 from tkinter import ttk, messagebox, scrolledtext, filedialog
@@ -46,9 +47,9 @@ class DateSelector(ttk.Frame):
             months = [f"{m:02d}" for m in range(1, 13)]
             days = [f"{d:02d}" for d in range(1, 32)]
 
-            self.year_var = tk.StringVar(value=str(today.year))
-            self.month_var = tk.StringVar(value=f"{today.month:02d}")
-            self.day_var = tk.StringVar(value=f"{today.day:02d}")
+            self.year_var = tk.StringVar(value="")
+            self.month_var = tk.StringVar(value="")
+            self.day_var = tk.StringVar(value="")
 
             self.year_cb = ttk.Combobox(self, values=years, width=6, textvariable=self.year_var, state='readonly')
             self.month_cb = ttk.Combobox(self, values=months, width=4, textvariable=self.month_var, state='readonly')
@@ -103,6 +104,7 @@ class AnalyzerGUI(tk.Tk):
         self.token_var = tk.StringVar(value="token.json")
         ttk.Entry(frm, textvariable=self.token_var, width=40).grid(row=1, column=1, sticky=tk.W)
         ttk.Button(frm, text="Browse", command=self.browse_token).grid(row=1, column=2)
+        ttk.Button(frm, text="Reauthenticate", command=self.reauthenticate).grid(row=1, column=3)
 
         # Model, env, and batch size
         ttk.Label(frm, text="Ollama model:").grid(row=2, column=0, sticky=tk.W)
@@ -123,141 +125,116 @@ class AnalyzerGUI(tk.Tk):
         self.ai_retries_var = tk.StringVar(value="5")
         ttk.Entry(frm, textvariable=self.ai_retries_var, width=10).grid(row=5, column=1, sticky=tk.W)
 
+        # Include teacher reports checkbox
+        self.include_teacher_var = tk.BooleanVar(value=False)
+        ttk.Checkbutton(frm, text="Include AI Teacher Reports", variable=self.include_teacher_var).grid(row=6, column=0, columnspan=2, sticky=tk.W)
+
         # Dates and mode
         # Date selectors: prefer tkcalendar.DateEntry if available, otherwise fallback to combobox selectors
-        ttk.Label(frm, text="Start date:").grid(row=5, column=0, sticky=tk.W)
+        ttk.Label(frm, text="Start date (leave blank for no filter):").grid(row=7, column=0, sticky=tk.W)
         self.start_selector = DateSelector(frm)
-        self.start_selector.grid(row=5, column=1, sticky=tk.W)
+        self.start_selector.grid(row=7, column=1, sticky=tk.W)
 
-        ttk.Label(frm, text="End date:").grid(row=6, column=0, sticky=tk.W)
+        ttk.Label(frm, text="End date (leave blank for no filter):").grid(row=8, column=0, sticky=tk.W)
         self.end_selector = DateSelector(frm)
-        self.end_selector.grid(row=6, column=1, sticky=tk.W)
+        self.end_selector.grid(row=8, column=1, sticky=tk.W)
 
         # Mode radio
         self.mode_var = tk.IntVar(value=1)
-        modes = [(1, "Analyze all classes"), (2, "Analyze single class"), (3, "Analyze single student")]
-        for idx, (val, txt) in enumerate(modes):
-            ttk.Radiobutton(frm, text=txt, variable=self.mode_var, value=val, command=self.on_mode_change).grid(row=7+idx, column=0, columnspan=2, sticky=tk.W)
+        modes = [(1, "Analyze all classes"), (2, "Analyze single class"), (3, "Analyze a single student")]
+        for i, (val, txt) in enumerate(modes):
+            ttk.Radiobutton(frm, text=txt, variable=self.mode_var, value=val, command=self.on_mode_change).grid(row=9+i, column=0, columnspan=2, sticky=tk.W)
 
-        # Course selection
-        ttk.Label(frm, text="Selected course:").grid(row=10, column=0, sticky=tk.W)
-        self.course_cb = ttk.Combobox(frm, state="readonly", width=50)
-        self.course_cb.grid(row=10, column=1, sticky=tk.W)
+        # Course / student selectors
+        ttk.Label(frm, text="Course:").grid(row=12, column=0, sticky=tk.W)
+        self.course_cb = ttk.Combobox(frm, width=40, state='readonly')
+        self.course_cb.grid(row=12, column=1, sticky=tk.W)
         self.load_courses_btn = ttk.Button(frm, text="Load Courses", command=self.load_courses)
-        self.load_courses_btn.grid(row=10, column=2)
-        # When a course is selected in the combobox, automatically load students
-        self.course_cb.bind('<<ComboboxSelected>>', lambda e: self.load_students())
+        self.load_courses_btn.grid(row=12, column=2)
 
-        ttk.Label(frm, text="Selected student:").grid(row=11, column=0, sticky=tk.W)
-        self.student_cb = ttk.Combobox(frm, state="readonly", width=50)
-        self.student_cb.grid(row=11, column=1, sticky=tk.W)
+        ttk.Label(frm, text="Student:").grid(row=13, column=0, sticky=tk.W)
+        self.student_cb = ttk.Combobox(frm, width=40, state='readonly')
+        self.student_cb.grid(row=13, column=1, sticky=tk.W)
         self.load_students_btn = ttk.Button(frm, text="Load Students", command=self.load_students)
-        self.load_students_btn.grid(row=11, column=2)
+        self.load_students_btn.grid(row=13, column=2)
 
         # Additional context
-        ttk.Label(frm, text="Additional context:").grid(row=12, column=0, sticky=tk.NW)
+        ttk.Label(frm, text="Additional context:").grid(row=14, column=0, sticky=tk.NW)
         self.context_txt = scrolledtext.ScrolledText(frm, width=50, height=4)
-        self.context_txt.grid(row=12, column=1, columnspan=2, sticky=tk.W)
+        self.context_txt.grid(row=14, column=1, columnspan=2, sticky=tk.W)
 
-        # Controls
-        ctrl = ttk.Frame(self)
-        ctrl.pack(fill=tk.X, padx=8, pady=6)
-        self.run_btn = ttk.Button(ctrl, text="Run Analysis", command=self.on_run)
-        self.run_btn.pack(side=tk.LEFT)
-        ttk.Button(ctrl, text="Open Reports", command=self.open_reports_folder).pack(side=tk.LEFT, padx=(4, 0))
-        ttk.Button(ctrl, text="Quit", command=self.quit).pack(side=tk.RIGHT)
+        # Buttons
+        btn_frm = ttk.Frame(self)
+        btn_frm.pack(pady=10)
+        self.run_btn = ttk.Button(btn_frm, text="Run Analysis", command=self.on_run)
+        self.run_btn.pack(side=tk.LEFT, padx=5)
+        ttk.Button(btn_frm, text="Open Reports Folder", command=self.open_reports_folder).pack(side=tk.LEFT, padx=5)
 
-        # Log output
-        self.log_out = scrolledtext.ScrolledText(self, state="disabled")
-        self.log_out.pack(fill=tk.BOTH, expand=True, padx=8, pady=6)
+        # Log area
+        self.log_txt = scrolledtext.ScrolledText(self, height=10)
+        self.log_txt.pack(fill=tk.BOTH, expand=True, padx=8, pady=8)
 
+        # Initial state
+        self.on_mode_change()
         self.courses = []
         self.students = []
-        # Ensure controls reflect initial mode immediately
-        try:
-            self.on_mode_change()
-        except Exception:
-            pass
-
-        # Auto-load courses on GUI start
-        try:
-            self.load_courses()
-        except Exception:
-            # Swallow exceptions on startup to avoid blocking the GUI; errors are logged in load_courses
-            pass
-        self.available_models = []
-
-    def load_models(self):
-        """Fetch available Ollama models from the local Ollama service."""
-        self.log("Fetching available Ollama models...")
-        try:
-            # Query Ollama API (default localhost:11434)
-            url = "http://localhost:11434/api/tags"
-            req = urllib.request.Request(url)
-            req.add_header('User-Agent', 'learner-performance-monitor')
-            with urllib.request.urlopen(req, timeout=5) as response:
-                data = json.loads(response.read().decode('utf-8'))
-            
-            models = data.get('models', [])
-            if not models:
-                messagebox.showwarning("No models", "No models found on Ollama. Please pull a model first.")
-                self.log("No Ollama models found")
-                return
-            
-            model_names = [m['name'] for m in models]
-            self.available_models = model_names
-            self.model_cb['values'] = model_names
-            
-            # Set default if available
-            if "gpt-oss:20b" in model_names:
-                self.model_var.set("gpt-oss:20b")
-            elif model_names:
-                self.model_var.set(model_names[0])
-            
-            self.log(f"Loaded {len(model_names)} Ollama models: {', '.join(model_names[:3])}{'...' if len(model_names) > 3 else ''}")
-        except urllib.error.URLError as e:
-            logger.exception("Error connecting to Ollama: %s", e)
-            messagebox.showerror("Connection Error", "Could not connect to Ollama (http://localhost:11434).\nMake sure Ollama is running.")
-            self.log("Failed to connect to Ollama service")
-        except json.JSONDecodeError as e:
-            logger.exception("Error parsing Ollama response: %s", e)
-            messagebox.showerror("Error", "Could not parse Ollama response")
-        except Exception as e:
-            logger.exception("Error loading models: %s", e)
-            messagebox.showerror("Error", f"Error loading models: {str(e)}")
-
-
-    def browse_credentials(self):
-        p = filedialog.askopenfilename(title="Select credentials.json", filetypes=[("JSON files","*.json"), ("All files","*")])
-        if p:
-            self.credentials_var.set(p)
-
-    def browse_token(self):
-        p = filedialog.askopenfilename(title="Select token.json", filetypes=[("JSON files","*.json"), ("All files","*")])
-        if p:
-            self.token_var.set(p)
+        self.models = []
 
     def log(self, msg):
-        self.log_out.configure(state="normal")
-        self.log_out.insert(tk.END, msg + "\n")
-        self.log_out.see(tk.END)
-        self.log_out.configure(state="disabled")
+        self.log_txt.insert(tk.END, msg + "\n")
+        self.log_txt.see(tk.END)
+
+    def browse_credentials(self):
+        path = filedialog.askopenfilename(filetypes=[("JSON files", "*.json")])
+        if path:
+            self.credentials_var.set(path)
+
+    def browse_token(self):
+        path = filedialog.askopenfilename(filetypes=[("JSON files", "*.json")])
+        if path:
+            self.token_var.set(path)
+
+    def reauthenticate(self):
+        token_path = self.token_var.get()
+        if os.path.exists(token_path):
+            try:
+                os.remove(token_path)
+                self.log(f"Deleted token file: {token_path}. Please load courses to authenticate again.")
+            except Exception as e:
+                self.log(f"Error deleting token file: {str(e)}")
+                messagebox.showerror("Error", f"Could not delete token file: {str(e)}")
+        else:
+            self.log("No token file found. Load courses to authenticate.")
+        # Optionally reload courses to trigger authentication
+        self.load_courses()
+
+    def load_models(self):
+        self.log("Loading Ollama models...")
+        try:
+            with urllib.request.urlopen("http://localhost:11434/api/tags") as resp:
+                data = json.loads(resp.read())
+                self.models = [m['name'] for m in data.get('models', [])]
+                self.model_cb['values'] = self.models
+                if self.models:
+                    self.model_cb.current(0)
+                self.log(f"Loaded {len(self.models)} models")
+        except urllib.error.URLError:
+            messagebox.showerror("Error", "Could not connect to Ollama at http://localhost:11434. Is it running?")
+        except Exception as e:
+            logger.exception("Error loading models: %s", e)
+            messagebox.showerror("Error", str(e))
 
     def on_mode_change(self):
         mode = self.mode_var.get()
-        # Mode handling:
-        # 1 -> Analyze all classes: disable course and student selectors
-        # 2 -> Analyze single class: enable course selector, disable student selector
-        # 3 -> Analyze single student: enable both
         if mode == 1:
-            # Disable course and student selection
+            # Disable selectors
             try:
-                self.course_cb.configure(state='disabled')
+                self.course_cb.configure(state=tk.DISABLED)
                 self.load_courses_btn.configure(state=tk.DISABLED)
             except Exception:
                 pass
             try:
-                self.student_cb.configure(state='disabled')
+                self.student_cb.configure(state=tk.DISABLED)
                 self.load_students_btn.configure(state=tk.DISABLED)
             except Exception:
                 pass
@@ -272,7 +249,7 @@ class AnalyzerGUI(tk.Tk):
             except Exception:
                 pass
             try:
-                self.student_cb.configure(state='disabled')
+                self.student_cb.configure(state=tk.DISABLED)
                 self.load_students_btn.configure(state=tk.DISABLED)
             except Exception:
                 pass
@@ -354,6 +331,7 @@ class AnalyzerGUI(tk.Tk):
         if student_sel:
             student_id = student_sel.split('(')[-1].strip(')')
         additional_context = self.context_txt.get('1.0', tk.END).strip() or None
+        include_teacher_reports = self.include_teacher_var.get()
 
         # run in background thread
         def target():
@@ -371,7 +349,8 @@ class AnalyzerGUI(tk.Tk):
                                       additional_context=additional_context,
                                       reports_dir=reports_dir,
                                       ai_max_retries=ai_retries,
-                                      batch_size=batch_size)
+                                      batch_size=batch_size,
+                                      include_teacher_reports=include_teacher_reports)
                 self.log("Analysis complete. Check reports directory.")
                 messagebox.showinfo("Done", "Analysis complete. Check reports directory.")
             except Exception as e:

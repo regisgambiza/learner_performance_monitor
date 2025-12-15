@@ -1,35 +1,29 @@
 Course: 7/3 Mathematics (761008786145)
 ========================================
-At Risk:
+N/A:
  - Paphada Ogushi
  - Rose Tanjai Hotchin
+ - Fu Yin
  - Patchanan Songkram
  - Natthasiri Sirijindapan
- - Paritporn Uppakul
- - Khatathep Maichan
-
-Average:
- - Fu Yin
- - Vivitorn Tangngamchit
- - Shine Kijthanacharoen
- - Krittikan Saenpuang
- - Irisa Preechaweerakul
- - Leon Martynov
- - Paphawin Panmongkon
- - Napaskorn Chawnafang
- - Supagorn Wititworakul
- - Neelkamal Matta
-
-Improving:
  - Pimpassakorn Chotikanta
  - Panicha Laohakunakorn
+ - Paritporn Uppakul
+ - Vivitorn Tangngamchit
  - Nydcha Santhanthana
+ - Shine Kijthanacharoen
+ - Krittikan Saenpuang
  - Naruedee Staknaruepol
- - Pateepat Jongjaroenmunkong
- - Janyawatt Jirathanachote
-
-High Performer:
+ - Irisa Preechaweerakul
  - Waritnont Srikaraket
+ - Leon Martynov
+ - Pateepat Jongjaroenmunkong
+ - Paphawin Panmongkon
+ - Janyawatt Jirathanachote
  - Nonnathee Vongrat
+ - Napaskorn Chawnafang
  - Ranont Teonugul
+ - Khatathep Maichan
+ - Supagorn Wititworakul
+ - Neelkamal Matta
 

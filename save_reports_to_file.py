@@ -1,3 +1,4 @@
+# save_reports_to_file.py
 import logging
 import os
 import re
@@ -10,7 +11,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger("main")
 
-def save_reports_to_file(course, student_analysis, reports, output_file="student_reports.txt"):
+def save_reports_to_file(course, student_analysis, reports, output_file="student_reports.txt", include_teacher_reports=True):
     # Ensure reports directory exists and create a per-course file so classes aren't mixed
     reports_dir = os.getenv("REPORTS_DIR", "reports")
     os.makedirs(reports_dir, exist_ok=True)
@@ -34,24 +35,28 @@ def save_reports_to_file(course, student_analysis, reports, output_file="student
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(f"Reports for Course: {course['name']} ({course['id']})\n")
         f.write("=" * 50 + "\n")
-        for sid, rep in reports.items():
-            profile = student_analysis[sid]["student"].get("profile", {}) if sid in student_analysis else {}
+        for sid in student_analysis:
+            profile = student_analysis[sid]["student"].get("profile", {})
             name_info = profile.get("name", {})
             full_name = " ".join(filter(None, [name_info.get("givenName",""), name_info.get("familyName","")])).strip() or sid
 
-            ai_text = rep["ai_response"]
-
-            # Extract category
-            category_line = next((line for line in ai_text.splitlines() if line.strip().startswith("Category:")), None)
-            category = category_line.split(":", 1)[1].strip() if category_line else "Needs Review"
+            if sid in reports:
+                ai_text = reports[sid]["ai_response"]
+                # Extract category
+                category_line = next((line for line in ai_text.splitlines() if line.strip().startswith("Category:")), None)
+                category = category_line.split(":", 1)[1].strip() if category_line else "Needs Review"
+            else:
+                ai_text = ""
+                category = "N/A"
 
             # Add to grouping
             category_groups.setdefault(category, []).append(full_name)
 
-            # --- Write header + AI teacher report ---
+            # --- Write header + AI teacher report (if included and available) ---
             f.write(f"Student: {full_name}\n")
             f.write(f"Student ID: {sid}\n")
-            f.write(f"Teacher Report:\n{ai_text}\n")
+            if include_teacher_reports and ai_text:
+                f.write(f"Teacher Report:\n{ai_text}\n")
 
             metrics = student_analysis[sid]["metrics"]
 
@@ -136,3 +141,39 @@ def save_reports_to_file(course, student_analysis, reports, output_file="student
                 cf.write(f" - {name}\n")
             cf.write("\n")
     logger.info("Category grouping saved to %s", cat_file)
+
+    # --- Save summary table for all learners ---
+    summary_path = os.path.join(reports_dir, f"{file_base}_summary.txt")
+    logger.info("Saving summary table to %s", summary_path)
+    students_summary = []
+    for sid in student_analysis:
+        profile = student_analysis[sid]["student"].get("profile", {})
+        name_info = profile.get("name", {})
+        full_name = " ".join(filter(None, [name_info.get("givenName",""), name_info.get("familyName","")])).strip() or sid
+        metrics = student_analysis[sid]["metrics"]
+        if sid in reports:
+            ai_text = reports[sid]["ai_response"]
+            category_line = next((line for line in ai_text.splitlines() if line.strip().startswith("Category:")), None)
+            category = category_line.split(":", 1)[1].strip() if category_line else "Needs Review"
+        else:
+            category = "N/A"
+        students_summary.append({
+            "name": full_name,
+            "total": metrics['total_assignments'],
+            "missing": metrics['missing'],
+            "late": metrics['late'],
+            "graded": metrics['graded_count'],
+            "avg_sub": metrics['average_submitted'],
+            "avg_all": metrics['average_all'],
+            "category": category
+        })
+    students_summary.sort(key=lambda x: x["name"])
+
+    with open(summary_path, "w", encoding="utf-8") as sf:
+        sf.write(f"Summary Table for Course: {course['name']} ({course['id']})\n")
+        sf.write("=" * 50 + "\n\n")
+        sf.write("| Student Name                        | Total Assigned | Missing | Late | Graded Count | Avg Submitted | Avg All | Category         |\n")
+        sf.write("+-------------------------------------+----------------+---------+------+--------------+---------------+---------+------------------+\n")
+        for s in students_summary:
+            sf.write(f"| {s['name']:<35} | {s['total']:<14} | {s['missing']:<7} | {s['late']:<4} | {s['graded']:<12} | {s['avg_sub']:>13.2f} | {s['avg_all']:>7.2f} | {s['category']:<16} |\n")
+        sf.write("+-------------------------------------+----------------+---------+------+--------------+---------------+---------+------------------+\n")

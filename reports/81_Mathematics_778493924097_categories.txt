@@ -1,41 +1,33 @@
 Course: 8/1 Mathematics (778493924097)
 ========================================
-Average:
+N/A:
  - Natcharat Leelamasavat
+ - Sunattaya Promfang
+ - Rungtiwa Sangsawangwatana
  - Charlene Mae Hiruntrakul
+ - Ornpailin Limpiphiphatn
+ - Chutanudda Nielsen
+ - Lena Sombatwong
+ - Mana Bumpenwarodom
  - Punnaphat Janesukhum
+ - Phimchaya Charoenkit
  - Chi En Liu
+ - Varinda Younglure
+ - Sirikwan Jenkriengkrai
+ - Waranya Fueangfu
  - Yuna Ochi
  - KANIDA PANITCHAPAN
  - Chanut Nongphue
  - Chonnatan Cheevachuen
  - Royston Tanthai Hotchin
- - Nattaphat Tinprakasmas
- - Titus Chidkrua
-
-At Risk:
- - Sunattaya Promfang
- - Rungtiwa Sangsawangwatana
- - Sina Mohammadzadeh
- - Chinawut Kiatchertsaengsuk
-
-High Performer:
- - Ornpailin Limpiphiphatn
- - Lena Sombatwong
- - Phimchaya Charoenkit
- - Sirikwan Jenkriengkrai
-
-Improving:
- - Chutanudda Nielsen
- - Mana Bumpenwarodom
- - Varinda Younglure
- - Waranya Fueangfu
  - Krisakorn Sae-Jang
+ - Sina Mohammadzadeh
  - Prann Pumprao
+ - Nattaphat Tinprakasmas
+ - Chinawut Kiatchertsaengsuk
  - Thananon Kijjathon
- - Euaunggun Kongnirattisaiyakul
-
-Emerging:
  - Lippakorn Arwatchanakarn
+ - Euaunggun Kongnirattisaiyakul
+ - Titus Chidkrua
  - Noppasindhu Pholpoke
 

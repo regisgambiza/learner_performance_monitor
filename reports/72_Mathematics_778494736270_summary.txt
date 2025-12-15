@@ -1,0 +1,29 @@
+Summary Table for Course: 7/2 Mathematics (778494736270)
+==================================================
+
+| Student Name                       | Total Assigned | Missing | Late | Graded Count | Avg Submitted | Avg All | Category         |
++------------------------------------+----------------+---------+------+--------------+---------------+---------+------------------+
+| Alex Myers Kobhirankul              | 21             | 1       | 0    | 20           |         80.09 |   65.31 | N/A              |
+| Alis Chokpitakkul                   | 21             | 1       | 0    | 20           |         79.86 |   65.13 | N/A              |
+| Asia Muangsuwan Oren                | 21             | 1       | 0    | 20           |         79.19 |   64.58 | N/A              |
+| Chanikarn Hiruntrakul               | 21             | 1       | 0    | 20           |         82.35 |   67.16 | N/A              |
+| Chatsorn Limchinnachot              | 21             | 4       | 0    | 17           |         75.99 |   53.14 | N/A              |
+| Ghunyahphan Phattharakasemsi        | 21             | 2       | 0    | 19           |         75.63 |   54.98 | N/A              |
+| Hana Yoshizawa                      | 21             | 1       | 0    | 20           |         80.77 |   65.87 | N/A              |
+| Intouch Jirathanasin                | 21             | 1       | 0    | 20           |         73.30 |   59.78 | N/A              |
+| Jasmine Fagel                       | 21             | 2       | 0    | 19           |         82.99 |   60.33 | N/A              |
+| Jin Young Im                        | 21             | 1       | 0    | 20           |         69.46 |   56.64 | N/A              |
+| Kawintida Yamauchi                  | 21             | 1       | 0    | 20           |         77.38 |   63.10 | N/A              |
+| Kornkawin Chariratanaprakorn        | 21             | 1       | 0    | 20           |         72.17 |   58.86 | N/A              |
+| Melissa Meena Tilley                | 21             | 1       | 0    | 20           |         82.58 |   67.34 | N/A              |
+| Napatsanan Pinitsuwan               | 21             | 3       | 0    | 18           |         77.81 |   53.69 | N/A              |
+| Pasasi Viboolchan                   | 21             | 6       | 0    | 15           |         74.43 |   41.88 | N/A              |
+| Piriya Nilluang                     | 21             | 1       | 0    | 20           |         45.70 |   37.27 | N/A              |
+| Pukkawat Serilertwong               | 21             | 3       | 0    | 18           |         51.57 |   39.30 | N/A              |
+| Siqi Pan                            | 21             | 2       | 0    | 19           |         60.42 |   47.60 | N/A              |
+| Supakorn Amradee                    | 21             | 1       | 0    | 20           |         70.36 |   57.38 | N/A              |
+| Thane Wongyaanava                   | 21             | 6       | 0    | 15           |         77.47 |   52.03 | N/A              |
+| Touchdham Boonma                    | 21             | 10      | 0    | 11           |         82.97 |   42.25 | N/A              |
+| Warapada Eakbuse                    | 21             | 2       | 0    | 19           |         87.06 |   68.27 | N/A              |
+| Xinhai Lu                           | 21             | 1       | 0    | 20           |         85.75 |   69.93 | N/A              |
++------------------------------------+----------------+---------+------+--------------+---------------+---------+------------------+

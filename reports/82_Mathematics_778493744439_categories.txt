@@ -1,40 +1,30 @@
 Course: 8/2 Mathematics (778493744439)
 ========================================
-Average:
+N/A:
  - Nontawat Lertchaiprasert
+ - Amelia Monk
  - Thiyada Dawao
+ - Chalinthip Sae-Wong
  - Sirin Benjamahakit
  - Thanida Butsakorn
+ - Sukita Phangphithak
  - Sherraan Yotanasakulwong
+ - Saranporn Nuprik
  - Patdharapiti Sawasdee
+ - Mayra Booncharoen
  - Phutthanapat Patthum
+ - Parin Muangon
+ - Phattara Mongkontanasiri
  - Rich Paniyasakun
  - Natsiwat Asawapisitkul
  - Haruto Ito
  - Nawin Wannaparhun
- - Shitipat Samana
-
-At Risk:
- - Amelia Monk
- - Sukita Phangphithak
- - Mayra Booncharoen
  - Umarin Roekmongkhonwit
- - Yotam Mahatthanamongkon
-
-Emerging:
- - Chalinthip Sae-Wong
- - Saranporn Nuprik
-
-Improving:
- - Parin Muangon
+ - Apivit Sivasri
+ - Shitipat Samana
  - Keith Russell
  - Punnathorn Wisutmetheekorn
+ - Yotam Mahatthanamongkon
  - Bovornwit Nookaew
-
-High Performer:
- - Phattara Mongkontanasiri
  - Thakorn Dechopol
-
-Needs Review:
- - Apivit Sivasri
 

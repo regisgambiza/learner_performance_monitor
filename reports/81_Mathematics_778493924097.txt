@@ -2,31 +2,24 @@ Reports for Course: 8/1 Mathematics (778493924097)
 ==================================================
 Student: Natcharat Leelamasavat
 Student ID: 116806481535403601771
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- The student’s overall average score of 85.9 % indicates solid academic performance, though it does not reach the 90 % threshold for High Performer status.  
-- Submission habits are exemplary: all 16 assignments were submitted on time with no missing or late work, demonstrating strong organizational skills.  
-- Strengths are evident in high scores on quizzes and class activities, especially in conversions (30/32), 9.3 (10/10), 9.2 (10/10), and 7.1 (26/26), reflecting strong conceptual understanding in those areas.  
-- The primary learning gaps are found in assignments 10.2 (11/32) and 9.1 (8/12), where scores fall below the class average; these suggest difficulty with fractions and functions.  
-- Recommended strategies: provide targeted practice on fraction operations and function concepts, employ formative quizzes to reinforce weak areas, and offer optional tutoring sessions or peer‑study groups to reinforce learning.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 0               |
+| Total Assigned  | 17              |
+| Missing         | 1               |
 | Late            | 0               |
 | Graded Count    | 16              |
 | Average (submitted) | 85.92  % (293.00/341.00) |
-| Average (all)       | 85.92  %              |
+| Average (all)       | 66.44  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 30/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 20/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 11/32      | 2025-11-28T01:21:06.737Z
@@ -48,31 +41,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 30/34      | 
 --------------------------------------------------
 Student: Sunattaya Promfang
 Student ID: 106754724722917820134
-Teacher Report:
-Category: At Risk  
-Teacher Report:  
-- The overall average score of 46.3 % (including missing work counted as zero) is well below the 50 % threshold, indicating significant academic concern.  
-- Submission habits reveal a high missing rate: 7 of 16 assignments were not submitted, although all 9 graded submissions were turned in on time, pointing to a consistent issue with completing assigned work.  
-- Among submitted work, the student shows moments of competency with scores such as 30/32 and 27/30, but also lower marks on 9.1 (8/12) and 10.1 (9/25), suggesting uneven mastery of concepts.  
-- Risks include a growing backlog of missing assignments that could impede understanding of subsequent material, and a low overall average that may lead to disengagement if not addressed.  
-- Recommended strategies: implement a structured homework plan with reminders, schedule a one‑on‑one review session to identify barriers to submission, provide supplemental worksheets focusing on fractions and conversion problems, and consider assigning a small, graded formative assessment to re‑engage the student.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 7               |
+| Total Assigned  | 17              |
+| Missing         | 8               |
 | Late            | 0               |
 | Graded Count    | 9               |
 | Average (submitted) | 66.11  % (158.00/239.00) |
-| Average (all)       | 46.33  %              |
+| Average (all)       | 35.83  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Missing    | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 30/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 14/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Missing    | —          | 2025-11-28T01:21:06.737Z
@@ -94,36 +80,25 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 20/34      | 
 --------------------------------------------------
 Student: Rungtiwa Sangsawangwatana
 Student ID: 106491898499488462123
-Teacher Report:
-Category: At Risk  
-Teacher Report:  
-- Average score is 46.92 %, indicating significant below‑average performance across all assignments.  
-- Submission habits show a high number of missing assignments (7 of 16) with no late submissions, underscoring a pattern of incomplete work that is detrimental to overall learning.  
-- Strengths are evident in the recent class activities (e.g., 24/30 on “7.3 Multiplying and dividing with integers and decimals” and 23/26 on “7.1 Multiplying and Dividing by 0.1 and 0.01”), suggesting the student can grasp concepts when given focused, hands‑on tasks.  
-- Risks include the large gap between the average and the high scores on some activities, coupled with many missing critical quizzes (Chapter 10 Quiz, Chapter 9 Quiz). This indicates inconsistent engagement and potential gaps in foundational skills such as basic operations and quiz preparation.  
-- Recommended strategies:  
-  * Implement a structured check‑in system to ensure assignment completion (e.g., weekly reminders and a “turn‑in” log).  
-  * Offer targeted remedial sessions focusing on foundational skills (fractions, integers, and mixed‑number subtraction) and quiz strategies.  
-  * Encourage peer‑review or study‑group sessions to improve engagement and accountability.  
-  * Schedule a progress review with the student and parents to set clear, incremental goals and monitor adherence.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 7               |
+| Total Assigned  | 17              |
+| Missing         | 8               |
 | Late            | 0               |
 | Graded Count    | 9               |
 | Average (submitted) | 77.29  % (160.00/207.00) |
-| Average (all)       | 46.92  %              |
+| Average (all)       | 36.28  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
-11.1 Converting between miles an | 832070137449     | Missing    | —          | 2025-12-02T03:09:02.720Z
+11.2 Area of 2D shapes           | 821083499838     | Missing    | —          | 2025-12-02T03:10:06.228Z
+11.1 Converting between miles an | 832070137449     | Submitted  | —          | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 16/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Missing    | —          | 2025-11-28T01:21:06.737Z
 10.1 Subtracting mixed numbers   | 831424405142     | Submitted  | 22/25      | 2025-11-27T04:14:22.956Z
@@ -144,35 +119,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 23/34      | 
 --------------------------------------------------
 Student: Charlene Mae Hiruntrakul
 Student ID: 105017699366852763745
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- Average score is 78.59 %, comfortably within the Average band (≥75 % but < 90 %), showing solid overall performance with room for growth.  
-- Submission habits are strong, with only one missing assignment out of 16 and no late submissions, reflecting reliable engagement.  
-- Strengths are highlighted by consistently high scores on practical tasks (e.g., 28/30 on “7.3 Multiplying and dividing with integers and decimals” and 24/32 on “11.1 Converting between miles and kilometres”), indicating proficiency in applied problem‑solving.  
-- Risks involve lower scores in certain areas: 5/12 on “9.1 Functions” and 14/20 on “Chapter 8 Quiz”, suggesting potential difficulties with function concepts and quiz readiness. The single missing assignment (8.2 Dual and compound bar charts) should be addressed to avoid future gaps.  
-- Recommended strategies:  
-  * Provide differentiated support in function topics through additional practice problems and visual aids.  
-  * Conduct a review session focused on quiz techniques (time management, question analysis) to boost confidence.  
-  * Maintain the current high submission rate by continuing timely reminders and celebrating on‑time turns‑in.  
-  * Offer optional enrichment activities for high‑performing assignments to further challenge the student and promote mastery.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 1               |
+| Total Assigned  | 17              |
+| Missing         | 2               |
 | Late            | 0               |
 | Graded Count    | 15              |
 | Average (submitted) | 80.97  % (268.00/331.00) |
-| Average (all)       | 78.59  %              |
+| Average (all)       | 60.77  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 24/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 17/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 30/32      | 2025-11-28T01:21:06.737Z
@@ -194,31 +158,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 27/34      | 
 --------------------------------------------------
 Student: Ornpailin Limpiphiphatn
 Student ID: 106102200343372112679
-Teacher Report:
-Category: High Performer  
-Teacher Report:  
-- Average score: 92.38% demonstrates exceptional mastery of content and consistent high achievement.  
-- Submission habits: 100% on-time, no missing or late work; reflects strong organizational skills and engagement.  
-- Strengths: consistently high marks across all assignment types—quizzes, worksheets, and class activities—often scoring near perfect (e.g., 30/32, 30/30).  
-- Risks: None identified; the student maintains a very low risk profile for academic decline.  
-- Recommended strategies: continue enrichment opportunities, introduce advanced problems, and involve the student in peer tutoring or leadership roles to sustain motivation.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 0               |
+| Total Assigned  | 17              |
+| Missing         | 1               |
 | Late            | 0               |
 | Graded Count    | 16              |
 | Average (submitted) | 92.38  % (315.00/341.00) |
-| Average (all)       | 92.38  %              |
+| Average (all)       | 71.43  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 30/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 17/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 30/32      | 2025-11-28T01:21:06.737Z
@@ -240,32 +197,25 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 29/34      | 
 --------------------------------------------------
 Student: Chutanudda Nielsen
 Student ID: 104142295300870617861
-Teacher Report:
-Category: Improving  
-Teacher Report:  
-- Average score: 68.04% overall (75.08% on submitted work) indicates performance below the 75% threshold yet within the Improving range; shows potential for growth.  
-- Submission habits: one missing assignment, no late submissions; good compliance but the missing work negatively impacts overall average.  
-- Strengths: strong performance on many tasks—quizzes and most class activities scored 10/10 or above; solid conceptual understanding in several areas.  
-- Risks: lower scores in specific domains—Rounding to significant figures (6/30) and Subtracting mixed numbers (13/25)—highlight gaps in numeracy skills; the missing assignment may reflect content missed.  
-- Recommended strategies: targeted intervention on rounding and mixed‑number operations, review of the missing assignment content, use of formative quizzes to monitor progress, and regular check‑ins to ensure the student stays on track.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 1               |
+| Total Assigned  | 17              |
+| Missing         | 2               |
 | Late            | 0               |
 | Graded Count    | 15              |
 | Average (submitted) | 75.08  % (232.00/309.00) |
-| Average (all)       | 68.04  %              |
+| Average (all)       | 52.61  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
-11.1 Converting between miles an | 832070137449     | Missing    | —          | 2025-12-02T03:09:02.720Z
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
+11.1 Converting between miles an | 832070137449     | Submitted  | —          | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 17/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 23/32      | 2025-11-28T01:21:06.737Z
 10.1 Subtracting mixed numbers   | 831424405142     | Submitted  | 13/25      | 2025-11-27T04:14:22.956Z
@@ -286,31 +236,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 28/34      | 
 --------------------------------------------------
 Student: Lena Sombatwong
 Student ID: 116921328509950079254
-Teacher Report:
-Category: High Performer  
-Teacher Report:  
-- Average score: 92.08 % – demonstrates mastery across the curriculum, well above the 90 % threshold for high performance.  
-- Submission habits: 0 missing and 0 late assignments; consistent compliance with all deadlines.  
-- Strengths: Consistently high scores on quizzes (e.g., 20/20 on Chapter 10 Quiz, 30/34 on Chapter 7 Quiz) and perfect or near‑perfect performance on class activities (e.g., 30/30 on 7.3 activity).  
-- Risks: No significant risks identified; the lowest scores (e.g., 30/32 on 10.2) remain above 80 %. Maintain consistency.  
-- Recommended strategies: Provide enrichment opportunities (e.g., advanced problem sets, research projects) to sustain engagement and challenge; continue reinforcing strong habits of timely submission and high-quality work.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 0               |
+| Total Assigned  | 17              |
+| Missing         | 1               |
 | Late            | 0               |
 | Graded Count    | 16              |
 | Average (submitted) | 92.08  % (314.00/341.00) |
-| Average (all)       | 92.08  %              |
+| Average (all)       | 71.20  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 32/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 20/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 30/32      | 2025-11-28T01:21:06.737Z
@@ -332,31 +275,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 30/34      | 
 --------------------------------------------------
 Student: Mana Bumpenwarodom
 Student ID: 116337980280161541813
-Teacher Report:
-Category: Improving  
-Teacher Report:  
-- Average score: 72.73 % – solid performance but below the 75 % target; indicates room for growth.  
-- Submission habits: 2 missing assignments (Chapter 10 Quiz, 9.3 Changing the subject) with no late submissions; overall compliance is good.  
-- Strengths: Excellent performance on class activities (29/30 on 7.3 and 7.2, 25/26 on 7.1) and strong work on data tasks (10/10 on stem‑and‑leaf diagrams, bar charts, frequency tables).  
-- Risks: Early numerical conversions (8/32) and function skills (8/12) are weaker; missing a quiz could signal difficulty with timed assessments.  
-- Recommended strategies: Targeted review of conversion and function concepts; provide additional practice problems and formative quizzes; offer partial credit or alternative tasks for missed assignments to encourage completion; monitor progress with regular feedback sessions.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 2               |
+| Total Assigned  | 17              |
+| Missing         | 3               |
 | Late            | 0               |
 | Graded Count    | 14              |
 | Average (submitted) | 79.74  % (248.00/311.00) |
-| Average (all)       | 72.73  %              |
+| Average (all)       | 56.24  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 8/32       | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Missing    | —          | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 29/32      | 2025-11-28T01:21:06.737Z
@@ -378,34 +314,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 23/34      | 
 --------------------------------------------------
 Student: Punnaphat Janesukhum
 Student ID: 112783539162414176068
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- Average score: 88.3 % indicates solid academic performance, comfortably above the 75 % threshold, but falls short of the 90 % benchmark for high performers.  
-- Submission habits: All 16 assignments were submitted on time with no missing or late entries, reflecting reliable attendance and time‑management skills.  
-- Strengths: Consistently high scores on foundational concepts (e.g., perfect 10/10 on “9.3 Changing the subject” and “8.3 Stem‑and‑leaf diagrams”) and strong performance on quizzes, showing good mastery of core topics.  
-- Risks / learning gaps: A noticeable dip on the Chapter 8 Quiz (14/20) suggests a potential weakness in data interpretation or analysis. Minor inconsistency in the 10.1 Subtracting mixed numbers (22/25) and 11.1 conversion (32/32) indicates a need for steady focus.  
-- Recommended strategies:  
-  - Provide targeted review sessions focusing on statistical data interpretation skills.  
-  - Encourage peer‑learning groups to reinforce quiz preparation.  
-  - Use formative assessments to identify and address small conceptual gaps early.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 0               |
+| Total Assigned  | 17              |
+| Missing         | 1               |
 | Late            | 0               |
 | Graded Count    | 16              |
 | Average (submitted) | 88.27  % (301.00/341.00) |
-| Average (all)       | 88.27  %              |
+| Average (all)       | 68.25  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 32/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 17/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 28/32      | 2025-11-28T01:21:06.737Z
@@ -427,34 +353,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 28/34      | 
 --------------------------------------------------
 Student: Phimchaya Charoenkit
 Student ID: 110451606917651520848
-Teacher Report:
-Category: High Performer  
-Teacher Report:  
-- Average score: 91.2 % exceeds the 90 % threshold, signifying excellent overall mastery and positioning the student among the top performers.  
-- Submission habits: All 16 assignments were completed and submitted on time, demonstrating exemplary organizational habits and commitment.  
-- Strengths: Outstanding scores on quizzes and activities (e.g., 32/32, 30/34, 30/30) and consistent high marks on foundational tasks (e.g., 10/10 on multiple items). The only lower score (8/12) shows resilience and overall high proficiency.  
-- Risks / learning gaps: The 8/12 on “9.1 Functions” suggests a minor conceptual challenge in function analysis; this isolated dip warrants attention to prevent future regression.  
-- Recommended strategies:  
-  - Offer enrichment tasks that deepen understanding of function concepts, such as graphing practice or real‑world application problems.  
-  - Encourage the student to mentor peers, reinforcing their own knowledge while supporting classmates.  
-  - Schedule periodic check‑ins to ensure the single lower score does not indicate a broader trend.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 0               |
+| Total Assigned  | 17              |
+| Missing         | 1               |
 | Late            | 0               |
 | Graded Count    | 16              |
 | Average (submitted) | 91.20  % (311.00/341.00) |
-| Average (all)       | 91.20  %              |
+| Average (all)       | 70.52  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 32/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 19/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 24/32      | 2025-11-28T01:21:06.737Z
@@ -476,31 +392,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 30/34      | 
 --------------------------------------------------
 Student: Chi En Liu
 Student ID: 112748598471665156082
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- Average score of 85.9% demonstrates a solid grasp of content, though it falls just below the High Performer threshold of 90%.  
-- Submission habits are strong, with only 1 missing assignment and no late submissions, indicating good time‑management skills.  
-- Strengths are evident in consistently high scores on quizzes and class activities (e.g., 30/32 on “11.1 Converting between miles and kilometres”, 28/30 on “7.3 Multiplying and dividing with integers and decimals”).  
-- Risks: the ungraded “9.1 Functions” submission and the lower score of 22/30 on “Chapter 9 Quiz” suggest potential gaps in understanding of certain concepts that should be monitored.  
-- Recommended strategies: provide targeted review sessions for the topics covered in “9.1 Functions” and “Chapter 9 Quiz”; offer extra practice problems and formative feedback to reinforce these areas, while continuing to celebrate and encourage the high performance displayed in other assignments.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
+| Total Assigned  | 17              |
 | Missing         | 1               |
 | Late            | 0               |
-| Graded Count    | 15              |
-| Average (submitted) | 89.06  % (293.00/329.00) |
-| Average (all)       | 85.92  %              |
+| Graded Count    | 16              |
+| Average (submitted) | 88.27  % (301.00/341.00) |
+| Average (all)       | 68.25  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 30/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 17/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 24/32      | 2025-11-28T01:21:06.737Z
@@ -508,7 +417,7 @@ Chapter 10 Quiz                  | 821002168412     | Submitted  | 17/20      | 
 Chapter 9 Quiz                   | 831144164379     | Submitted  | 22/30      | 2025-11-25T15:50:21.510Z
 9.3 Changing the subject         | 831134684933     | Submitted  | 10/10      | 2025-11-25T15:08:46.276Z
 9.2 Constructing and using formu | 831133856908     | Submitted  | 10/10      | 2025-11-25T15:06:09.695Z
-9.1 Functions                    | 828486677964     | Submitted  | —          | 2025-11-12T03:49:14.359Z
+9.1 Functions                    | 828486677964     | Submitted  | 8/12       | 2025-11-12T03:49:14.359Z
 Chapter 8 Quiz                   | 822266890632     | Submitted  | 17/20      | 2025-11-02T12:01:49.533Z
 8.3 Stem-and-leaf diagrams       | 822266857346     | Submitted  | 10/10      | 2025-11-02T12:00:07.059Z
 8.2 Dual and compound bar charts | 820237685429     | Submitted  | 10/10      | 2025-11-02T11:58:12.065Z
@@ -522,31 +431,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 27/34      | 
 --------------------------------------------------
 Student: Varinda Younglure
 Student ID: 111094309366619155981
-Teacher Report:
-Category: Improving  
-Teacher Report:  
-- Average score of 68.6% indicates progress but remains below the target range for consistent performance, showing a need for additional support.  
-- Submission habits show a significant number of missing assignments (5), though there are no late submissions; this pattern highlights possible disengagement or time‑management challenges.  
-- Strengths include strong performances on high‑stakes tasks such as the “Chapter 7 Quiz” (30/34) and class activities (28/30, 29/30), indicating the student can achieve high scores when fully engaged.  
-- Risks: the missing work on foundational units (Chapter 9, Chapter 8 Quiz, 9.x assignments) could create long‑term knowledge gaps; lower scores on “7.1 Multiplying and Dividing by 0.1 and 0.01” (21/26) suggest specific conceptual difficulties.  
-- Recommended strategies: implement a structured assignment completion plan with reminders; schedule focused review sessions for the missing foundational content; use brief formative assessments to gauge understanding and adjust instruction accordingly.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 5               |
+| Total Assigned  | 17              |
+| Missing         | 6               |
 | Late            | 0               |
 | Graded Count    | 11              |
 | Average (submitted) | 88.64  % (234.00/264.00) |
-| Average (all)       | 68.62  %              |
+| Average (all)       | 53.06  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 32/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 15/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 30/32      | 2025-11-28T01:21:06.737Z
@@ -568,31 +470,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 30/34      | 
 --------------------------------------------------
 Student: Sirikwan Jenkriengkrai
 Student ID: 102683721750647719127
-Teacher Report:
-Category: High Performer
-Teacher Report:
-- Average score of 91.79% demonstrates outstanding mastery of content across all assessed work.
-- Submission habits are exemplary with no missing or late assignments, indicating reliable engagement.
-- Strengths are evident in consistently high performance on quizzes (e.g., 30/34 on Chapter 7 Quiz) and perfect scores on numerous activities (e.g., 30/30 on class activity 7.3).
-- No significant risks or learning gaps are apparent; however, continued vigilance is needed to sustain this level of performance.
-- Recommended strategies: provide enrichment opportunities, challenge tasks beyond current curriculum, and maintain current feedback routine to keep the student motivated and engaged.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 0               |
+| Total Assigned  | 17              |
+| Missing         | 1               |
 | Late            | 0               |
 | Graded Count    | 16              |
 | Average (submitted) | 91.79  % (313.00/341.00) |
-| Average (all)       | 91.79  %              |
+| Average (all)       | 70.98  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 28/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 19/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 28/32      | 2025-11-28T01:21:06.737Z
@@ -614,31 +509,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 30/34      | 
 --------------------------------------------------
 Student: Waranya Fueangfu
 Student ID: 105498935380708638574
-Teacher Report:
-Category: Improving
-Teacher Report:
-- Average score of 72.73% (overall) shows the student is approaching the average threshold but still has room to grow; the submitted average of 83.78% indicates potential when fully engaged.
-- Submission habits reveal three missing assignments, which reduces overall effectiveness; consistency in turning in all work is essential for progress.
-- Strengths include solid performance on many activities, particularly class activities (e.g., 26/26 on 7.1) and quizzes (e.g., 26/30 on Chapter 9 Quiz), suggesting comprehension when assignments are completed.
-- Risks include the risk of falling below the 75% average if missing submissions persist, and a lower score on Chapter 7 Quiz (25/34) pointing to possible gaps in that topic area.
-- Recommended strategies: implement a tracking system for assignment completion, provide targeted support for weaker areas (e.g., Chapter 7 concepts), and encourage regular feedback sessions to reinforce timely submission habits.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 3               |
+| Total Assigned  | 17              |
+| Missing         | 4               |
 | Late            | 0               |
 | Graded Count    | 13              |
 | Average (submitted) | 83.78  % (248.00/296.00) |
-| Average (all)       | 72.73  %              |
+| Average (all)       | 56.24  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 22/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 16/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 29/32      | 2025-11-28T01:21:06.737Z
@@ -660,31 +548,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 25/34      | 
 --------------------------------------------------
 Student: Yuna Ochi
 Student ID: 101307500170323282991
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- Average score of 86.2% indicates solid overall performance, comfortably above the 75% threshold for the Average category.  
-- Submission habits are exemplary: 0 missing and 0 late assignments, ensuring full participation and timely work completion.  
-- Strengths are evident in high scores on quizzes (e.g., 28/30 on Chapter 9 Quiz) and consistently perfect scores on several activity assignments, reflecting strong conceptual grasp.  
-- No significant risks identified; the only lower-scoring assignment (11.1 Converting between miles and kilometres) still remains well above the minimum expectation.  
-- Continue reinforcing the same high completion standards and consider providing advanced enrichment tasks to sustain engagement and challenge.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 0               |
+| Total Assigned  | 17              |
+| Missing         | 1               |
 | Late            | 0               |
 | Graded Count    | 16              |
 | Average (submitted) | 86.22  % (294.00/341.00) |
-| Average (all)       | 86.22  %              |
+| Average (all)       | 66.67  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 32/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 17/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 27/32      | 2025-11-28T01:21:06.737Z
@@ -706,31 +587,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 31/34      | 
 --------------------------------------------------
 Student: KANIDA PANITCHAPAN
 Student ID: 114028162726866932494
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- Average score of 80.6% places the student comfortably within the Average range, demonstrating solid understanding of core concepts.  
-- The student missed one assignment (Chapter 8 Quiz) but otherwise maintained full submission and punctuality, indicating reliable study habits.  
-- Strengths include excellent performance on activities (30/30 on “7.3 Multiplying and dividing with integers and decimals”) and consistent high scores on other quizzes (26/34 on Chapter 7 Quiz).  
-- Risk: The missing Chapter 8 Quiz creates a small knowledge gap; the lower score on “9.1 Functions” (8/12) suggests potential conceptual difficulty with function concepts.  
-- Recommend targeted review of function topics and encourage the student to complete the missed quiz promptly; consider brief formative checks to ensure retention of concepts covered.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 1               |
+| Total Assigned  | 17              |
+| Missing         | 2               |
 | Late            | 0               |
 | Graded Count    | 15              |
 | Average (submitted) | 85.67  % (275.00/321.00) |
-| Average (all)       | 80.65  %              |
+| Average (all)       | 62.36  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 30/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 14/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 24/32      | 2025-11-28T01:21:06.737Z
@@ -752,32 +626,25 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 26/34      | 
 --------------------------------------------------
 Student: Chanut Nongphue
 Student ID: 112898554615111556411
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- The student’s average score of 83.87 % indicates solid overall academic performance, well above the minimum expectation for the cohort.  
-- Submission habits are strong: only one assignment was missing and there were no late submissions, showing reliable engagement with course material.  
-- Strengths are evident in consistently high scores on quizzes and class activities—perfect or near‑perfect marks on the conversion quiz (20/20), integer‑fraction multiplication (30/32), and several data‑representation tasks (10/10, 26/30).  
-- The only risk is the missing assignment on “11.1 Converting between miles and kilometres”; although it does not affect the overall average, it suggests a potential oversight in covering unit‑conversion concepts.  
-- Recommended strategies: provide a brief refresher or peer‑review session focused on unit conversions, reinforce the importance of submitting every assignment, and maintain the high level of engagement demonstrated in the rest of the coursework.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 1               |
+| Total Assigned  | 17              |
+| Missing         | 2               |
 | Late            | 0               |
 | Graded Count    | 15              |
 | Average (submitted) | 92.56  % (286.00/309.00) |
-| Average (all)       | 83.87  %              |
+| Average (all)       | 64.85  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
-11.1 Converting between miles an | 832070137449     | Missing    | —          | 2025-12-02T03:09:02.720Z
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
+11.1 Converting between miles an | 832070137449     | Submitted  | —          | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 20/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 30/32      | 2025-11-28T01:21:06.737Z
 10.1 Subtracting mixed numbers   | 831424405142     | Submitted  | 22/25      | 2025-11-27T04:14:22.956Z
@@ -798,31 +665,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 30/34      | 
 --------------------------------------------------
 Student: Chonnatan Cheevachuen
 Student ID: 111934943278573701755
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- The student’s average score of 84.75 % reflects reliable academic performance and meets the standard for the class average.  
-- Submission habits are exemplary: zero missing or late assignments, indicating consistent participation and adherence to deadlines.  
-- Strengths include high marks on major quizzes (e.g., 16/20 on Chapter 10 Quiz, 20/30 on Chapter 9 Quiz, 26/34 on Chapter 7 Quiz) and near‑perfect performance on data‑related tasks such as stem‑and‑leaf diagrams and bar charts.  
-- Risks or gaps are highlighted by lower scores on “10.1 Subtracting mixed numbers” (15/25) and “9.1 Functions” (5/12), suggesting possible challenges with mixed‑number operations and function concepts that may impact later units.  
-- Recommended strategies: implement targeted mini‑lessons or practice activities for mixed numbers and functions, use formative assessments to monitor progress, and consider peer‑tutoring or guided practice to strengthen these specific skill areas.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 0               |
+| Total Assigned  | 17              |
+| Missing         | 1               |
 | Late            | 0               |
 | Graded Count    | 16              |
 | Average (submitted) | 84.75  % (289.00/341.00) |
-| Average (all)       | 84.75  %              |
+| Average (all)       | 65.53  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 32/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 16/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 28/32      | 2025-11-28T01:21:06.737Z
@@ -844,31 +704,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 26/34      | 
 --------------------------------------------------
 Student: Royston Tanthai Hotchin
 Student ID: 102911358691056831240
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- The student’s overall average score of 81.8% demonstrates solid academic performance, comfortably within the “Average” range.  
-- All 16 assignments were submitted on time, with no missing or late work, indicating excellent submission habits.  
-- Strengths are evident in high scores on most tasks, notably 30/32 on “11.1 Converting between miles and kilometres” and 31/34 on the Chapter 7 Quiz, showing strong mastery of key concepts.  
-- The primary learning gap is the low 7/20 score on the Chapter 8 Quiz, suggesting difficulty with that particular content area.  
-- Recommend targeted review sessions focusing on the concepts covered in the Chapter 8 Quiz, paired with formative quizzes to reinforce understanding and prevent a repeat of the low score.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 0               |
+| Total Assigned  | 17              |
+| Missing         | 1               |
 | Late            | 0               |
 | Graded Count    | 16              |
 | Average (submitted) | 81.82  % (279.00/341.00) |
-| Average (all)       | 81.82  %              |
+| Average (all)       | 63.27  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 30/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 17/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 30/32      | 2025-11-28T01:21:06.737Z
@@ -890,31 +743,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 31/34      | 
 --------------------------------------------------
 Student: Krisakorn Sae-Jang
 Student ID: 116611007735299517708
-Teacher Report:
-Category: Improving  
-Teacher Report:  
-- The student’s overall average score of 68.6% places them in the “Improving” band, showing progress yet still below the “Average” threshold.  
-- One assignment was missing and one entry shows no submission, indicating occasional lapses in submission habits that need to be addressed.  
-- Strengths include consistently high marks on practical tasks such as the 10/10 scores on “9.3 Changing the subject” and “8.3 Stem‑and‑leaf diagrams,” demonstrating strong application skills.  
-- Risks include a very low 3/20 on the Chapter 8 Quiz and a low 9/25 on “10.1 Subtracting mixed numbers,” revealing potential weaknesses in quiz content and number operations.  
-- Recommend a focused remediation plan: provide additional practice quizzes on the problematic topics, schedule one‑on‑one check‑ins to reinforce submission habits, and implement formative feedback to track incremental gains.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 1               |
+| Total Assigned  | 17              |
+| Missing         | 2               |
 | Late            | 0               |
 | Graded Count    | 15              |
 | Average (submitted) | 71.12  % (234.00/329.00) |
-| Average (all)       | 68.62  %              |
+| Average (all)       | 53.06  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Missing    | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 26/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 18/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 20/32      | 2025-11-28T01:21:06.737Z
@@ -936,31 +782,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 24/34      | 
 --------------------------------------------------
 Student: Sina Mohammadzadeh
 Student ID: 110698344171020381306
-Teacher Report:
-Category: At Risk  
-Teacher Report:  
-- Average score 41.1% indicates significant academic challenges and places the student well below the 50 % threshold.  
-- Submission habits: 6 missing out of 16 assignments; although there are no late submissions, the high missing rate severely impacts overall performance.  
-- Strengths: When assignments are completed, the student achieves excellent scores (e.g., 10/10 on multiple quizzes, 26/26 on the class activity), showing capability when engaged.  
-- Risks: Consistent gaps in foundational topics (missing multiple quizzes and key homework) and a low overall average signal a risk of falling further behind if not addressed.  
-- Strategies: Implement a structured intervention plan that includes required completion of missed work with teacher support, scheduled check‑ins to monitor progress, formative assessments to identify specific gaps, and differentiated instruction focusing on the missing content areas.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 6               |
+| Total Assigned  | 17              |
+| Missing         | 7               |
 | Late            | 0               |
 | Graded Count    | 10              |
 | Average (submitted) | 88.61  % (140.00/158.00) |
-| Average (all)       | 41.06  %              |
+| Average (all)       | 31.75  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Missing    | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Missing    | —          | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 19/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Missing    | —          | 2025-11-28T01:21:06.737Z
@@ -982,31 +821,24 @@ Chapter 7 Quiz                   | 817754245904     | Missing    | —          
 --------------------------------------------------
 Student: Prann Pumprao
 Student ID: 112037263283246449722
-Teacher Report:
-Category: Improving  
-Teacher Report:  
-- Average score 66.9% reflects moderate proficiency and positions the student in the improving category (65 %–75 %).  
-- Submission habits: 3 missing out of 16 assignments; no late submissions, indicating decent overall engagement but with notable gaps.  
-- Strengths: Consistently high performance on quizzes and class activities (e.g., 29/30 on the class activity, 24/26 on rounding, 25/34 on the Chapter 7 Quiz), showing strong conceptual understanding when the work is completed.  
-- Risks: Missing key assignments (e.g., 10.1, 9.1, Chapter 8 Quiz) suggests potential weaknesses in application of concepts and may hinder mastery of subsequent material.  
-- Strategies: Offer targeted remediation for the missing topics, incorporate peer‑tutoring or study groups for quiz content, set up automated reminders for upcoming deadlines, and provide additional practice problems to solidify understanding of the gaps.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 3               |
+| Total Assigned  | 17              |
+| Missing         | 4               |
 | Late            | 0               |
 | Graded Count    | 13              |
 | Average (submitted) | 80.28  % (228.00/284.00) |
-| Average (all)       | 66.86  %              |
+| Average (all)       | 51.70  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 12/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 17/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 28/32      | 2025-11-28T01:21:06.737Z
@@ -1028,31 +860,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 25/34      | 
 --------------------------------------------------
 Student: Nattaphat Tinprakasmas
 Student ID: 116081241688847998948
-Teacher Report:
-Category: Average
-Teacher Report:
-- The student’s average score of 84.75 % reflects solid academic performance and is comfortably above the 75 % threshold for Average, indicating mastery of most concepts.
-- Submission habits are exemplary: 0 missing and 0 late assignments out of 16, demonstrating strong organization and time‑management skills.
-- Strengths include consistently high scores on quizzes (e.g., 30/34 on Chapter 7 Quiz) and perfect scores on multiple class activities, showing a clear grasp of the material.
-- The primary learning gap is the lower score of 8/12 on the “9.1 Functions” assignment, suggesting room to reinforce function concepts and related calculations.
-- Recommended strategies: integrate short formative checks on function topics, provide targeted practice problems, and set stretch goals (e.g., achieving 95 % on future quizzes) to push performance toward higher percentile.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 0               |
+| Total Assigned  | 17              |
+| Missing         | 1               |
 | Late            | 0               |
 | Graded Count    | 16              |
 | Average (submitted) | 84.75  % (289.00/341.00) |
-| Average (all)       | 84.75  %              |
+| Average (all)       | 65.53  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 18/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 18/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 29/32      | 2025-11-28T01:21:06.737Z
@@ -1074,31 +899,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 30/34      | 
 --------------------------------------------------
 Student: Chinawut Kiatchertsaengsuk
 Student ID: 107074523112127504913
-Teacher Report:
-Category: At Risk
-Teacher Report:
-- The overall average of 70.09 % (with 80.74 % on submitted work) falls in the Improving range but is lowered by two missing assignments, indicating that the student is vulnerable to falling below the class average.
-- Submission habits reveal 2 missing assignments (10.1 Subtracting mixed numbers and Chapter 8 Quiz) and no late submissions; the missing work accounts for a significant portion of the grade penalty.
-- Strengths are evident in high scores on most quizzes and class activities (e.g., 30/30 on Chapter 9 Quiz, 30/30 on 7.3 Activity), demonstrating solid understanding when engaged.
-- Risks include the 3/12 on “9.1 Functions” and the two missing assessments, suggesting gaps in specific content areas and/or challenges with consistent task completion.
-- Recommended strategies: schedule a one‑on‑one meeting to review the missing assignments and clarify any misconceptions; assign small, incremental tasks to rebuild confidence; use peer‑collaboration or study‑group sessions for the Functions unit; monitor progress with weekly check‑ins and provide immediate feedback on submitted work.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 2               |
+| Total Assigned  | 17              |
+| Missing         | 3               |
 | Late            | 0               |
 | Graded Count    | 14              |
 | Average (submitted) | 80.74  % (239.00/296.00) |
-| Average (all)       | 70.09  %              |
+| Average (all)       | 54.20  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 12/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 20/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 14/32      | 2025-11-28T01:21:06.737Z
@@ -1120,31 +938,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 31/34      | 
 --------------------------------------------------
 Student: Thananon Kijjathon
 Student ID: 114306964354408204877
-Teacher Report:
-Category: Improving  
-Teacher Report:  
-- The student’s overall average score of 65.98% indicates moderate proficiency, suggesting that while foundational concepts are understood, there is still room for significant improvement.  
-- Submission habits show three missing assignments (10.2, 10.1, 9.3) among 16 total tasks; these non‑submissions are counted as zeros and are pulling the average down despite a lack of late submissions.  
-- Strengths are evident in consistently high marks on quizzes and class activities, especially the 100% scores on 8.3, 8.2, 8.1, and the 30/30 on the 7.3 activity, reflecting strong grasp of those topics.  
-- Risks include lower performance on 9.1 Functions (6/12, 50%) and the absence of work on 9.3 Changing the Subject, which may indicate conceptual gaps in function manipulation and subject‑changing techniques.  
-- Recommended strategies: reinforce completion habits through check‑in reminders, provide targeted mini‑lessons or supplementary worksheets on functions, and employ formative assessment checkpoints to monitor progress on previously missed topics.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 3               |
+| Total Assigned  | 17              |
+| Missing         | 4               |
 | Late            | 0               |
 | Graded Count    | 13              |
 | Average (submitted) | 82.12  % (225.00/274.00) |
-| Average (all)       | 65.98  %              |
+| Average (all)       | 51.02  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 28/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 19/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Missing    | —          | 2025-11-28T01:21:06.737Z
@@ -1166,31 +977,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 28/34      | 
 --------------------------------------------------
 Student: Lippakorn Arwatchanakarn
 Student ID: 107463102196866605908
-Teacher Report:
-Category: Emerging  
-Teacher Report:  
-- The student’s overall average score of 60.99% places them in the emerging range, showing uneven mastery across the curriculum with notable gaps that require focused intervention.  
-- With four missing assignments (10.1, 9.3, 9.2, 9.1) and no late submissions, the missing work heavily contributes to the lower average; these gaps suggest disengagement or difficulty meeting deadlines.  
-- Strengths are seen in solid quiz performance, notably 21/30 on Chapter 9 Quiz and 13/20 on Chapter 10 Quiz, and high accuracy on class activities such as 7.1 Multiplying and Dividing by 0.1 and 0.01 (24/26, ~92%).  
-- Risks involve inconsistent results in rounding and significant figures (16/30, ~53%) and a lack of work on foundational topics like functions and changing the subject, which may hinder progression in later units.  
-- Recommended strategies: implement a personalized task‑tracking system to reduce missed assignments, offer peer‑mentoring sessions focused on rounding and function concepts, and integrate brief, low‑stakes quizzes to reinforce understanding of the missed material.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 4               |
+| Total Assigned  | 17              |
+| Missing         | 5               |
 | Late            | 0               |
 | Graded Count    | 12              |
 | Average (submitted) | 73.24  % (208.00/284.00) |
-| Average (all)       | 61.00  %              |
+| Average (all)       | 47.17  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 26/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 13/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 20/32      | 2025-11-28T01:21:06.737Z
@@ -1212,35 +1016,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 26/34      | 
 --------------------------------------------------
 Student: Euaunggun Kongnirattisaiyakul
 Student ID: 112091342073668375958
-Teacher Report:
-Category: Improving  
-Teacher Report:  
-- Average Score: The student’s overall average of 71.3% falls in the improving range (65–74%). It indicates that while performance is solid, there is room for further growth toward higher proficiency.  
-- Submission Habits: All 16 assignments were submitted on time, with no missing or late work recorded, showing reliable engagement and adherence to deadlines.  
-- Strengths: Consistently high marks on shorter, formative tasks (e.g., 10/10 on 9.3, 9.2, 9.1, 8.3, 8.2, 8.1) demonstrate strong mastery of core concepts and effective study strategies. Recent class activities (7.3, 7.1) also reflect notable improvement (scores above 80% of the maximum).  
-- Risks / Learning Gaps: Early in the term, the student struggled with foundational numerical concepts (11.1 Converting, 10.2 Multiplying/dividing fractions, 10.1 Subtracting mixed numbers) and had a lower score on the Chapter 7 Quiz (20/34). These areas suggest lingering conceptual misunderstandings that could impede future progress.  
-- Recommended Strategies:  
-  * Targeted review sessions on integer and fraction operations, incorporating guided practice and peer tutoring.  
-  * Scaffold quiz preparation by providing sample quizzes and rubrics early.  
-  * Encourage reflective journals after each low‑scoring assignment to identify misconceptions.  
-  * Leverage the student’s strong performance in short tasks to model effective study habits for more complex assignments.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 0               |
+| Total Assigned  | 17              |
+| Missing         | 1               |
 | Late            | 0               |
 | Graded Count    | 16              |
 | Average (submitted) | 71.26  % (243.00/341.00) |
-| Average (all)       | 71.26  %              |
+| Average (all)       | 55.10  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 26/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 17/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 11/32      | 2025-11-28T01:21:06.737Z
@@ -1262,36 +1055,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 20/34      | 
 --------------------------------------------------
 Student: Titus Chidkrua
 Student ID: 105108470428025966941
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- Average Score: With an overall average of 79.8%, the student falls comfortably in the average band (75–89%). This level reflects consistent competence across most assignments.  
-- Submission Habits: The student maintained a flawless submission record—no missing or late work—demonstrating reliable classroom participation and time management.  
-- Strengths: Outstanding performance on the initial conversion task (32/32) and the “changing the subject” exercise (10/10) highlight strong problem‑solving skills and application of algebraic principles. High marks on the 7.3 activity (25/30) and 7.2 rounding activity (27/30) further evidence competence in numerical reasoning.  
-- Risks / Learning Gaps: Lower scores on several quizzes—particularly the Chapter 10 Quiz (10/20) and Chapter 9 Quiz (12/30)—indicate difficulty with conceptual comprehension in higher‑order reasoning. The 9.1 Functions (5/12) suggests a specific gap in function analysis.  
-- Recommended Strategies:  
-  * Implement formative, concept‑check quizzes immediately after lesson delivery to capture and address misconceptions early.  
-  * Provide additional resources (e.g., interactive function visualizers) for the student to explore functions outside class time.  
-  * Use differentiated instruction during quizzes, offering scaffolds such as step‑by‑step frameworks for lower‑scoring topics.  
-  * Encourage participation in study groups, pairing this student with peers who excel in quiz performance to reinforce collaborative learning.  
-  * Offer optional review workshops focused on quiz strategies, including time management and question‑analysis techniques.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 0               |
+| Total Assigned  | 17              |
+| Missing         | 1               |
 | Late            | 0               |
 | Graded Count    | 16              |
 | Average (submitted) | 79.77  % (272.00/341.00) |
-| Average (all)       | 79.77  %              |
+| Average (all)       | 61.68  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Submitted  | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 32/32      | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 10/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 30/32      | 2025-11-28T01:21:06.737Z
@@ -1313,31 +1094,24 @@ Chapter 7 Quiz                   | 817754245904     | Submitted  | 25/34      | 
 --------------------------------------------------
 Student: Noppasindhu Pholpoke
 Student ID: 107970919272801590843
-Teacher Report:
-Category: Emerging  
-Teacher Report:  
-- Average score of 53.96 % indicates a below‑average academic standing, suggesting the student requires additional support to meet class expectations.  
-- Submission habits show 4 missing assignments out of 16, but no late submissions, indicating some reliability in meeting deadlines when the work is attempted.  
-- Strengths are evident in the perfect scores (10/10) on the 8.x series frequency and diagram activities and the solid 24/34 on the Chapter 7 Quiz, demonstrating competency in data handling and quiz formats.  
-- Risks include a high number of missing core quizzes (Chapter 9 and 8) and lower scores on more conceptually demanding tasks such as “10.1 Subtracting mixed numbers” (12/25) and “11.1 Converting between miles and kilometres” (8/32), pointing to gaps in number sense and conversion skills.  
-- Recommended strategies: implement a structured homework plan with checkpoints, provide focused remediation on integer and fraction operations, use formative quizzes to gauge understanding before major assessments, and encourage participation in class activities to reinforce learning.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 16              |
-| Missing         | 4               |
+| Total Assigned  | 17              |
+| Missing         | 5               |
 | Late            | 0               |
 | Graded Count    | 12              |
 | Average (submitted) | 63.67  % (184.00/289.00) |
-| Average (all)       | 53.96  %              |
+| Average (all)       | 41.72  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+11.2 Area of 2D shapes           | 821083499838     | Missing    | —          | 2025-12-02T03:10:06.228Z
 11.1 Converting between miles an | 832070137449     | Submitted  | 8/32       | 2025-12-02T03:09:02.720Z
 Chapter 10 Quiz                  | 821002168412     | Submitted  | 14/20      | 2025-11-30T13:40:09.820Z
 10.2 Multiplying and dividing in | 831547604069     | Submitted  | 26/32      | 2025-11-28T01:21:06.737Z

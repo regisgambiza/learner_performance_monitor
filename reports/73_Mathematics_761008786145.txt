@@ -2,31 +2,25 @@ Reports for Course: 7/3 Mathematics (761008786145)
 ==================================================
 Student: Paphada Ogushi
 Student ID: 118090617506192357524
-Teacher Report:
-Category: At Risk  
-Teacher Report:  
-- The overall average score of 43.43 % indicates significant difficulty meeting class benchmarks, falling well below the 50 % threshold for academic health.  
-- Submission habits are problematic: 6 of 19 assignments were not submitted and 1 was late. This high volume of missing work hampers consistent learning progress.  
-- Strengths include consistently high performance on the 8th‑grade data‑visualization activities (two‑way tables and bar charts) and strong results on 12.1 (Mean, Median, Mode and Range) and 11.3 (Angles and parallel lines).  
-- Risks are amplified by very low scores on core concept quizzes (Chapter 8 Quiz 2/13, 10.2 and 10.1 with 44–50 % ranges) and incomplete coverage of critical units (missing entire chapters 11, 12, 10, 9, and 8).  
-- Recommended strategies: Implement a targeted intervention plan focusing on missing units; schedule one‑to‑one review sessions to address gaps in problem‑solving and calculation accuracy; use formative assessments to monitor progress and provide immediate feedback; and involve parents in a home‑school plan to increase accountability for assignment completion.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 6               |
-| Late            | 1               |
-| Graded Count    | 13              |
-| Average (submitted) | 64.46  % (185.00/287.00) |
-| Average (all)       | 43.43  %              |
+| Total Assigned  | 21              |
+| Missing         | 7               |
+| Late            | 2               |
+| Graded Count    | 14              |
+| Average (submitted) | 64.12  % (193.00/301.00) |
+| Average (all)       | 35.74  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Missing    | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 8/14       | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 28/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Missing    | —          | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 15/20      | 2025-11-30T13:11:25.396Z
@@ -51,33 +45,27 @@ Chapter 8 Quiz                   | 817569714851     | Submitted  | 2/13       | 
 --------------------------------------------------
 Student: Rose Tanjai Hotchin
 Student ID: 105220051818797809991
-Teacher Report:
-Category: At Risk  
-Teacher Report:  
-- The overall average score of 37.79 % demonstrates a clear struggle to achieve the expected competency level, indicating a need for urgent instructional support.  
-- The student missed 9 of 19 assignments, with no late submissions, yet the sheer volume of non‑submissions signals disengagement or external barriers that must be explored.  
-- Strengths are evident in the high scoring of several single‑topic assessments, notably 10.1 Simplifying Expressions (96.7 %), 9.2 Multiplying and Dividing Proper Fractions (86.1 %) and 8.3 Frequency Diagrams (100 %). These suggest potential in procedural fluency when the content is well‑structured.  
-- Risks stem from low performance on geometry concepts (11.3 and 11.2 scoring 33 % and 36 % respectively) and incomplete mastery of foundational operations (missing 13.2, 13.1, and 12.2). The combination of low scores and numerous missing assignments threatens overall competence.  
-- Recommended strategies: Conduct a diagnostic assessment to pinpoint precise concept deficits; design a scaffolded practice plan that revisits missing units (13.x, 12.x, 11.x) using varied modalities (visual, kinesthetic, collaborative); schedule regular check‑ins to monitor submission rates; and collaborate with school counselors to address any non‑academic factors affecting engagement.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 9               |
-| Late            | 0               |
-| Graded Count    | 10              |
-| Average (submitted) | 73.52  % (161.00/219.00) |
-| Average (all)       | 37.79  %              |
+| Total Assigned  | 21              |
+| Missing         | 10              |
+| Late            | 1               |
+| Graded Count    | 11              |
+| Average (submitted) | 75.11  % (175.00/233.00) |
+| Average (all)       | 32.41  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
-13.2 Simplifying calculations wi | 832064708937     | Missing    | —          | 2025-12-02T02:03:20.088Z
-13.1 Order of operations         | 832063028223     | Missing    | —          | 2025-12-02T01:43:34.945Z
+14.1 Functions and mappings      | 836054275870     | Missing    | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 14/14      | 2025-12-02T02:08:14.196Z
+13.2 Simplifying calculations wi | 832064708937     | Submitted  | —          | 2025-12-02T02:03:20.088Z
+13.1 Order of operations         | 832063028223     | Submitted  | —          | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Missing    | —          | 2025-11-30T13:11:25.396Z
 12.2 Averages from frequency tab | 831233017511     | Missing    | —          | 2025-11-26T00:24:41.393Z
 12.1 Mean, median, mode and rang | 831020354925     | Submitted  | 15/17      | 2025-11-25T01:06:16.902Z
@@ -93,38 +81,32 @@ Chapter 9 Quiz                   | 822264937736     | Missing    | —          
 Chapter 8 Quiz                   | 817569714851     | Submitted  | 8/13       | 2025-10-29T12:54:17.191Z
 9.1 Adding Mixed Numbers         | 817761469140     | Missing    | —          | 2025-10-30T06:15:58.736Z
 8.3 Frequency diagrams for conti | 804877339266     | Submitted  | 10/10      | 2025-10-23T13:41:49.960Z
-8.2 Dual and compound bar charts | 816610891591     | Missing    | —          | 2025-10-23T13:37:15.949Z
-8.1 Two-way tables – Class Activ | 816608725355     | Missing    | —          | 2025-10-23T13:31:31.676Z
+8.2 Dual and compound bar charts | 816610891591     | Submitted  | —          | 2025-10-23T13:37:15.949Z
+8.1 Two-way tables – Class Activ | 816608725355     | Submitted  | —          | 2025-10-23T13:31:31.676Z
 ------------------------------------------------------------------------------------------
 
 --------------------------------------------------
 Student: Fu Yin
 Student ID: 104536700006441372560
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- Average score: 88.73 % indicates strong academic performance, approaching high‑performer levels.  
-- Submission habits: All 19 assignments were submitted on time—no missing or late work—showing excellent consistency.  
-- Strengths: Outstanding results on quizzes and class activities (e.g., 13.2, 13.1, 8.3/8.2/8.1 all perfect or near‑perfect), reflecting solid grasp of key concepts.  
-- Risks/learning gaps: Lower performance on “12.2 Averages from frequency tables” (9/18) and “13.2 Simplifying calculations” (48/48 is fine, but the quiz part 12.2 is weaker), suggesting a need to reinforce data‑analysis skills.  
-- Recommended strategies: Continue challenging work; incorporate targeted practice on frequency tables and probability concepts; use peer‑review or formative quizzes to keep engagement high.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 0               |
+| Total Assigned  | 21              |
+| Missing         | 1               |
 | Late            | 0               |
-| Graded Count    | 19              |
-| Average (submitted) | 88.73  % (378.00/426.00) |
-| Average (all)       | 88.73  %              |
+| Graded Count    | 20              |
+| Average (submitted) | 88.41  % (389.00/440.00) |
+| Average (all)       | 72.04  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Submitted  | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 11/14      | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 48/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 24/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 18/20      | 2025-11-30T13:11:25.396Z
@@ -149,31 +131,25 @@ Chapter 8 Quiz                   | 817569714851     | Submitted  | 13/13      | 
 --------------------------------------------------
 Student: Patchanan Songkram
 Student ID: 102990587433601597180
-Teacher Report:
-Category: At Risk  
-Teacher Report:  
-- Average score: 72.77 % overall, with a submitted‑average of 78.28 %, indicates moderate performance that could improve with consistent effort.  
-- Submission habits: 3 assignments were missing (all class‑activity items 8.3, 8.2, 8.1), creating gaps in the learning sequence; no late submissions but the absences reduce overall mastery.  
-- Strengths: Strong scores on several quizzes (e.g., 10.1 Simplifying expressions 29/30, 9.1 Adding Mixed Numbers 30/30) and solid performance on most textbook exercises, showing capacity for high achievement.  
-- Risks/learning gaps: Missing class activities limit application of concepts; lower scores in frequency tables and averages (12.2 8/18, 8.3 9/13) highlight weak data‑analysis skills; overall consistency is threatened by the gaps.  
-- Recommended strategies: Schedule catch‑up sessions for the missing activities; use formative assessments to identify specific misconceptions in data analysis; provide additional practice problems and real‑world data sets to reinforce concepts; monitor participation closely and offer incentives for timely completion.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 3               |
-| Late            | 0               |
-| Graded Count    | 16              |
-| Average (submitted) | 78.28  % (310.00/396.00) |
-| Average (all)       | 72.77  %              |
+| Total Assigned  | 21              |
+| Missing         | 4               |
+| Late            | 1               |
+| Graded Count    | 17              |
+| Average (submitted) | 78.05  % (320.00/410.00) |
+| Average (all)       | 59.26  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Late       | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 10/14      | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 38/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 16/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 14/20      | 2025-11-30T13:11:25.396Z
@@ -190,39 +166,33 @@ Chapter 9 Quiz                   | 822264937736     | Submitted  | 23/30      | 
 9.2 Multiplying and dividing pro | 822266178219     | Submitted  | 32/36      | 2025-11-02T11:49:24.610Z
 Chapter 8 Quiz                   | 817569714851     | Submitted  | 9/13       | 2025-10-29T12:54:17.191Z
 9.1 Adding Mixed Numbers         | 817761469140     | Submitted  | 30/30      | 2025-10-30T06:15:58.736Z
-8.3 Frequency diagrams for conti | 804877339266     | Missing    | —          | 2025-10-23T13:41:49.960Z
-8.2 Dual and compound bar charts | 816610891591     | Missing    | —          | 2025-10-23T13:37:15.949Z
-8.1 Two-way tables – Class Activ | 816608725355     | Missing    | —          | 2025-10-23T13:31:31.676Z
+8.3 Frequency diagrams for conti | 804877339266     | Submitted  | —          | 2025-10-23T13:41:49.960Z
+8.2 Dual and compound bar charts | 816610891591     | Submitted  | —          | 2025-10-23T13:37:15.949Z
+8.1 Two-way tables – Class Activ | 816608725355     | Submitted  | —          | 2025-10-23T13:31:31.676Z
 ------------------------------------------------------------------------------------------
 
 --------------------------------------------------
 Student: Natthasiri Sirijindapan
 Student ID: 105966206523005201460
-Teacher Report:
-Category: At Risk  
-Teacher Report:  
-- Average score of 50.47 % places the student at the lower end of emerging performance, indicating significant room for improvement.  
-- Submission habits show 4 missing assignments (including key quizzes in geometry and data analysis) and no late submissions, highlighting a pattern of incomplete work that hampers learning continuity.  
-- Strengths are evident in solid scores on 13.2 (24/48), 13.1 (21/24), Chapter 12 Quiz (17/20), and 10.1 Simplifying expressions (22/30), demonstrating good grasp of algebraic concepts.  
-- Risks include very low scores on 12.2 (4/18), Chapter 8 Quiz (1/13), and 10.2 (9/29), which point to difficulties with frequency tables, algebraic manipulation, and data interpretation; the missing geometry quizzes further suggest gaps in spatial reasoning.  
-- Recommended strategies: implement focused remediation on frequency tables and algebraic operations, use formative checkpoints (e.g., quick quizzes) to ensure understanding, set up a monitoring plan for assignment completion, provide targeted geometry practice, and involve the student in peer‑tutor or small‑group sessions to build confidence and accountability.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 4               |
-| Late            | 0               |
-| Graded Count    | 15              |
-| Average (submitted) | 58.74  % (215.00/366.00) |
-| Average (all)       | 50.47  %              |
+| Total Assigned  | 21              |
+| Missing         | 5               |
+| Late            | 1               |
+| Graded Count    | 16              |
+| Average (submitted) | 59.47  % (226.00/380.00) |
+| Average (all)       | 41.85  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Missing    | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 11/14      | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 24/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 21/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 17/20      | 2025-11-30T13:11:25.396Z
@@ -247,31 +217,25 @@ Chapter 8 Quiz                   | 817569714851     | Submitted  | 1/13       | 
 --------------------------------------------------
 Student: Pimpassakorn Chotikanta
 Student ID: 105990344924822120683
-Teacher Report:
-Category: Improving  
-Teacher Report:  
-- An average score of 70.19 % reflects an upward trajectory in learning, positioning the student within the improving category with clear signs of progress over the term.  
-- Submission habits include 3 missing assignments (geometry quiz and two data‑representation activities) but no late work, indicating a need to address the incomplete portion of the learning portfolio.  
-- Strengths are highlighted by high performance on 10.1 Simplifying expressions (28/30), 10.2 (27/29), 9.2 (32/36), 9.1 (26/30), 13.2 (44/48), and the 8.1 Two‑way tables activity (10/10), showcasing strong algebraic and fraction skills.  
-- Risks involve lower outcomes on 12.2 (6/18), 13.1 (12/24), and missing data‑analysis activities (8.3 & 8.2), suggesting ongoing challenges with frequency tables and data representation; early inconsistencies in geometry assignments also warrant attention.  
-- Recommended strategies: provide targeted instruction on frequency tables and data visualization, introduce scaffolded quizzes to reinforce these concepts, schedule peer‑tutoring sessions, ensure timely completion of the remaining missing assignments, and recognize the student’s progress to maintain motivation.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 3               |
-| Late            | 0               |
-| Graded Count    | 16              |
-| Average (submitted) | 77.86  % (299.00/384.00) |
-| Average (all)       | 70.19  %              |
+| Total Assigned  | 21              |
+| Missing         | 4               |
+| Late            | 1               |
+| Graded Count    | 17              |
+| Average (submitted) | 77.64  % (309.00/398.00) |
+| Average (all)       | 57.22  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Late       | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 10/14      | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 44/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 12/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 14/20      | 2025-11-30T13:11:25.396Z
@@ -288,39 +252,33 @@ Chapter 9 Quiz                   | 822264937736     | Submitted  | 24/30      | 
 9.2 Multiplying and dividing pro | 822266178219     | Submitted  | 32/36      | 2025-11-02T11:49:24.610Z
 Chapter 8 Quiz                   | 817569714851     | Submitted  | 8/13       | 2025-10-29T12:54:17.191Z
 9.1 Adding Mixed Numbers         | 817761469140     | Submitted  | 26/30      | 2025-10-30T06:15:58.736Z
-8.3 Frequency diagrams for conti | 804877339266     | Missing    | —          | 2025-10-23T13:41:49.960Z
-8.2 Dual and compound bar charts | 816610891591     | Missing    | —          | 2025-10-23T13:37:15.949Z
+8.3 Frequency diagrams for conti | 804877339266     | Submitted  | —          | 2025-10-23T13:41:49.960Z
+8.2 Dual and compound bar charts | 816610891591     | Submitted  | —          | 2025-10-23T13:37:15.949Z
 8.1 Two-way tables – Class Activ | 816608725355     | Submitted  | 10/10      | 2025-10-23T13:31:31.676Z
 ------------------------------------------------------------------------------------------
 
 --------------------------------------------------
 Student: Panicha Laohakunakorn
 Student ID: 108776088224740619940
-Teacher Report:
-Category: Improving  
-Teacher Report:  
-- Average score (66.2%) is above the 65% threshold for progress but still below the 75% benchmark for consistent performance, indicating that Panicha is improving yet requires further development to reach higher mastery.  
-- Submission habits are solid with no late work; however, 4 assignments were missing (approximately 21% of total), which may affect continuity and depth of learning.  
-- Strengths include high scores on recent tasks such as “9.2 Multiplying and dividing proper fractions” (36/36), “10.2 Multiplying a constant over a bracket” (26/29), and solid quiz performances (“Chapter 10 Quiz” 24/29, “Chapter 11 Quiz” 12/15), showing capacity for high achievement when engaged.  
-- Risks are noted in the inconsistent performance across earlier assignments (e.g., “13.1 Order of operations” 15/24, “12.2 Averages from frequency tables” 9/18) and the missing critical assessment “Chapter 12 Quiz,” which may indicate gaps in foundational understanding.  
-- Recommended strategies: set up a structured assignment calendar to reduce missing work, provide targeted mini‑lessons on topics where scores dip, use formative quizzes for immediate feedback, and celebrate recent high scores to reinforce growth mindset.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 4               |
+| Total Assigned  | 21              |
+| Missing         | 5               |
 | Late            | 0               |
-| Graded Count    | 15              |
-| Average (submitted) | 83.93  % (282.00/336.00) |
-| Average (all)       | 66.20  %              |
+| Graded Count    | 16              |
+| Average (submitted) | 84.29  % (295.00/350.00) |
+| Average (all)       | 54.63  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Submitted  | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 13/14      | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 46/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 15/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Missing    | —          | 2025-11-30T13:11:25.396Z
@@ -345,31 +303,25 @@ Chapter 8 Quiz                   | 817569714851     | Submitted  | 9/13       | 
 --------------------------------------------------
 Student: Paritporn Uppakul
 Student ID: 106246380520789268942
-Teacher Report:
-Category: At Risk  
-Teacher Report:  
-- Average score (20.4%) is far below the 50% threshold, demonstrating significant academic underperformance and the need for urgent intervention.  
-- Submission habits are severely lacking, with 13 of 19 assignments missing (≈68%) and no late submissions recorded, indicating a pattern of disengagement or external barriers.  
-- Strengths appear limited to a few high‑scoring submissions: perfect “12.1 Mean, median, mode and range” (17/17), strong “Chapter 9 Quiz” (28/30), and a moderate “Chapter 8 Quiz” (9/13); these isolated successes suggest potential that is not being consistently activated.  
-- Risks include the high proportion of missing work, low overall average, and the presence of many incomplete quizzes (e.g., “Chapter 12 Quiz” 9/20), pointing to gaps in content mastery and possible external challenges impacting participation.  
-- Recommended strategies: initiate immediate one‑to‑one check‑ins to uncover barriers, implement a mandatory assignment submission plan with clear deadlines, provide remedial instruction focused on foundational concepts, and involve parents or guardians in a structured support plan to improve engagement and completion rates.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 13              |
-| Late            | 0               |
-| Graded Count    | 6               |
-| Average (submitted) | 73.11  % (87.00/119.00) |
-| Average (all)       | 20.42  %              |
+| Total Assigned  | 21              |
+| Missing         | 14              |
+| Late            | 1               |
+| Graded Count    | 7               |
+| Average (submitted) | 74.44  % (99.00/133.00) |
+| Average (all)       | 18.33  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Missing    | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 12/14      | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Missing    | —          | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 19/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 9/20       | 2025-11-30T13:11:25.396Z
@@ -387,38 +339,32 @@ Chapter 9 Quiz                   | 822264937736     | Submitted  | 28/30      | 
 Chapter 8 Quiz                   | 817569714851     | Submitted  | 9/13       | 2025-10-29T12:54:17.191Z
 9.1 Adding Mixed Numbers         | 817761469140     | Missing    | —          | 2025-10-30T06:15:58.736Z
 8.3 Frequency diagrams for conti | 804877339266     | Missing    | —          | 2025-10-23T13:41:49.960Z
-8.2 Dual and compound bar charts | 816610891591     | Missing    | —          | 2025-10-23T13:37:15.949Z
-8.1 Two-way tables – Class Activ | 816608725355     | Missing    | —          | 2025-10-23T13:31:31.676Z
+8.2 Dual and compound bar charts | 816610891591     | Submitted  | —          | 2025-10-23T13:37:15.949Z
+8.1 Two-way tables – Class Activ | 816608725355     | Submitted  | —          | 2025-10-23T13:31:31.676Z
 ------------------------------------------------------------------------------------------
 
 --------------------------------------------------
 Student: Vivitorn Tangngamchit
 Student ID: 106481054568002038442
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- The student’s overall average score is 88.73 %, indicating strong academic performance that meets the “Average” threshold but falls just short of the 90 % benchmark for High Performers.  
-- Submission habits are exemplary: no missing or late assignments, and all 19 graded assignments have been submitted on time.  
-- Strengths include consistently high scores on quizzes (e.g., 28/29 on Chapter 10 Quiz, 13/13 on Chapter 8 Quiz) and excellent performance on complex fraction problems (35/36 on 9.2).  
-- No significant risks or learning gaps are evident from the detailed submissions; the student maintains high consistency across all content areas.  
-- Recommended strategies: continue reinforcing mastery, offer optional enrichment tasks, and monitor for any potential decline in engagement or performance.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 0               |
-| Late            | 0               |
-| Graded Count    | 19              |
-| Average (submitted) | 88.73  % (378.00/426.00) |
-| Average (all)       | 88.73  %              |
+| Total Assigned  | 21              |
+| Missing         | 1               |
+| Late            | 1               |
+| Graded Count    | 20              |
+| Average (submitted) | 88.86  % (391.00/440.00) |
+| Average (all)       | 72.41  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Late       | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 13/14      | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 30/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 23/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 18/20      | 2025-11-30T13:11:25.396Z
@@ -443,31 +389,25 @@ Chapter 8 Quiz                   | 817569714851     | Submitted  | 13/13      | 
 --------------------------------------------------
 Student: Nydcha Santhanthana
 Student ID: 118092257426609428017
-Teacher Report:
-Category: Improving  
-Teacher Report:  
-- The overall average score is 69.72 % (average_submitted = 79.41 %), placing the student in the “Improving” band (65 %–75 %). The difference between submitted and overall averages reflects missing assignments.  
-- Submission habits show 3 missing assignments (including a missing Chapter 8 Quiz) and no late submissions; missing work is the primary issue affecting the overall average.  
-- Strengths are evident in strong quiz performance (e.g., 24/30 on Chapter 9 Quiz, 27/30 on 10.1 Simplifying expressions) and perfect scores on class‑activity activities, indicating good comprehension of data‑visualization concepts.  
-- Risks include a low score on the Chapter 11 Quiz (7/15) and the recent missing assignments, which may signal difficulty with angle geometry concepts and potential disengagement.  
-- Recommended strategies: schedule a one‑on‑one review of missing work, provide targeted practice for angle geometry, introduce a peer‑support or tutoring plan, and set clear deadlines with reminders to reduce future missing assignments.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 3               |
+| Total Assigned  | 21              |
+| Missing         | 4               |
 | Late            | 0               |
-| Graded Count    | 16              |
-| Average (submitted) | 79.41  % (297.00/374.00) |
-| Average (all)       | 69.72  %              |
+| Graded Count    | 17              |
+| Average (submitted) | 79.12  % (307.00/388.00) |
+| Average (all)       | 56.85  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Submitted  | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 10/14      | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 38/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 16/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 15/20      | 2025-11-30T13:11:25.396Z
@@ -482,7 +422,7 @@ Chapter 10 Quiz                  | 823952060845     | Submitted  | 20/29      | 
 10.1 Simplifying expressions     | 823352019986     | Submitted  | 27/30      | 2025-11-07T03:16:52.224Z
 Chapter 9 Quiz                   | 822264937736     | Submitted  | 24/30      | 2025-11-02T11:50:58.100Z
 9.2 Multiplying and dividing pro | 822266178219     | Submitted  | 30/36      | 2025-11-02T11:49:24.610Z
-Chapter 8 Quiz                   | 817569714851     | Missing    | —          | 2025-10-29T12:54:17.191Z
+Chapter 8 Quiz                   | 817569714851     | Submitted  | —          | 2025-10-29T12:54:17.191Z
 9.1 Adding Mixed Numbers         | 817761469140     | Submitted  | 26/30      | 2025-10-30T06:15:58.736Z
 8.3 Frequency diagrams for conti | 804877339266     | Submitted  | 10/10      | 2025-10-23T13:41:49.960Z
 8.2 Dual and compound bar charts | 816610891591     | Submitted  | 10/10      | 2025-10-23T13:37:15.949Z
@@ -492,31 +432,25 @@ Chapter 8 Quiz                   | 817569714851     | Missing    | —          
 --------------------------------------------------
 Student: Shine Kijthanacharoen
 Student ID: 112691935087860258755
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- Average score: 84.5 % reflects solid mastery of most material, yet falls short of the high‑performance threshold (≥90 %); the student is performing well but has room to refine consistency.  
-- Submission habits: 100 % on‑time, no missing or late work—strong classroom engagement and reliable assignment completion.  
-- Strengths: Excellent results on quizzes (e.g., 30/30, 27/29, 33/36) and algebraic calculations, indicating strong computational skills and a good grasp of foundational concepts.  
-- Risks / gaps: Lower marks on geometry‑related tasks such as “11.2 Angles in a quadrilateral” (10/22) and “12.2 Averages from frequency tables” (9/18) suggest conceptual difficulties that could surface in higher‑level problem solving.  
-- Recommended strategies: Introduce targeted geometry review sessions, incorporate peer‑learning activities for angle concepts, and provide additional practice problems that focus on data interpretation and frequency tables to close identified gaps.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 0               |
+| Total Assigned  | 21              |
+| Missing         | 1               |
 | Late            | 0               |
-| Graded Count    | 19              |
-| Average (submitted) | 84.51  % (360.00/426.00) |
-| Average (all)       | 84.51  %              |
+| Graded Count    | 20              |
+| Average (submitted) | 84.55  % (372.00/440.00) |
+| Average (all)       | 68.89  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Submitted  | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 12/14      | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 40/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 19/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 19/20      | 2025-11-30T13:11:25.396Z
@@ -541,32 +475,26 @@ Chapter 8 Quiz                   | 817569714851     | Submitted  | 11/13      | 
 --------------------------------------------------
 Student: Krittikan Saenpuang
 Student ID: 105374422169227702142
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- Average score: 76.5 % overall (86.2 % on submitted work) shows competent understanding but indicates that the one missing assignment is pulling the overall average down; student is near the upper end of the average range.  
-- Submission habits: Only one missing assignment, no late submissions—high engagement, but the missed work must be addressed to maintain or improve the average.  
-- Strengths: Strong performance on quizzes and algebraic tasks (e.g., 28/30 on “10.1 Simplifying expressions,” 34/36 on “9.2 Multiplying and dividing proper fractions”), demonstrating solid analytical abilities and procedural fluency.  
-- Risks / gaps: The missing “13.2 Simplifying calculations with decimals and fractions” and lower scores on data‑related activities (e.g., “8.3 Frequency diagrams” 10/10 but “Chapter 8 Quiz” 10/13) point to potential inconsistencies in handling decimals, fractions, and data interpretation.  
-- Recommended strategies: Arrange a focused remediation for the missing assignment, use formative checks to monitor understanding of decimals/fractions, provide differentiated tasks for data analysis, and reinforce the importance of timely submission to prevent future gaps.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 1               |
+| Total Assigned  | 21              |
+| Missing         | 2               |
 | Late            | 0               |
-| Graded Count    | 18              |
-| Average (submitted) | 86.24  % (326.00/378.00) |
-| Average (all)       | 76.53  %              |
+| Graded Count    | 19              |
+| Average (submitted) | 85.97  % (337.00/392.00) |
+| Average (all)       | 62.41  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
-13.2 Simplifying calculations wi | 832064708937     | Missing    | —          | 2025-12-02T02:03:20.088Z
+14.1 Functions and mappings      | 836054275870     | Submitted  | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 11/14      | 2025-12-02T02:08:14.196Z
+13.2 Simplifying calculations wi | 832064708937     | Submitted  | —          | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 20/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 19/20      | 2025-11-30T13:11:25.396Z
 12.2 Averages from frequency tab | 831233017511     | Submitted  | 8/18       | 2025-11-26T00:24:41.393Z
@@ -590,31 +518,25 @@ Chapter 8 Quiz                   | 817569714851     | Submitted  | 10/13      | 
 --------------------------------------------------
 Student: Naruedee Staknaruepol
 Student ID: 108845511704799349887
-Teacher Report:
-Category: Improving  
-Teacher Report:  
-- Average score is 70.4 % (average_all), indicating the student is below the 75 % threshold for consistent performance and needs focused support to raise the overall level.  
-- Submission habits show 1 officially missing assignment and no late work; however, the detailed record includes one “—” score, effectively a non‑submission, which should be counted as missing, bringing total missing to 2.  
-- Strengths are evident in higher‑scoring assignments such as “10.1 Simplifying expressions” (28/30), “9.2 Multiplying and dividing proper fractions” (28/36), and multiple class activity tasks scored 10/10, reflecting good conceptual understanding when engaged.  
-- Risks/learning gaps include several low‑scoring quizzes: “Chapter 11 Quiz” (5/15), “12.2 Averages from frequency tables” (8/18), and “Chapter 8 Quiz” (9/13). These suggest difficulties with quiz format or time management.  
-- Recommended strategies: (1) Review quiz strategies and provide timed practice quizzes; (2) Offer targeted feedback on assignments with low scores; (3) Encourage self‑monitoring of submission status; (4) Provide brief, formative check‑ins after each quiz to reinforce learning points.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 1               |
+| Total Assigned  | 21              |
+| Missing         | 2               |
 | Late            | 0               |
-| Graded Count    | 18              |
-| Average (submitted) | 73.35  % (300.00/409.00) |
-| Average (all)       | 70.42  %              |
+| Graded Count    | 19              |
+| Average (submitted) | 73.76  % (312.00/423.00) |
+| Average (all)       | 57.78  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Submitted  | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 12/14      | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 30/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 21/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 17/20      | 2025-11-30T13:11:25.396Z
@@ -639,31 +561,25 @@ Chapter 8 Quiz                   | 817569714851     | Submitted  | 9/13       | 
 --------------------------------------------------
 Student: Irisa Preechaweerakul
 Student ID: 106020382213855261530
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- The student’s average score is 84.5 %, placing them comfortably within the “Average” range and indicating solid overall academic performance.  
-- Submission habits are exemplary: no missing or late assignments and a graded count of all 19 assignments, reflecting reliable study habits.  
-- Strengths are highlighted by consistently high scores across most assessments, especially the perfect 30/30 on “10.1 Simplifying expressions” and full marks on the class activities, showing strong procedural fluency.  
-- A minor weakness appears on the “Chapter 11 Quiz” (6/15) and the “11.3 Angles and parallel lines” (8/18), suggesting a need to deepen conceptual understanding in geometry.  
-- Recommended strategies: (1) Incorporate geometry‑focused review sessions; (2) Provide differentiated practice problems to target specific misconceptions; (3) Maintain current high engagement by offering stretch challenges; (4) Encourage peer teaching for geometry concepts to reinforce understanding.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 0               |
+| Total Assigned  | 21              |
+| Missing         | 1               |
 | Late            | 0               |
-| Graded Count    | 19              |
-| Average (submitted) | 84.51  % (360.00/426.00) |
-| Average (all)       | 84.51  %              |
+| Graded Count    | 20              |
+| Average (submitted) | 85.00  % (374.00/440.00) |
+| Average (all)       | 69.26  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Submitted  | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 14/14      | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 46/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 24/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 20/20      | 2025-11-30T13:11:25.396Z
@@ -688,31 +604,25 @@ Chapter 8 Quiz                   | 817569714851     | Submitted  | 9/13       | 
 --------------------------------------------------
 Student: Waritnont Srikaraket
 Student ID: 111201711893401899886
-Teacher Report:
-Category: High Performer  
-Teacher Report:  
-- Average score 90.61% reflects excellent mastery of content across the course.  
-- Submission habits are flawless: no missing or late assignments, ensuring continuous engagement.  
-- Strengths include consistently high scores on quizzes (e.g., Chapter 12 Quiz 20/20) and strong performance on applied tasks such as “11.3 Angles and parallel lines” (15/18).  
-- No significant risks or learning gaps are evident; all assignments are completed with high accuracy.  
-- Maintain current instructional pace and provide enrichment opportunities (advanced problems, project‑based learning) to sustain engagement.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 0               |
+| Total Assigned  | 21              |
+| Missing         | 1               |
 | Late            | 0               |
-| Graded Count    | 19              |
-| Average (submitted) | 90.61  % (386.00/426.00) |
-| Average (all)       | 90.61  %              |
+| Graded Count    | 20              |
+| Average (submitted) | 90.91  % (400.00/440.00) |
+| Average (all)       | 74.07  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Submitted  | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 14/14      | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 44/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 19/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 20/20      | 2025-11-30T13:11:25.396Z
@@ -737,31 +647,25 @@ Chapter 8 Quiz                   | 817569714851     | Submitted  | 9/13       | 
 --------------------------------------------------
 Student: Leon Martynov
 Student ID: 115265842243083396865
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- Average score 85.92% indicates solid understanding but room for improvement toward high‑performance benchmarks.  
-- Submission habits are exemplary: no missing or late work, demonstrating reliable study routines.  
-- Strengths are highlighted in high‑scoring quizzes and activities such as “10.1 Simplifying expressions” (29/30) and “9.2 Multiplying and dividing proper fractions” (35/36).  
-- Risks include lower performance on certain geometry quizzes (“Chapter 11 Quiz” 9/15; “11.1 Angles around a point” 9/17) suggesting inconsistency in conceptual application.  
-- Recommended strategies: target practice on geometry concepts, use targeted review sessions, and integrate formative assessment checkpoints to reinforce understanding and close performance gaps.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 0               |
+| Total Assigned  | 21              |
+| Missing         | 1               |
 | Late            | 0               |
-| Graded Count    | 19              |
-| Average (submitted) | 85.92  % (366.00/426.00) |
-| Average (all)       | 85.92  %              |
+| Graded Count    | 20              |
+| Average (submitted) | 85.91  % (378.00/440.00) |
+| Average (all)       | 70.00  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Submitted  | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 12/14      | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 44/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 18/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 17/20      | 2025-11-30T13:11:25.396Z
@@ -786,31 +690,25 @@ Chapter 8 Quiz                   | 817569714851     | Submitted  | 9/13       | 
 --------------------------------------------------
 Student: Pateepat Jongjaroenmunkong
 Student ID: 111343056098148743364
-Teacher Report:
-Category: Improving  
-Teacher Report:  
-- The overall average score of 73.24% indicates that the student is performing above average but below the 75% threshold for higher categories; this reflects moderate academic achievement.  
-- Submission habits are solid, with only one missing assignment out of 19 and no late submissions, showing good time‑management skills.  
-- Strengths include perfect or near‑perfect scores on key foundational tasks such as the 10.2 Multiplying a constant over a bracket (29/29), 10.1 Simplifying expressions (28/30), and all class‑activity assignments (10/10), indicating strong conceptual understanding in these areas.  
-- Risks are evident in lower quiz scores, notably Chapter 10 Quiz (11/29) and Chapter 8 Quiz (9/13), and the absence of the 9.2 Multiplying and dividing proper fractions assignment, suggesting potential gaps in procedural fluency and application of fractions.  
-- Recommended strategies: provide targeted quiz review sessions focusing on application and reasoning; incorporate additional practice problems for fractions; schedule a formative assessment on missing content to ensure mastery before progressing.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 1               |
+| Total Assigned  | 21              |
+| Missing         | 2               |
 | Late            | 0               |
-| Graded Count    | 18              |
-| Average (submitted) | 80.00  % (312.00/390.00) |
-| Average (all)       | 73.24  %              |
+| Graded Count    | 19              |
+| Average (submitted) | 79.21  % (320.00/404.00) |
+| Average (all)       | 59.26  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Submitted  | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 8/14       | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 42/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 23/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 12/20      | 2025-11-30T13:11:25.396Z
@@ -835,31 +733,25 @@ Chapter 8 Quiz                   | 817569714851     | Submitted  | 9/13       | 
 --------------------------------------------------
 Student: Paphawin Panmongkon
 Student ID: 117698139169604423121
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- The overall average score of 85.45% demonstrates solid academic performance, comfortably within the Average range but not yet reaching High Performer status.  
-- Submission habits are excellent, with only one missing assignment and no late work, indicating reliable engagement with course material.  
-- Strengths are evident across all assessments, including perfect scores on the Chapter 12 Quiz (20/20), 10.2 Multiplying a constant over a bracket (29/29), 10.1 Simplifying expressions (28/30), and all class‑activity assignments (10/10).  
-- The sole missing assignment (12.2 Averages from frequency tables) may leave a conceptual gap in understanding frequency distributions; this is a potential risk area that could affect performance on future content involving data analysis.  
-- Recommended strategies: ensure completion of the missing 12.2 assignment with a guided review; provide brief refresher on frequency tables; reinforce the student’s strong performance by offering enrichment tasks that deepen application of statistical concepts.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 1               |
+| Total Assigned  | 21              |
+| Missing         | 2               |
 | Late            | 0               |
-| Graded Count    | 18              |
-| Average (submitted) | 89.22  % (364.00/408.00) |
-| Average (all)       | 85.45  %              |
+| Graded Count    | 19              |
+| Average (submitted) | 89.57  % (378.00/422.00) |
+| Average (all)       | 70.00  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Submitted  | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 14/14      | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 32/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 17/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 20/20      | 2025-11-30T13:11:25.396Z
@@ -884,36 +776,25 @@ Chapter 8 Quiz                   | 817569714851     | Submitted  | 13/13      | 
 --------------------------------------------------
 Student: Janyawatt Jirathanachote
 Student ID: 101637443991959518960
-Teacher Report:
-Category: Improving  
-Teacher Report:  
-- Average Score – The student’s overall average is 68.5 %, which falls within the Improving band (65 – 75 %). This indicates that, while not yet at the high‑performance level, the student is demonstrating a solid foundation and room for growth.  
-- Submission Habits – Two assignments are missing, but there are no late submissions. The student has a good overall completion rate (17 of 19 graded). The absence of late work suggests that the student is generally meeting deadlines when the assignments are completed.  
-- Strengths/Successes – Excellent performance on class‑activity assignments (10/10 on all three) and strong scores on higher‑level content such as 13.2 (46/48) and 13.1 (16/24). The student consistently scores well on the most recent quizzes (e.g., 22/30 on Chapter 9 Quiz, 28/30 on 9.1 Adding Mixed Numbers).  
-- Risks/Learning Gaps – Lower scores appear on certain foundational tasks (e.g., 6/18 on 12.2 Averages, 11/13 on Chapter 8 Quiz, 14/22 on 11.2 Angles). These inconsistencies suggest gaps in understanding of frequency tables, basic algebraic manipulations, and some geometry concepts.  
-- Recommended Strategies –  
-  • Provide targeted mini‑lessons or review sessions on the specific low‑scoring topics.  
-  • Use formative assessments (e.g., quick quizzes) to check for understanding before moving on.  
-  • Encourage the student to submit the missing assignments promptly; offer a short deadline extension with clear expectations.  
-  • Incorporate peer‑review or study‑group activities to reinforce concepts that have been challenging.  
-  • Set short‑term, measurable goals (e.g., raise the average on geometry quizzes to 80 %) to keep the student motivated.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 2               |
+| Total Assigned  | 21              |
+| Missing         | 3               |
 | Late            | 0               |
-| Graded Count    | 17              |
-| Average (submitted) | 79.56  % (292.00/367.00) |
-| Average (all)       | 68.54  %              |
+| Graded Count    | 18              |
+| Average (submitted) | 79.00  % (301.00/381.00) |
+| Average (all)       | 55.74  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Submitted  | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 9/14       | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 46/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 16/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 15/20      | 2025-11-30T13:11:25.396Z
@@ -938,36 +819,25 @@ Chapter 8 Quiz                   | 817569714851     | Submitted  | 11/13      | 
 --------------------------------------------------
 Student: Nonnathee Vongrat
 Student ID: 102250425786796148129
-Teacher Report:
-Category: High Performer  
-Teacher Report:  
-- Average Score – The student’s overall average of 91.5 % places them squarely in the High‑Performer category. This reflects consistently strong mastery across the curriculum.  
-- Submission Habits – All 19 assignments are submitted on time with no missing or late work, indicating exemplary responsibility and time‑management skills.  
-- Strengths/Successes – Outstanding performance on key assessments, including perfect scores on the Chapter 12 Quiz (20/20), 10.1 Simplifying Expressions (29/30), and 9.2 Multiplying and Dividing Proper Fractions (35/36). The student also demonstrates consistent excellence on class‑activity assignments (10/10 on each).  
-- Risks/Learning Gaps – A few slightly lower scores (e.g., 11/17 on 12.1 Mean, 9/15 on Chapter 11 Quiz, 9/13 on Chapter 8 Quiz) suggest that the student may benefit from a deeper review of statistical measures and geometry concepts. These dips are small relative to the overall performance but could become issues if not addressed.  
-- Recommended Strategies –  
-  • Offer enrichment tasks such as advanced problem sets or projects that challenge the student’s analytical skills.  
-  • Provide optional extension activities that connect geometry with real‑world applications to reinforce concepts that had lower scores.  
-  • Encourage the student to lead peer‑review sessions, thereby reinforcing their own knowledge while supporting classmates.  
-  • Maintain the current high level of engagement by rotating challenging assignments to prevent plateauing.  
-  • Continue to monitor for any emerging gaps, especially in the areas where the scores dipped, and adjust instruction promptly.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 0               |
+| Total Assigned  | 21              |
+| Missing         | 1               |
 | Late            | 0               |
-| Graded Count    | 19              |
-| Average (submitted) | 91.55  % (390.00/426.00) |
-| Average (all)       | 91.55  %              |
+| Graded Count    | 20              |
+| Average (submitted) | 91.59  % (403.00/440.00) |
+| Average (all)       | 74.63  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Submitted  | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 13/14      | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 46/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 23/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 20/20      | 2025-11-30T13:11:25.396Z
@@ -992,31 +862,25 @@ Chapter 8 Quiz                   | 817569714851     | Submitted  | 9/13       | 
 --------------------------------------------------
 Student: Napaskorn Chawnafang
 Student ID: 104184192397561377889
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- The student’s average score of 89.44 % indicates strong academic performance, approaching the High Performer threshold.  
-- All 19 assignments were submitted on time; there are no missing or late submissions, demonstrating reliable work habits.  
-- Strengths are evident in consistently high scores on class activities (30/30, 28/29, 26/29) and mastery of key concepts such as angles and basic arithmetic.  
-- The lower scores on “12.1 Mean, median, mode and range” (11/17) and the Chapter 11 Quiz (9/15) highlight potential gaps in statistical reasoning and geometric proofs that could affect future assessments.  
-- Recommended strategies include targeted review sessions for mean/mode/range concepts, incorporating formative quizzes on these topics, and encouraging peer‑teaching opportunities to reinforce geometric principles.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 0               |
+| Total Assigned  | 21              |
+| Missing         | 1               |
 | Late            | 0               |
-| Graded Count    | 19              |
-| Average (submitted) | 89.44  % (381.00/426.00) |
-| Average (all)       | 89.44  %              |
+| Graded Count    | 20              |
+| Average (submitted) | 89.32  % (393.00/440.00) |
+| Average (all)       | 72.78  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Submitted  | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 12/14      | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 46/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 24/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 17/20      | 2025-11-30T13:11:25.396Z
@@ -1041,31 +905,25 @@ Chapter 8 Quiz                   | 817569714851     | Submitted  | 13/13      | 
 --------------------------------------------------
 Student: Ranont Teonugul
 Student ID: 100823988941479658795
-Teacher Report:
-Category: High Performer  
-Teacher Report:  
-- The student’s average score of 90.14 % reflects excellent mastery of curriculum content and positions the student firmly within the High Performer category.  
-- All 19 assignments were completed on time with no missing work, indicating exemplary submission discipline.  
-- Strengths are evident across the board, particularly on the Chapter 9 Quiz (28/30), Chapter 10 Quiz (26/29), and all class activities (10/10), demonstrating strong problem‑solving and data‑interpretation skills.  
-- A few lower scores (12/18 on “12.2 Averages from frequency tables” and 13/15 on the Chapter 11 Quiz) suggest minor room for improvement in interpreting frequency data and applying geometric concepts under exam conditions.  
-- Recommended strategies involve offering advanced enrichment tasks such as complex data analysis projects, incorporating brief formative checks on frequency tables, and providing optional challenge problems in geometry to sustain high engagement and deepen conceptual understanding.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 0               |
+| Total Assigned  | 21              |
+| Missing         | 1               |
 | Late            | 0               |
-| Graded Count    | 19              |
-| Average (submitted) | 90.14  % (384.00/426.00) |
-| Average (all)       | 90.14  %              |
+| Graded Count    | 20              |
+| Average (submitted) | 90.45  % (398.00/440.00) |
+| Average (all)       | 73.70  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Submitted  | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 14/14      | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 38/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 22/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 18/20      | 2025-11-30T13:11:25.396Z
@@ -1090,31 +948,25 @@ Chapter 8 Quiz                   | 817569714851     | Submitted  | 11/13      | 
 --------------------------------------------------
 Student: Khatathep Maichan
 Student ID: 114290438212208690005
-Teacher Report:
-Category: At Risk  
-Teacher Report:  
-- Average score 67% indicates the student is performing below the target range and may need support to reach competency.  
-- Submission habits: 3 missing assignments out of 19; no late submissions, but the missing count signals possible disengagement or external barriers.  
-- Strengths: High scores on key assignments (e.g., 17/17, 18/18, 28/30) and perfect scores on several class activities, showing the student’s capacity when engaged.  
-- Risks: Multiple missing assignments (including three non‑submissions) and low quiz scores (e.g., 10/20, 8/13) reveal inconsistent engagement and gaps in foundational concepts.  
-- Strategies: Implement a structured accountability plan (e.g., weekly check‑ins), provide targeted remediation for weak topics, and consider a personalized learning plan to address missing work and reinforce study habits.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 3               |
+| Total Assigned  | 21              |
+| Missing         | 4               |
 | Late            | 0               |
-| Graded Count    | 16              |
-| Average (submitted) | 80.79  % (286.00/354.00) |
-| Average (all)       | 67.14  %              |
+| Graded Count    | 17              |
+| Average (submitted) | 80.16  % (295.00/368.00) |
+| Average (all)       | 54.63  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Submitted  | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 9/14       | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 38/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Missing    | —          | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 10/20      | 2025-11-30T13:11:25.396Z
@@ -1139,31 +991,25 @@ Chapter 8 Quiz                   | 817569714851     | Submitted  | 8/13       | 
 --------------------------------------------------
 Student: Supagorn Wititworakul
 Student ID: 114349752593425776968
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- Average score 86% demonstrates solid mastery of the material, though the student is not yet at high‑performance level.  
-- Submission habits: All 19 assignments were submitted on time with no missing or late work, indicating strong compliance and organization.  
-- Strengths: Consistently high performance across quizzes and assignments, especially on key concepts (e.g., 19/20 on Chapter 12 Quiz, 30/30 on 10.1 Simplifying expressions).  
-- Risks: Occasional lower scores on specific tasks (e.g., 11/22 on 11.2, 9/18 on 12.2) suggest potential weak spots that could affect overall growth if not addressed.  
-- Strategies: Offer focused enrichment in weaker areas, encourage peer tutoring or collaborative problem‑solving, and use formative feedback to keep performance on an upward trajectory toward high‑performance.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 0               |
+| Total Assigned  | 21              |
+| Missing         | 1               |
 | Late            | 0               |
-| Graded Count    | 19              |
-| Average (submitted) | 85.92  % (366.00/426.00) |
-| Average (all)       | 85.92  %              |
+| Graded Count    | 20              |
+| Average (submitted) | 85.91  % (378.00/440.00) |
+| Average (all)       | 70.00  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Submitted  | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 12/14      | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 34/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 12/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 19/20      | 2025-11-30T13:11:25.396Z
@@ -1188,31 +1034,25 @@ Chapter 8 Quiz                   | 817569714851     | Submitted  | 11/13      | 
 --------------------------------------------------
 Student: Neelkamal Matta
 Student ID: 100800632575913516204
-Teacher Report:
-Category: Average  
-Teacher Report:  
-- The student’s average score of 82.6 % indicates solid academic performance but falls short of the high‑performer threshold; consistent, reliable results across assignments.  
-- Submission habits are exemplary: no missing or late submissions (19 graded out of 19), reflecting strong time management and engagement.  
-- Strengths are evident in consistent high scores on quizzes and problem‑solving tasks (e.g., 28/30 on “10.1 Simplifying expressions”, 26/30 on “Chapter 9 Quiz”, and perfect 13/13 on “Chapter 8 Quiz”).  
-- A minor risk is the relatively lower score on “12.1 Mean, median, mode and range” (9/17) and “Chapter 11 Quiz” (8/15), suggesting potential difficulty with descriptive statistics concepts that may need reinforcement.  
-- Recommended strategies: incorporate targeted practice on mean, median, mode, and range through interactive worksheets; provide additional examples and guided review sessions; consider using formative quizzes to monitor progress on statistical topics.
 
 Submission Summary Table:
 +-----------------+-----------------+
 | Metric          | Value           |
 +-----------------+-----------------+
-| Total Assigned  | 19              |
-| Missing         | 0               |
+| Total Assigned  | 21              |
+| Missing         | 1               |
 | Late            | 0               |
-| Graded Count    | 19              |
-| Average (submitted) | 82.63  % (352.00/426.00) |
-| Average (all)       | 82.63  %              |
+| Graded Count    | 20              |
+| Average (submitted) | 82.50  % (363.00/440.00) |
+| Average (all)       | 67.22  %              |
 +-----------------+-----------------+
 
 Detailed Submission Table:
 ==================================================
 Title                           | ID              | Status    | Score     | Created
 ------------------------------------------------------------------------------------------
+14.1 Functions and mappings      | 836054275870     | Submitted  | —          | 2025-12-12T02:24:32.325Z
+Chapter 13 Quiz                  | 832064604111     | Submitted  | 11/14      | 2025-12-02T02:08:14.196Z
 13.2 Simplifying calculations wi | 832064708937     | Submitted  | 42/48      | 2025-12-02T02:03:20.088Z
 13.1 Order of operations         | 832063028223     | Submitted  | 19/24      | 2025-12-02T01:43:34.945Z
 Chapter 12 Quiz                  | 831781738631     | Submitted  | 17/20      | 2025-11-30T13:11:25.396Z

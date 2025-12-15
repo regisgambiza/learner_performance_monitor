@@ -1,3 +1,4 @@
+# main.py
 import argparse
 import logging
 from get_classroom_service import get_classroom_service
@@ -107,7 +108,8 @@ def run_with_params(credentials: str = "credentials.json",
                     additional_context: str = None,
                     reports_dir: str = None,
                     ai_max_retries: str = None,
-                    batch_size: str = None):
+                    batch_size: str = None,
+                    include_teacher_reports: bool = True):
     """Non-interactive entrypoint for GUI or automation.
 
     Parameters mirror the CLI flow. If mode_choice==1 -> all courses; 2 -> single course (course_id required);
@@ -161,9 +163,14 @@ def run_with_params(credentials: str = "credentials.json",
                 f.write(f"No students to analyze in course {course['name']} ({course['id']})\n\n")
             continue
 
-        reports = generate_reports(student_analysis, categories, ollama_model)
-        save_reports_to_file(course, student_analysis, reports)
-        for sid, rep in reports.items():
-            logger.info("Report for student=%s: %s", sid, rep["ai_response"][:120])
+        if include_teacher_reports:
+            reports = generate_reports(student_analysis, categories, ollama_model)
+        else:
+            reports = {}
+
+        save_reports_to_file(course, student_analysis, reports, include_teacher_reports=include_teacher_reports)
+        for sid in student_analysis:
+            if sid in reports:
+                logger.info("Report for student=%s: %s", sid, reports[sid]["ai_response"][:120])
 
     logger.info("Non-interactive analysis run complete")
